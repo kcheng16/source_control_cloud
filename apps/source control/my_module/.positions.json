@@ -1,0 +1,26 @@
+{
+  "image1": {
+    "container": "moduleContainer",
+    "row": 2.8,
+    "col": 1,
+    "height": 3,
+    "width": 2
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 1.4,
+    "col": 1,
+    "height": 0.6,
+    "width": 5
+  },
+  "text2": {
+    "container": "moduleContainer",
+    "row": 7,
+    "col": 1,
+    "height": 0.6
+  }
+}
