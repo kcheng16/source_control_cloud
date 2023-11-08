@@ -7,6 +7,8 @@ template:
   ordered:
     - queryRefreshTime: ''
     - method: post
+    - allowedGroupIds: []
+    - streamResponse: false
     - operationId: chat_postMessage
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
@@ -73,6 +75,7 @@ template:
     - showUpdateSetValueDynamicallyToggle: true
     - parameterDynamicStates: >-
         {"attachments":false,"blocks":false,"channel":false,"icon_emoji":false,"icon_url":false,"link_names":false,"mrkdwn":false,"parse":false,"reply_broadcast":false,"text":false,"thread_ts":false,"unfurl_links":false,"unfurl_media":false,"username":false}
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here
@@ -96,8 +99,8 @@ template:
     - notificationDuration: ''
 createdAt: 2023-05-09T18:52:27.436Z
 blockData:
-  top: -32
-  left: 1872
+  top: 176
+  left: 1440
   uuid: f9d8ac0e-110d-4ae8-8395-257a2c89a526
   pluginId: query4
   blockType: default

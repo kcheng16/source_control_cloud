@@ -3,7 +3,16 @@ workflowId: 5303c16f-4711-470b-87fd-f51a62a14986
 name: Slack Webhook
 description: null
 triggerWebhooks:
-  array: []
+  array:
+    - object:
+        name: startTrigger
+        uuid: startTrigger
+        inputSchema:
+          object:
+            properties:
+              array: []
+        useHeaderApiKey: false
+        exampleInputJSON: ''
 customLibraries:
   array:
     - object:

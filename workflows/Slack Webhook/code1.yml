@@ -5,6 +5,8 @@ resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
@@ -22,7 +24,6 @@ template:
           { message: "Hello from Workflows" },
           { message: "Click the Run (▶) button to execute this block" },
           { message: "Drag from the green sequence port to connect a new block" },
-          { message: "Click the help (?) button to learn more" },
         ];
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
@@ -66,6 +67,7 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here

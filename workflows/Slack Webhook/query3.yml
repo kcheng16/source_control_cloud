@@ -6,6 +6,8 @@ template:
   ordered:
     - queryRefreshTime: ''
     - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - body: '''{"text":"Hello, World!"}'' '
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
@@ -67,6 +69,8 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here
