@@ -5,6 +5,12 @@
     "height": 3,
     "width": 2
   },
+  "modalM1": {
+    "row": 6.8,
+    "col": 1,
+    "height": 2.4,
+    "width": 11
+  },
   "text1": {
     "row": 0.4,
     "col": 1,
