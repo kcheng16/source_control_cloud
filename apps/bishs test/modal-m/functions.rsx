@@ -17,8 +17,42 @@
     />
   </RESTQuery>
   <JavascriptQuery
-    id="query2"
-    query={include("./lib/query2.js", "string")}
+    id="trigger_query_js"
+    query={include("./lib/trigger_query_js.js", "string")}
     resourceName="JavascriptQuery"
   />
+  <RESTQuery
+    id="query456"
+    query="https://www.httpbin.org/get?my_key_is=567890"
+    resourceName="REST-WithoutResource"
+    resourceTypeOverride=""
+    runWhenModelUpdates={false}
+  >
+    <Event
+      event="success"
+      method="confetti"
+      params={{ ordered: [] }}
+      pluginId=""
+      type="util"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </RESTQuery>
+  <RESTQuery
+    id="query3"
+    query="https://www.httpbin.org/get?my_key_is=0000000000"
+    resourceName="REST-WithoutResource"
+    resourceTypeOverride=""
+    runWhenModelUpdates={false}
+  >
+    <Event
+      event="success"
+      method="confetti"
+      params={{ ordered: [] }}
+      pluginId=""
+      type="util"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </RESTQuery>
 </GlobalFunctions>

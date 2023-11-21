@@ -14,25 +14,45 @@
       backgroundColor="white"
       isGlobalWidgetContainer={true}
     >
-      <Modal id="modal1" buttonText="Open Modal" events={[]}>
-        <Button id="button1" styleVariant="solid" text="trigger query">
-          <Event
-            event="click"
-            method="trigger"
-            params={{ ordered: [] }}
-            pluginId="query2"
-            type="datasource"
-            waitMs="0"
-            waitType="debounce"
-          />
-        </Button>
-        <JSONExplorer id="jsonExplorer1" value="{{query1.data.args}}" />
-      </Modal>
+      <Button id="button1" styleVariant="solid" text="trigger query">
+        <Event
+          event="click"
+          method="trigger"
+          params={{ ordered: [] }}
+          pluginId="trigger_query_js"
+          type="datasource"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </Button>
+      <JSONExplorer id="jsonExplorer1" value="{{query1.data.args}}" />
       <Image
         id="image2"
         horizontalAlign="center"
         src="https://placekitten.com/400/300"
       />
+      <Button id="button2" styleVariant="solid" text="trigger 2nd query">
+        <Event
+          event="click"
+          method="trigger"
+          params={{ ordered: [] }}
+          pluginId="query456"
+          type="datasource"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </Button>
+      <Button id="button3" styleVariant="solid" text="trigger 3rd query">
+        <Event
+          event="click"
+          method="trigger"
+          params={{ ordered: [] }}
+          pluginId="query3"
+          type="datasource"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </Button>
       <Image
         id="image1"
         horizontalAlign="center"
