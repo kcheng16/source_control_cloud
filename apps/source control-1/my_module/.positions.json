@@ -1,0 +1,54 @@
+{
+  "button1": {
+    "container": "moduleContainer",
+    "row": 11.8,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "image1": {
+    "container": "moduleContainer",
+    "row": 4.8,
+    "col": 3,
+    "height": 3,
+    "width": 2
+  },
+  "image2": {
+    "container": "moduleContainer",
+    "row": 4.8,
+    "col": 5,
+    "height": 3,
+    "width": 2
+  },
+  "image3": {
+    "container": "moduleContainer",
+    "row": 4.8,
+    "col": 7,
+    "height": 3,
+    "width": 2
+  },
+  "jsonExplorer1": {
+    "container": "moduleContainer",
+    "row": 9.4,
+    "col": 3,
+    "height": 6,
+    "width": 4
+  },
+  "moduleContainer": {
+    "height": 15.4,
+    "width": 12
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 3.4,
+    "col": 3,
+    "height": 0.6
+  },
+  "textInput1": {
+    "container": "moduleContainer",
+    "row": 13,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  }
+}
