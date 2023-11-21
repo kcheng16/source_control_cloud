@@ -14,5 +14,10 @@
       horizontalAlign="center"
       src="https://placekitten.com/400/300"
     />
+    <Module
+      id="modalM1"
+      name="modal-m"
+      pageUuid="6fb8d536-88a3-11ee-9bbd-3f1cb59d5735"
+    />
   </Frame>
 </App>
