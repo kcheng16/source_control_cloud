@@ -4,6 +4,7 @@
     query="https://www.httpbin.org/get?my_key_is=123456"
     resourceName="REST-WithoutResource"
     resourceTypeOverride=""
+    runWhenModelUpdates={false}
   >
     <Event
       event="success"
