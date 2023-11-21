@@ -5,6 +5,19 @@
     "height": 1,
     "width": 12
   },
+  "image1": {
+    "container": "moduleContainer",
+    "row": 6.4,
+    "col": 2,
+    "height": 3,
+    "width": 2
+  },
+  "image2": {
+    "container": "moduleContainer",
+    "row": 6.4,
+    "height": 3,
+    "width": 2
+  },
   "jsonExplorer1": {
     "container": "modal1",
     "row": 4.6,

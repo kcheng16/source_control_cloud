@@ -16,4 +16,9 @@
       waitType="debounce"
     />
   </RESTQuery>
+  <JavascriptQuery
+    id="query2"
+    query={include("./lib/query2.js", "string")}
+    resourceName="JavascriptQuery"
+  />
 </GlobalFunctions>
