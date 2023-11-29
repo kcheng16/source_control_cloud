@@ -85,6 +85,27 @@
         />
       </View>
     </Container>
+    <Module
+      id="standardFormCreate"
+      errorMessage="{{ errorMessage.value }}"
+      formType="create"
+      getInterstitialsPage="getInterstitialsPage"
+      getSelectedInterstitial="getSelectedInterstitial"
+      hidden=""
+      hideCreateDrawerFrame="hideCreateDrawerFrame"
+      interstitialName="{{ createNameInput.value }}"
+      name="Standard Form"
+      pageUuid="1153900a-7bfd-4c0d-b774-f78b621a7cb4"
+      patchInterstitial="patchInterstitial"
+      postConfig="postConfig"
+      putInterstitial="putInterstitial"
+      selectedInterstitial="draft"
+      setErrorMessage="setErrorMessage"
+      setSelectedInterstitialName="setSelectedInterstitialName"
+      showViewDrawerFrame="showViewDrawerFrame"
+      submitFormTrigger="{{ submitCreateForm.data }}"
+      uploadImages="uploadImages"
+    />
     <Divider id="divider18" />
     <Module
       id="simpleFormCreate"
@@ -124,27 +145,6 @@
       postConfig="postConfig"
       putInterstitial="putInterstitial"
       selectedInterstitial=""
-      setErrorMessage="setErrorMessage"
-      setSelectedInterstitialName="setSelectedInterstitialName"
-      showViewDrawerFrame="showViewDrawerFrame"
-      submitFormTrigger="{{ submitCreateForm.data }}"
-      uploadImages="uploadImages"
-    />
-    <Module
-      id="standardFormCreate"
-      errorMessage="{{ errorMessage.value }}"
-      formType="create"
-      getInterstitialsPage="getInterstitialsPage"
-      getSelectedInterstitial="getSelectedInterstitial"
-      hidden=""
-      hideCreateDrawerFrame="hideCreateDrawerFrame"
-      interstitialName="{{ createNameInput.value }}"
-      name="Standard Form"
-      pageUuid="1153900a-7bfd-4c0d-b774-f78b621a7cb4"
-      patchInterstitial="patchInterstitial"
-      postConfig="postConfig"
-      putInterstitial="putInterstitial"
-      selectedInterstitial="draft"
       setErrorMessage="setErrorMessage"
       setSelectedInterstitialName="setSelectedInterstitialName"
       showViewDrawerFrame="showViewDrawerFrame"
