@@ -1,0 +1,2 @@
+// Returns an array of space keys that are available to the current user, based on user groups.
+return Object.keys({{_SPACES.value}}).filter(spaceKey => {{current_user}}.groups.some(group => group.name === spaceKey));
