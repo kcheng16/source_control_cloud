@@ -66,7 +66,7 @@
   "createNameInput": {
     "container": "layoutSelectContainer",
     "subcontainer": "f19df",
-    "row": 1,
+    "row": 0.2,
     "height": 1,
     "width": 12
   },
@@ -89,13 +89,13 @@
     "width": 1
   },
   "divider1": {
-    "row": 2.8,
+    "row": 2.6,
     "height": 0.2,
     "width": 12
   },
   "divider18": {
     "subcontainer": "createDrawerFrame",
-    "row": 0.2,
+    "row": 10.6,
     "height": 0.2,
     "width": 12
   },
@@ -138,17 +138,17 @@
     "width": 9
   },
   "interstitialsHeader": {
-    "row": 0.6,
+    "row": 1.2,
     "height": 0.6,
     "width": 9
   },
   "interstitialsStateTabs": {
-    "row": 2,
+    "row": 1.8,
     "height": 0.8,
     "width": 12
   },
   "interstitialsTable": {
-    "row": 4,
+    "row": 3,
     "height": 14,
     "width": 12
   },
@@ -191,7 +191,7 @@
   },
   "ratingsBinaryFormCreate": {
     "subcontainer": "createDrawerFrame",
-    "row": 10.8,
+    "row": 21.2,
     "height": 10.4,
     "width": 12
   },
@@ -215,7 +215,7 @@
     "height": 1
   },
   "searchInput": {
-    "row": 3,
+    "row": 2.8,
     "col": 9,
     "height": 1
   },
@@ -233,7 +233,7 @@
   },
   "simpleFormCreate": {
     "subcontainer": "createDrawerFrame",
-    "row": 0.4,
+    "row": 10.8,
     "height": 10.4,
     "width": 12
   },
@@ -245,7 +245,7 @@
   },
   "standardFormCreate": {
     "subcontainer": "createDrawerFrame",
-    "row": 21.2,
+    "row": 0.2,
     "height": 10.4,
     "width": 12
   },
@@ -256,7 +256,7 @@
     "width": 12
   },
   "statusMultiselect": {
-    "row": 3,
+    "row": 2.8,
     "height": 1,
     "width": 4
   },
@@ -271,6 +271,15 @@
     "subcontainer": "publishConfirmFrame",
     "height": 0.6,
     "width": 9
+  },
+  "text2": {
+    "height": 0.6,
+    "width": 8
+  },
+  "text3": {
+    "row": 0.6,
+    "height": 0.6,
+    "width": 7
   },
   "viewDrawerTItle": {
     "rowGroup": "header",

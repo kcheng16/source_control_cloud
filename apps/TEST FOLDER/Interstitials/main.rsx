@@ -15,8 +15,15 @@
     type="main"
   >
     <Text
-      id="interstitialsHeader"
-      value="## Interstitials"
+      id="text2"
+      value="# formType ==> {{standardFormCreate.formType}}
+
+"
+      verticalAlign="center"
+    />
+    <Text
+      id="text3"
+      value="# selectedInterstitial ==> {{selectedInterstitial.value}}"
       verticalAlign="center"
     />
     <Button
@@ -36,6 +43,11 @@
         waitType="debounce"
       />
     </Button>
+    <Text
+      id="interstitialsHeader"
+      value="## Interstitials"
+      verticalAlign="center"
+    />
     <Tabs
       id="interstitialsStateTabs"
       itemMode="static"
