@@ -1,0 +1,312 @@
+{
+  "createAudienceInput": {
+    "container": "createInterstitialForm",
+    "row": 5.6,
+    "height": 1,
+    "width": 12
+  },
+  "createButtonAffirmativeInput": {
+    "container": "createInterstitialForm",
+    "row": 17,
+    "height": 1,
+    "width": 12
+  },
+  "createButtonNegativeInput": {
+    "container": "createInterstitialForm",
+    "row": 18.4,
+    "height": 1,
+    "width": 12
+  },
+  "createButtonsHeader": {
+    "container": "createInterstitialForm",
+    "row": 16,
+    "height": 0.6,
+    "width": 4
+  },
+  "createDisplayHourLimitInput": {
+    "container": "createInterstitialForm",
+    "row": 26.8,
+    "height": 1,
+    "width": 12
+  },
+  "createDisplayInHudSwitch": {
+    "container": "createInterstitialForm",
+    "row": 22,
+    "height": 0.6,
+    "width": 4
+  },
+  "createEndTimeInput": {
+    "container": "createInterstitialForm",
+    "row": 3,
+    "col": 3,
+    "height": 1,
+    "width": 9
+  },
+  "createEndTimeSwitch": {
+    "container": "createInterstitialForm",
+    "row": 3.4,
+    "height": 0.6
+  },
+  "createErrorMessageAlert": {
+    "container": "createInterstitialForm",
+    "height": 1,
+    "width": 12
+  },
+  "createHeaderTextInput": {
+    "container": "createInterstitialForm",
+    "row": 11.6,
+    "height": 1,
+    "width": 12
+  },
+  "createHudLabelInput": {
+    "container": "createInterstitialForm",
+    "row": 23,
+    "height": 1,
+    "width": 12
+  },
+  "createInterstitialForm": {
+    "container": "moduleContainer",
+    "height": 2,
+    "width": 12
+  },
+  "createLayoutAndContentDescription": {
+    "container": "createInterstitialForm",
+    "row": 10.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "createLayoutAndContentHeader": {
+    "container": "createInterstitialForm",
+    "row": 10,
+    "height": 0.6,
+    "width": 4
+  },
+  "createLayoutImageInput": {
+    "container": "createInterstitialForm",
+    "row": 13,
+    "height": 1,
+    "width": 10
+  },
+  "createLayoutImageInputImage": {
+    "container": "createInterstitialForm",
+    "row": 13,
+    "col": 10,
+    "height": 2,
+    "width": 2
+  },
+  "createMenuIconInput": {
+    "container": "createInterstitialForm",
+    "row": 24.4,
+    "height": 1,
+    "width": 10
+  },
+  "createMenuIconInputImage": {
+    "container": "createInterstitialForm",
+    "row": 24.4,
+    "col": 10,
+    "height": 2,
+    "width": 2
+  },
+  "createMenuIconsDescription": {
+    "container": "createInterstitialForm",
+    "row": 21,
+    "height": 0.6,
+    "width": 12
+  },
+  "createMenuIconsHeader": {
+    "container": "createInterstitialForm",
+    "row": 20.4,
+    "height": 0.6,
+    "width": 4
+  },
+  "createPriorityInput": {
+    "container": "createInterstitialForm",
+    "row": 7,
+    "height": 1,
+    "width": 12
+  },
+  "createPriorityOverrideSwitch": {
+    "container": "createInterstitialForm",
+    "row": 8.4,
+    "height": 0.6,
+    "width": 12
+  },
+  "createScheduleHeader": {
+    "container": "createInterstitialForm",
+    "row": 1,
+    "height": 0.6,
+    "width": 4
+  },
+  "createShowAsCountdownTimerSwitch": {
+    "container": "createInterstitialForm",
+    "row": 28.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "createStartTimeInput": {
+    "container": "createInterstitialForm",
+    "row": 1.6,
+    "col": 3,
+    "height": 1,
+    "width": 9
+  },
+  "createStartTimeSwitch": {
+    "container": "createInterstitialForm",
+    "row": 2,
+    "height": 0.6
+  },
+  "createTargetingHeader": {
+    "container": "createInterstitialForm",
+    "row": 5,
+    "height": 0.6,
+    "width": 4
+  },
+  "divider10": {
+    "container": "createInterstitialForm",
+    "row": 9.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider11": {
+    "container": "createInterstitialForm",
+    "row": 15.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider12": {
+    "container": "createInterstitialForm",
+    "row": 19.8,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider13": {
+    "container": "createInterstitialForm",
+    "row": 4.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 51.8,
+    "width": 12
+  },
+  "spacer29": {
+    "container": "createInterstitialForm",
+    "row": 2.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer30": {
+    "container": "createInterstitialForm",
+    "row": 4,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer31": {
+    "container": "createInterstitialForm",
+    "row": 4.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer32": {
+    "container": "createInterstitialForm",
+    "row": 6.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer33": {
+    "container": "createInterstitialForm",
+    "row": 8,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer34": {
+    "container": "createInterstitialForm",
+    "row": 9,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer35": {
+    "container": "createInterstitialForm",
+    "row": 9.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer36": {
+    "container": "createInterstitialForm",
+    "row": 11.2,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer38": {
+    "container": "createInterstitialForm",
+    "row": 12.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer39": {
+    "container": "createInterstitialForm",
+    "row": 15,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer40": {
+    "container": "createInterstitialForm",
+    "row": 15.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer41": {
+    "container": "createInterstitialForm",
+    "row": 16.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer42": {
+    "container": "createInterstitialForm",
+    "row": 18,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer47": {
+    "container": "createInterstitialForm",
+    "row": 19.4,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer48": {
+    "container": "createInterstitialForm",
+    "row": 20,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer49": {
+    "container": "createInterstitialForm",
+    "row": 21.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer50": {
+    "container": "createInterstitialForm",
+    "row": 22.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer51": {
+    "container": "createInterstitialForm",
+    "row": 24,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer52": {
+    "container": "createInterstitialForm",
+    "row": 26.4,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer53": {
+    "container": "createInterstitialForm",
+    "row": 27.8,
+    "height": 0.4,
+    "width": 12
+  }
+}

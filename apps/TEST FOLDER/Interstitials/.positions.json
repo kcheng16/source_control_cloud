@@ -1,0 +1,327 @@
+{
+  "Common": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.4,
+    "width": 1
+  },
+  "archiveButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "row": 3,
+    "col": 9,
+    "height": 1
+  },
+  "avatar1": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "button1": {
+    "rowGroup": "header",
+    "subcontainer": "viewDrawerFrame",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "button2": {
+    "rowGroup": "header",
+    "subcontainer": "publishConfirmFrame",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "button3": {
+    "rowGroup": "header",
+    "subcontainer": "endConfirmationFrame",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "button4": {
+    "rowGroup": "header",
+    "subcontainer": "viewersDrawerFrame",
+    "col": 9,
+    "height": 1
+  },
+  "createDrawerCloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "createDrawerFrame",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "createInterstitialButton": {
+    "row": 0.6,
+    "col": 9,
+    "height": 1
+  },
+  "createLayoutSelect": {
+    "container": "layoutSelectContainer",
+    "subcontainer": "f19df",
+    "height": 1,
+    "width": 12
+  },
+  "createNameInput": {
+    "container": "layoutSelectContainer",
+    "subcontainer": "f19df",
+    "row": 1,
+    "height": 1,
+    "width": 12
+  },
+  "createSaveDraftButton": {
+    "rowGroup": "footer",
+    "subcontainer": "createDrawerFrame",
+    "col": 9,
+    "height": 1
+  },
+  "createTItle": {
+    "rowGroup": "header",
+    "subcontainer": "createDrawerFrame",
+    "height": 1,
+    "width": 11
+  },
+  "deleteButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "height": 1,
+    "width": 1
+  },
+  "divider1": {
+    "row": 2.8,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider18": {
+    "subcontainer": "createDrawerFrame",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "duplicateButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "endButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "row": 2,
+    "col": 9,
+    "height": 1
+  },
+  "endConfirmationCancelButton": {
+    "subcontainer": "endConfirmationFrame",
+    "row": 2.2,
+    "height": 1,
+    "width": 6
+  },
+  "endConfirmationModalConfirmButton": {
+    "subcontainer": "endConfirmationFrame",
+    "row": 2.2,
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "endConfirmationModalText": {
+    "subcontainer": "endConfirmationFrame",
+    "height": 0.6,
+    "width": 12
+  },
+  "endConfirmationTitle": {
+    "rowGroup": "header",
+    "subcontainer": "endConfirmationFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "interstitialsHeader": {
+    "row": 0.6,
+    "height": 0.6,
+    "width": 9
+  },
+  "interstitialsStateTabs": {
+    "row": 2,
+    "height": 0.8,
+    "width": 12
+  },
+  "interstitialsTable": {
+    "row": 4,
+    "height": 14,
+    "width": 12
+  },
+  "layoutSelectContainer": {
+    "subcontainer": "createDrawerFrame",
+    "height": 0.2,
+    "width": 12
+  },
+  "pauseButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "row": 1,
+    "col": 6,
+    "height": 1
+  },
+  "publishButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "row": 1,
+    "col": 9,
+    "height": 1
+  },
+  "publishConfirmationModalCancelButton2": {
+    "subcontainer": "publishConfirmFrame",
+    "row": 3.4,
+    "height": 1,
+    "width": 6
+  },
+  "publishConfirmationModalConfirmButton2": {
+    "subcontainer": "publishConfirmFrame",
+    "row": 3.4,
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "publishConfirmationModalText2": {
+    "subcontainer": "publishConfirmFrame",
+    "height": 0.6,
+    "width": 12
+  },
+  "ratingsBinaryFormCreate": {
+    "subcontainer": "createDrawerFrame",
+    "row": 10.8,
+    "height": 10.4,
+    "width": 12
+  },
+  "ratingsBinaryFormUpdate": {
+    "subcontainer": "viewDrawerFrame",
+    "row": 21.6,
+    "height": 10.4,
+    "width": 12
+  },
+  "rejectButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "row": 2,
+    "col": 6,
+    "height": 1
+  },
+  "saveDraftButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "col": 6,
+    "height": 1
+  },
+  "searchInput": {
+    "row": 3,
+    "col": 9,
+    "height": 1
+  },
+  "sidebarBody1": {
+    "subcontainer": "sidebarFrame1",
+    "height": 3.6,
+    "width": 1
+  },
+  "sidebarHeader1": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "row": 0.4,
+    "height": 0.4,
+    "width": 1
+  },
+  "simpleFormCreate": {
+    "subcontainer": "createDrawerFrame",
+    "row": 0.4,
+    "height": 10.4,
+    "width": 12
+  },
+  "simpleFormUpdate": {
+    "subcontainer": "viewDrawerFrame",
+    "row": 0.8,
+    "height": 10.4,
+    "width": 12
+  },
+  "standardFormCreate": {
+    "subcontainer": "createDrawerFrame",
+    "row": 21.2,
+    "height": 10.4,
+    "width": 12
+  },
+  "standardFormUpdate": {
+    "subcontainer": "viewDrawerFrame",
+    "row": 11.2,
+    "height": 10.4,
+    "width": 12
+  },
+  "statusMultiselect": {
+    "row": 3,
+    "height": 1,
+    "width": 4
+  },
+  "testingButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "col": 9,
+    "height": 1
+  },
+  "text1": {
+    "rowGroup": "header",
+    "subcontainer": "publishConfirmFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "viewDrawerTItle": {
+    "rowGroup": "header",
+    "subcontainer": "viewDrawerFrame",
+    "height": 0.6,
+    "width": 11
+  },
+  "viewStatusTag": {
+    "subcontainer": "viewDrawerFrame",
+    "height": 0.8
+  },
+  "viewUserInfoText": {
+    "subcontainer": "viewDrawerFrame",
+    "row": 32,
+    "height": 0.6,
+    "width": 12
+  },
+  "viewersButton": {
+    "rowGroup": "footer",
+    "subcontainer": "viewDrawerFrame",
+    "row": 1,
+    "height": 1
+  },
+  "viewersCancel": {
+    "subcontainer": "viewersDrawerFrame",
+    "row": 6.4,
+    "height": 1,
+    "width": 6
+  },
+  "viewersConfirm": {
+    "subcontainer": "viewersDrawerFrame",
+    "row": 6.4,
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "viewersDraftPlayersTextArea": {
+    "subcontainer": "viewersDrawerFrame",
+    "height": 1,
+    "width": 12
+  },
+  "viewersTestPlayersTextArea": {
+    "subcontainer": "viewersDrawerFrame",
+    "row": 3.2,
+    "height": 1,
+    "width": 12
+  },
+  "viewersTitleText": {
+    "rowGroup": "header",
+    "subcontainer": "viewersDrawerFrame",
+    "height": 0.6,
+    "width": 9
+  }
+}

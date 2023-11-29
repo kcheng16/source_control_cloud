@@ -1,0 +1,34 @@
+{
+  "ActiveLink": {
+    "container": "ListView",
+    "row": 1.4,
+    "height": 0.8,
+    "width": 12
+  },
+  "Common": {
+    "container": "moduleContainer",
+    "height": 0.4,
+    "width": 1
+  },
+  "Headers": {
+    "container": "ListView",
+    "height": 0.6,
+    "width": 12
+  },
+  "Links": {
+    "container": "ListView",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 12
+  },
+  "ListView": {
+    "container": "moduleContainer",
+    "row": 0.4,
+    "height": 1,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 17.6,
+    "width": 4
+  }
+}

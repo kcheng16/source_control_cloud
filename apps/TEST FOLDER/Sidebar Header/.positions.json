@@ -1,0 +1,29 @@
+{
+  "Common": {
+    "container": "moduleContainer",
+    "row": 1.6,
+    "height": 0.4
+  },
+  "LandingPageLink": {
+    "container": "moduleContainer",
+    "height": 0.6,
+    "width": 12
+  },
+  "SpaceSelect": {
+    "container": "moduleContainer",
+    "row": 0.6,
+    "height": 1,
+    "width": 10
+  },
+  "SpaceSettingsIcon": {
+    "container": "moduleContainer",
+    "row": 0.8,
+    "col": 10,
+    "height": 0.6,
+    "width": 2
+  },
+  "moduleContainer": {
+    "height": 1.8,
+    "width": 4
+  }
+}
