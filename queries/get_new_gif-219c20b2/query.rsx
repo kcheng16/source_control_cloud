@@ -5,12 +5,13 @@
   resourceType={null}
 >
   <RESTQuery
+    allowedGroupIds={[]}
     allowedGroups={[]}
     events={[]}
     importedQueryDefaults={{}}
     importedQueryInputs={{}}
     privateParams={[]}
-    query="https://api.giphy.com/v1/gifs/random?api_key=Pt8BQn7MMyuUDlQW5xvuF2vDU5q8WFJa&tag=&rating=g"
+    query="https://api.giphy.com/v1/gifs/random?api_key=&tag=&rating=g"
     resourceTypeOverride=""
     retoolVersion="2.116.1"
     transformer="// type your code here
