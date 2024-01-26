@@ -1,4 +1,10 @@
 {
+  "image1": {
+    "row": 0.4,
+    "col": 2,
+    "height": 3,
+    "width": 2
+  },
   "table1": {
     "row": 7.2,
     "col": 2,
@@ -6,7 +12,7 @@
     "width": 8
   },
   "text1": {
-    "row": 3.2,
+    "row": 3.4,
     "col": 3,
     "height": 0.6
   }

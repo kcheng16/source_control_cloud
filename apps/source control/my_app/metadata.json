@@ -4,7 +4,14 @@
   "pageUuid": "75cf9e40-519a-11ee-98a8-e75f88b2b1a5",
   "appTemplate": {
     "appMaxWidth": "1560px",
-    "version": "3.20.0",
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "version": "3.32.0",
     "experimentalDataTabEnabled": true
   }
 }

@@ -4,9 +4,15 @@
     id="$main"
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
+    padding="8px 12px"
     sticky={null}
     type="main"
   >
+    <Image
+      id="image1"
+      horizontalAlign="center"
+      src="https://placekitten.com/400/300"
+    />
     <Text id="text1" value="# this is my app" verticalAlign="center" />
     <Table
       id="table1"
