@@ -14,4 +14,9 @@
     query="https://www.httpbin.org/get"
     resourceName="REST-WithoutResource"
   />
+  <RESTQuery
+    id="query3"
+    notificationDuration={4.5}
+    resourceName="REST-WithoutResource"
+  />
 </GlobalFunctions>
