@@ -8,4 +8,10 @@
     resourceName="REST-WithoutResource"
     retoolVersion="2.116.1"
   />
+  <RESTQuery
+    id="query2"
+    notificationDuration={4.5}
+    query="https://www.httpbin.org/get"
+    resourceName="REST-WithoutResource"
+  />
 </GlobalFunctions>
