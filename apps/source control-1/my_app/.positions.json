@@ -3,5 +3,11 @@
     "row": 3.2,
     "height": 12.6,
     "width": 6
+  },
+  "table1": {
+    "row": 15.8,
+    "col": 1,
+    "height": 8,
+    "width": 8
   }
 }
