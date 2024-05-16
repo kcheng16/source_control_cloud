@@ -1,0 +1,120 @@
+id: query7
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: >-
+        const delay = function(ms) {
+          return new Promise(resolve => setTimeout(resolve, ms))
+        }
+
+
+        const results = [];
+
+        for (const [index, value] of {data: [{id: 1, name: 'Mike' }, {id: 2,
+        name: 'Jennifer' }]}.data.entries()) {
+          const result = query7_lambda.trigger();
+          results.push(result)
+          await delay(3000)
+        }
+
+        return await Promise.all(results)
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-07-31T18:44:22.264Z
+blockData:
+  top: -384
+  left: 464
+  uuid: 65d51231-9bd1-4abd-bb8c-178aa3db5ec2
+  comment:
+    body: ''
+    visible: false
+    pluginId: query7-comment
+  options:
+    to: d9f3d897-d67f-4341-a919-13129d1bce69
+    forEachUIType: code
+  pluginId: query7
+  blockType: forEach
+  dimensions:
+    width: 634
+    height: 534
+  editorType: JavascriptQuery
+  isMinimized: true
+  resourceName: JavascriptQuery
+  retryPanelOpen: false
+  responsePanelState: open
+  incomingOnSuccessEdges: []
