@@ -7,6 +7,8 @@ template:
   ordered:
     - queryRefreshTime: ''
     - method: post
+    - allowedGroupIds: []
+    - streamResponse: false
     - operationId: chat_postMessage
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
@@ -29,6 +31,7 @@ template:
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
+    - workflowBlockUuid: null
     - runWhenPageLoadsDelay: ''
     - parameters: '{}'
     - data: null
@@ -73,6 +76,7 @@ template:
     - showUpdateSetValueDynamicallyToggle: true
     - parameterDynamicStates: >-
         {"attachments":false,"blocks":false,"channel":false,"icon_emoji":false,"icon_url":false,"link_names":false,"mrkdwn":false,"parse":false,"reply_broadcast":false,"text":false,"thread_ts":false,"unfurl_links":false,"unfurl_media":false,"username":false}
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here

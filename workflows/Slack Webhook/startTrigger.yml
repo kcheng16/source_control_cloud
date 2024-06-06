@@ -5,6 +5,8 @@ resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
@@ -17,12 +19,13 @@ template:
     - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
-    - query: return undefined
+    - query: 'return '
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
+    - workflowBlockUuid: null
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -59,6 +62,7 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here
@@ -85,15 +89,11 @@ blockData:
   top: 48
   left: 48
   uuid: 1d87f0c9-f91a-4596-8ceb-0a2bd54d2308
-  options:
-    crontab: 0 0 * * *
-    timezone: America/Los_Angeles
-    scheduleType: interval
   pluginId: startTrigger
-  blockType: schedule
+  blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: schedule
+  resourceName: webhook
   retryPanelOpen: false
   responsePanelState: loading
   incomingOnSuccessEdges: []
