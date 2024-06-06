@@ -5,6 +5,8 @@ resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
@@ -29,6 +31,7 @@ template:
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
+    - workflowBlockUuid: null
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -66,6 +69,7 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here
@@ -89,7 +93,7 @@ template:
     - notificationDuration: ''
 createdAt: 2023-05-09T18:45:22.092Z
 blockData:
-  top: 144
+  top: -96
   left: 544
   uuid: 15e280f2-350a-492e-903c-e69d722145dd
   pluginId: code1
