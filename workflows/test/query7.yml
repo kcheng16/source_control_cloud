@@ -41,6 +41,7 @@ template:
     - workflowRunBodyType: raw
     - privateParams: []
     - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:

@@ -32,6 +32,7 @@ template:
     - workflowRunBodyType: raw
     - privateParams: []
     - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -93,8 +94,8 @@ template:
     - notificationDuration: ''
 createdAt: 2023-08-14T21:08:58.575Z
 blockData:
-  top: -32
-  left: 224
+  top: -80
+  left: 272
   uuid: eaffdfbc-fc39-42d3-9686-503c358246e5
   pluginId: environment_echo
   blockType: default
