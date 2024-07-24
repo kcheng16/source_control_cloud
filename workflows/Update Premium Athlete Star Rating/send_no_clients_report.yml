@@ -1,0 +1,131 @@
+id: send_no_clients_report
+type: datasource
+subtype: OpenAPIQuery
+resourceName: 6b75d3ca-8d7b-4e07-abaf-29f22efa8a1f
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - requestBodyMetadata: ''
+    - method: post
+    - allowedGroupIds: []
+    - streamResponse: false
+    - operationId: POST_mail-send
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - server: ''
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - path: /mail/send
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - autoPaginate: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - parameters: >-
+        {"body":{"personalizations":[{"to":"{{workflowContext.environment ===
+        'staging' ? [{email:'ncsaretooltesting@gmail.com'}] : [{email:
+        'jpenney@ncsasports.org'},{email: 'jnorth@ncsasports.org'}, {email:
+        'jasonsmith@ncsasports.org'}]}}"}],"from":"{email:
+        'no-reply@ncsasports.org'}","content":[{"value":"No clients available to
+        update on \n{{moment().format('MMM DD, YYYY')}}.\n\nThis could mean
+        there were no clients who met the criteria to perform this update or
+        there is an error in the workflow.\n\nIf this issue persists please
+        contact a member of the Platform Operations Engineering Team to
+        investigate.","type":"text/plain"}],"subject":"Workflow Report for
+        Update Premium Athlete Star Rating on {{moment().format('MMM DD,
+        YYYY')}}"}}
+    - data: null
+    - specPathOverride: ''
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - requestBodyDynamicStates: ''
+    - queryRunTime: null
+    - changesetObject: ''
+    - requestBody: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - specBasePath: ''
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - serverVariables: ''
+    - enableErrorTransformer: false
+    - autoPaginateLimit: 500
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - parameterDynamicStates: >-
+        {"body":"{\"personalizations\":\"\\\"\\\\\\\"[{}]\\\\\\\"\\\"\",\"attachments\":\"[{}]\",\"content\":[{}]}"}
+    - parameterMetadata: '{"body":{"personalizations":[{}],"attachments":[{}],"content":[{}]}}'
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - queryTimeout: '120000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-02-06T16:08:29.379Z
+blockData:
+  top: 624
+  left: 1584
+  uuid: d26ef6fd-f2d2-4508-87d0-1406922f54c9
+  pluginId: send_no_clients_report
+  blockType: default
+  editorType: OpenAPIQuery
+  retryPolicy:
+    numAttempts: 10
+    initialIntervalMs: 1000
+  resourceName: 6b75d3ca-8d7b-4e07-abaf-29f22efa8a1f
+  incomingPorts:
+    - portId: 43be0985-839b-41a8-9828-af7f8a5ad3f8
+      blockId: 9569c16f-becb-4c8d-8070-78f222477737
+  outgoingPorts:
+    - id: 51fc8d17-8aa1-4a1d-b436-280ad0def1a6
+      name: onError-f7c5db03-894d-4c54-9d3d-32426cc60020
+      type: onError
+  retryPanelOpen: false
+  incomingOnSuccessEdges: []

@@ -1,0 +1,132 @@
+id: format_json
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: >+
+        let temp_array = []; //empty array to hold JSON.
+
+        const data = formatDataAsObject(get_client_id.data);
+
+
+        //pass the values into the below code as "column_name" :
+        "${array_value[i]}" separated by commas.
+
+        for(i=0;i<data.client_id.length;i++){ // update the c._id.length to
+        point towards one of your arrays: your_array.length
+          temp_array.push(`{
+          "client_id" : ${data.client_id[i]},
+          "client_sport_id" : ${data.client_sport_id[i]}
+          }`
+                         );
+        }
+
+
+        let json = '[' + temp_array.join(',\n') + ']' //joins and completes the
+        JSON code.
+
+
+        return {json: json} // return JSON code to pull into your database
+        query.
+
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-11-17T16:32:34.951Z
+blockData:
+  top: 48
+  left: 1584
+  uuid: 7aa306b4-6cf3-4cf2-af2c-d9bc725d96e8
+  pluginId: format_json
+  blockType: code
+  dimensions:
+    width: 480
+    height: 480
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingPorts:
+    - portId: 41b841ce-277f-4fe0-a067-41198c6885eb
+      blockId: 9569c16f-becb-4c8d-8070-78f222477737
+  outgoingPorts:
+    - id: 7e8adf25-7080-4a2d-8d2e-68127083ed99
+      name: onError-7aa306b4-6cf3-4cf2-af2c-d9bc725d96e8
+      type: onError
+  responseHeight: 78
+  retryPanelOpen: false
+  responsePanelState: open
+  incomingOnSuccessEdges: []

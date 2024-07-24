@@ -1,0 +1,10 @@
+id: query14
+type: datasource
+template:
+  ordered:
+    - editorMode: sql
+    - runWhenModelUpdates: false
+    - queryTimeout: '120000'
+    - evalType: script
+createdAt: 2024-01-29T14:50:20.756Z
+blockData: {}
