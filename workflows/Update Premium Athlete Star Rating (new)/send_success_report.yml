@@ -1,0 +1,121 @@
+id: send_success_report
+type: datasource
+subtype: OpenAPIQuery
+resourceName: 6b75d3ca-8d7b-4e07-abaf-29f22efa8a1f
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - requestBodyMetadata: ''
+    - method: post
+    - allowedGroupIds: []
+    - streamResponse: false
+    - operationId: POST_mail-send
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - server: ''
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - path: /mail/send
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - autoPaginate: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - parameters: >-
+        {"body":{"personalizations":[{"to":"{{format_email.data.email_to}}"}],"attachments":[{"filename":"{{format_email.data.file_name}}","content":"{{format_email.data.xlsx_updates}}"}],"subject":"{{format_email.data.subject}}","from":"{email:
+        'no-reply@ncsasports.org'}","content":[{"value":"Attached is a list of
+        Premium Athletes who have had their star rating updated from 0 to 2 on
+        {{moment().format('MMM DD, YYYY')}}","type":"text/plain"}]}}
+    - data: null
+    - specPathOverride: ''
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - requestBodyDynamicStates: ''
+    - queryRunTime: null
+    - changesetObject: ''
+    - requestBody: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - specBasePath: ''
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - serverVariables: ''
+    - enableErrorTransformer: false
+    - autoPaginateLimit: 500
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - parameterDynamicStates: >-
+        {"body":"{\"personalizations\":\"\\\"\\\\\\\"[{}]\\\\\\\"\\\"\",\"attachments\":\"[{}]\",\"content\":[{}]}"}
+    - parameterMetadata: '{"body":{"personalizations":[{}],"attachments":[{}],"content":[{}]}}'
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - queryTimeout: '600000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-11-17T16:41:46.505Z
+blockData:
+  top: 960
+  left: 4144
+  uuid: f7c5db03-894d-4c54-9d3d-32426cc60020
+  pluginId: send_success_report
+  blockType: default
+  editorType: OpenAPIQuery
+  retryPolicy:
+    numAttempts: 10
+    initialIntervalMs: 1000
+  resourceName: 6b75d3ca-8d7b-4e07-abaf-29f22efa8a1f
+  outgoingPorts:
+    - id: 51fc8d17-8aa1-4a1d-b436-280ad0def1a6
+      name: onError-f7c5db03-894d-4c54-9d3d-32426cc60020
+      type: onError
+  retryPanelOpen: false
+  incomingOnSuccessEdges:
+    - 54eb06e7-9cce-44a1-98f2-14c8f3bd8b90

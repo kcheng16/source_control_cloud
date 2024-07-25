@@ -1,0 +1,153 @@
+id: insert_tracking_note
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 6a7a4c61-9c42-4b46-bee2-a54369c0b45f
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |2-
+          declare @client_sport_id INTEGER;
+
+          declare cur CURSOR FOR
+            SELECT * FROM OpenJson({{format_json.data.json}})
+            WITH (client_sport_id INT '$.client_sport_id')
+          
+          OPEN cur;
+          FETCH NEXT FROM cur INTO @client_sport_id
+          WHILE @@FETCH_STATUS = 0
+          
+          BEGIN
+          
+          insert into client_tracking
+            (client_sport_id, tracking_date, notes, user_id_entered, entry_user, entry_date, mod_user, mod_date, deleted, subject, tracking_type, restricted)
+            values (@client_sport_id,
+                    current_timestamp,
+                   'Retool changed star rating from 0 to 2.0',
+                   {{workflowContext.environment === 'staging' ? 10392:11440}},
+                   {{workflowContext.environment === 'staging' ? 10392:11440}},
+                   current_timestamp,
+                   {{workflowContext.environment === 'staging' ? 10392:11440}},
+                   current_timestamp,
+                   0,
+                   'Star Rating Updated',
+                   'Star Rating Updated',
+                   0)
+            
+            FETCH NEXT FROM cur INTO @client_sport_id
+          END;
+          CLOSE cur;
+          DEALLOCATE cur;
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - warningCodes: []
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray: []
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - actionType: ''
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - databaseWarehouseOverride: ''
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - tableName: ''
+    - queryTimeout: '600000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - databaseUsernameOverride: ''
+    - databaseRoleOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-04-04T16:43:17.057Z
+blockData:
+  top: 48
+  left: 3632
+  uuid: 29bb528e-d758-4a5f-a32f-d4f914b6fc8a
+  pluginId: insert_tracking_note
+  blockType: default
+  dimensions:
+    width: 590
+    height: 342
+  editorType: SqlQueryUnified
+  resourceName: 6a7a4c61-9c42-4b46-bee2-a54369c0b45f
+  outgoingPorts:
+    - id: 51a8d68a-f16b-431c-887b-7ab3a3685f92
+      name: onError-fec241d0-efcf-49f1-a3ef-15efc88194a8
+      type: onError
+  responseHeight: 31
+  retryPanelOpen: false
+  incomingOnSuccessEdges:
+    - fec241d0-efcf-49f1-a3ef-15efc88194a8

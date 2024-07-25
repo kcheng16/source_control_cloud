@@ -1,0 +1,134 @@
+id: format_email
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: >-
+        const file_name = workflowContext.name + ' for ' +
+        moment().format('YYYY-MM-DD') + '.xlsx';
+
+        const subject = 'Workflow Report for ' + workflowContext.name + ' on ' +
+        moment().format('YYYY-MM-DD');
+
+
+        const email_to = workflowContext.environment === 'staging' ?
+        [{email:'ncsaretooltesting@gmail.com'}] : [{email:
+        'jpenney@ncsasports.org'},{email: 'jnorth@ncsasports.org'}, {email:
+        'jasonsmith@ncsasports.org'},{email: 'eperozich@ncsasports.org'}];
+
+
+        const data = JSON.parse(format_json.data.json);
+
+
+        const sheet1 = XLSX.utils.json_to_sheet(data);
+
+
+        const workbook = XLSX.utils.book_new();
+
+        XLSX.utils.book_append_sheet(workbook, sheet1, "Updated Athletic
+        Rating");
+
+
+        const result = XLSX.write(workbook, { type: "base64" });
+
+
+        return {xlsx_updates: result, file_name: file_name, subject: subject,
+        email_to: email_to}
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-11-17T16:44:54.393Z
+blockData:
+  top: 48
+  left: 4656
+  uuid: 54eb06e7-9cce-44a1-98f2-14c8f3bd8b90
+  pluginId: format_email
+  blockType: code
+  dimensions:
+    width: 464
+    height: 320
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  outgoingPorts:
+    - id: 7d1f12c2-91fb-4ded-b7ce-7c454b94f215
+      name: onError-54eb06e7-9cce-44a1-98f2-14c8f3bd8b90
+      type: onError
+  retryPanelOpen: false
+  responsePanelState: open
+  incomingOnSuccessEdges:
+    - 29bb528e-d758-4a5f-a32f-d4f914b6fc8a

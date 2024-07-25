@@ -1,0 +1,143 @@
+id: insert_rating_history
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 6a7a4c61-9c42-4b46-bee2-a54369c0b45f
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |2-
+          declare @client_id INTEGER;
+
+          declare cur CURSOR FOR
+            SELECT * FROM OpenJson({{format_json.data.json}})
+            WITH (client_id INT '$.client_id'
+            )
+          
+          OPEN cur;
+          FETCH NEXT FROM cur INTO @client_id
+          WHILE @@FETCH_STATUS = 0
+          
+          BEGIN
+          
+          insert into athletic_rating_histories
+            (client_id, user_id, athletic_rating, created_at, updated_at, rating_type)
+            values (@client_id, 11440, 2, current_timestamp, current_timestamp, 2)
+            
+            FETCH NEXT FROM cur INTO @client_id
+          END;
+          CLOSE cur;
+          DEALLOCATE cur;
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - warningCodes: []
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray: []
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - actionType: ''
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - databaseWarehouseOverride: ''
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - tableName: ''
+    - queryTimeout: '600000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - databaseUsernameOverride: ''
+    - databaseRoleOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-11-17T16:38:11.469Z
+blockData:
+  top: 48
+  left: 2688
+  uuid: fec241d0-efcf-49f1-a3ef-15efc88194a8
+  pluginId: insert_rating_history
+  blockType: default
+  dimensions:
+    width: 590
+    height: 342
+  editorType: SqlQueryUnified
+  resourceName: 6a7a4c61-9c42-4b46-bee2-a54369c0b45f
+  outgoingPorts:
+    - id: 51a8d68a-f16b-431c-887b-7ab3a3685f92
+      name: onError-fec241d0-efcf-49f1-a3ef-15efc88194a8
+      type: onError
+  responseHeight: 31
+  retryPanelOpen: false
+  incomingOnSuccessEdges:
+    - d05a708e-0acf-4312-bcb9-61667b2eb260

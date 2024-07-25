@@ -1,0 +1,168 @@
+id: get_client_id
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 6a7a4c61-9c42-4b46-bee2-a54369c0b45f
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: >-
+        select distinct
+
+        c.client_id,
+
+        cs.client_sport_id,
+
+        cp.athletic_rating as cur_rating,
+
+        ted.rating as ted_rating,
+
+        ar.athletic_rating as hist_rating,
+
+        ar.rating_type
+
+        from client_preferences cp
+
+        join client c on c.client_id = cp.client_id
+
+        join client_sport cs on cs.client_id = c.client_id
+
+        join client_membership_history cmh on cmh.client_id = c.client_id
+
+        left join team_edition_athletic_ratings ted on ted.client_id =
+        cp.client_id
+
+        left join athletic_rating_histories ar on ar.client_id = cp.client_id
+        and ar.rating_type = 0
+
+        where c.ncsa_program_id in (69,70,71)
+
+        and cmh.program_id in(69,70,71)
+
+        and cast(cmh.entry_date as date) = DATEADD(day, -1, convert(date,
+        GETDATE()))
+
+        and (cp.athletic_rating IS NULL
+
+        or cp.athletic_rating = 0)
+
+        and not exists (select * from team_edition_athletic_ratings tear where
+        tear.client_id = cp.client_id and tear.rating > 0)
+
+        and ar.athletic_rating is null
+
+        order by c.client_id
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - warningCodes: []
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray: []
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - actionType: ''
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - databaseWarehouseOverride: ''
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - tableName: ''
+    - queryTimeout: '600000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - databaseUsernameOverride: ''
+    - databaseRoleOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-11-17T16:25:08.438Z
+blockData:
+  top: 48
+  left: 560
+  uuid: 5df5d551-5e8d-4da0-be6b-547c6d89f744
+  pluginId: get_client_id
+  blockType: default
+  dimensions:
+    width: 384
+    height: 359
+  editorType: SqlQueryUnified
+  resourceName: 6a7a4c61-9c42-4b46-bee2-a54369c0b45f
+  outgoingPorts:
+    - id: 338b1d35-cb97-44bf-8480-6b8a11b4ff08
+      name: onError-5df5d551-5e8d-4da0-be6b-547c6d89f744
+      type: onError
+  responseHeight: 159
+  retryPanelOpen: false
+  responsePanelState: open
+  incomingOnSuccessEdges:
+    - 929cc015-206b-4e10-97f2-04495c02f26e
