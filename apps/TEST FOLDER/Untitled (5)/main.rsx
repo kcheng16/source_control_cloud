@@ -8,6 +8,6 @@
     sticky={null}
     type="main"
   >
-    <Text id="text1" value="# V1.0" verticalAlign="center" />
+    <Text id="text1" value="# V2.0" verticalAlign="center" />
   </Frame>
 </App>
