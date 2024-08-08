@@ -11,5 +11,6 @@
     type="main"
   >
     <JSONExplorer id="jsonExplorer1" value="{{query1.data.data}}" />
+    <Button id="button1" text="Button" />
   </Frame>
 </App>
