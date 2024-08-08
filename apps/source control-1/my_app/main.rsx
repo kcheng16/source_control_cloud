@@ -10,6 +10,7 @@
     sticky={null}
     type="main"
   >
+    <Text id="text1" value="# V1.0" verticalAlign="center" />
     <Image
       id="image1"
       heightType="fixed"

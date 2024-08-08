@@ -18,5 +18,10 @@
     "row": 3.2,
     "height": 12.6,
     "width": 6
+  },
+  "text1": {
+    "row": 1,
+    "col": 1,
+    "height": 1
   }
 }
