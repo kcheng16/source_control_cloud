@@ -1,4 +1,14 @@
 {
+  "button1": {
+    "row": 6.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "image1": {
+    "row": 1.4,
+    "col": 8
+  },
   "jsonExplorer1": {
     "row": 3.2,
     "height": 12.6,
