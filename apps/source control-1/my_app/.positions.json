@@ -1,18 +1,9 @@
 {
   "button1": {
-    "row": 7.2,
+    "row": 5.6,
     "col": 7,
     "height": 1,
     "width": 2
-  },
-  "image1": {
-    "row": 1.4,
-    "col": 8
-  },
-  "image2": {
-    "row": 2.2,
-    "col": 7,
-    "width": 1
   },
   "jsonExplorer1": {
     "row": 3.2,
