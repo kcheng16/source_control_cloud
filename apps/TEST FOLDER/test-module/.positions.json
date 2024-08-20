@@ -1,0 +1,76 @@
+{
+  "button2": {
+    "container": "modal1",
+    "row": 2,
+    "height": 1,
+    "width": 12
+  },
+  "button3": {
+    "container": "modal1",
+    "row": 1,
+    "height": 1,
+    "width": 12
+  },
+  "button4": {
+    "container": "modal1",
+    "row": 3,
+    "height": 1,
+    "width": 12
+  },
+  "button5": {
+    "container": "modal1",
+    "row": 4,
+    "height": 1,
+    "width": 12
+  },
+  "button6": {
+    "container": "modal1",
+    "row": 6,
+    "height": 1,
+    "width": 12
+  },
+  "button8": {
+    "container": "modal1",
+    "row": 5,
+    "height": 1,
+    "width": 12
+  },
+  "gsearch": {
+    "container": "moduleContainer",
+    "col": 3,
+    "height": 1,
+    "width": 5
+  },
+  "image1": {
+    "container": "moduleContainer",
+    "row": 0.6,
+    "height": 1,
+    "width": 2
+  },
+  "modal1": {
+    "container": "moduleContainer",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "moduleContainer": {
+    "height": 1.2,
+    "width": 12
+  },
+  "search_button": {
+    "container": "moduleContainer",
+    "col": 8,
+    "height": 1,
+    "width": 1
+  },
+  "text1": {
+    "container": "modal1",
+    "col": 4,
+    "height": 1,
+    "width": 4
+  },
+  "text2": {
+    "container": "moduleContainer",
+    "height": 0.6
+  }
+}
