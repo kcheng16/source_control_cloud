@@ -1,0 +1,13 @@
+{
+  "testModule1": {
+    "row": 6,
+    "col": 1,
+    "height": 2.4,
+    "width": 10
+  },
+  "text1": {
+    "row": 3.2,
+    "col": 1,
+    "height": 1
+  }
+}
