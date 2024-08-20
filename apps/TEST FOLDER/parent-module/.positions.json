@@ -1,0 +1,13 @@
+{
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "testModule1": {
+    "container": "moduleContainer",
+    "row": 3.2,
+    "col": 1,
+    "height": 2.4,
+    "width": 11
+  }
+}
