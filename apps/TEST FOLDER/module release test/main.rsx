@@ -8,6 +8,11 @@
     sticky={null}
     type="main"
   >
+    <Module
+      id="salesPerformanceCoupons1"
+      name="Sales Performance - Coupons"
+      pageUuid="6d975dbc-2a75-11ef-890a-5ffb4f482c68"
+    />
     <Text id="text1" value="# Version 1" verticalAlign="center" />
     <Text id="text2" value="# new PR" verticalAlign="center" />
     <Module
