@@ -13,7 +13,7 @@
       backgroundColor="white"
       isGlobalWidgetContainer={true}
     >
-      <Text id="text1" value="# Module: Version 3" verticalAlign="center" />
+      <Text id="text1" value="# Module: Version 2" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
