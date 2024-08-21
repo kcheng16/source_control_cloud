@@ -1,0 +1,17 @@
+{
+  "frequencySelect": {
+    "container": "moduleContainer",
+    "col": 4,
+    "height": 0.2,
+    "width": 8
+  },
+  "moduleContainer": {
+    "height": 1.2
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 4
+  }
+}

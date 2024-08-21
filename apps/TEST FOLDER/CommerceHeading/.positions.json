@@ -1,0 +1,23 @@
+{
+  "h1": {
+    "container": "moduleContainer",
+    "height": 1.2,
+    "width": 12
+  },
+  "h2": {
+    "container": "moduleContainer",
+    "row": 2.4,
+    "height": 1.2,
+    "width": 12
+  },
+  "h3": {
+    "container": "moduleContainer",
+    "row": 1.2,
+    "height": 1.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 1.4,
+    "width": 7
+  }
+}

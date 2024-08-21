@@ -1,0 +1,11 @@
+{
+  "dateRange": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 1.8,
+    "width": 6
+  }
+}
