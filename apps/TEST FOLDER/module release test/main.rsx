@@ -9,6 +9,7 @@
     type="main"
   >
     <Text id="text1" value="# Version 1" verticalAlign="center" />
+    <Text id="text2" value="# new PR" verticalAlign="center" />
     <Module
       id="mytestmodule1"
       name="mytestmodule"
