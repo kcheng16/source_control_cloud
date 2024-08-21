@@ -1,0 +1,20 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "04b9b86a-dfdc-462d-a718-eace963369e4",
+  "appTemplate": {
+    "appThemeId": 9,
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "isGlobalWidget": true,
+    "isFetching": true,
+    "appThemeName": "Teachable Portals",
+    "version": "3.52.10",
+    "experimentalDataTabEnabled": true
+  }
+}

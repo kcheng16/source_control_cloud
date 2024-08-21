@@ -1,0 +1,53 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "1882858a-d006-4b96-9a7a-8433501bc7be",
+  "appTemplate": {
+    "appThemeId": 9,
+    "pageCodeFolders": {
+      "object": {
+        "dates": {
+          "array": []
+        },
+        "s": {
+          "array": []
+        },
+        "start": {
+          "array": []
+        },
+        "startD": {
+          "array": []
+        },
+        "startDat": {
+          "array": []
+        },
+        "startDate": {
+          "array": []
+        },
+        "en": {
+          "array": []
+        },
+        "end": {
+          "array": []
+        },
+        "endD": {
+          "array": []
+        },
+        "endDate": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "Teachable Portals",
+    "version": "3.52.10",
+    "experimentalDataTabEnabled": true
+  }
+}
