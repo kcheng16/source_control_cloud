@@ -1,4 +1,4 @@
-id: code1
+id: webhookReturn1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -16,22 +16,35 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: true
-    - workflowRunId: null
+    - runWhenModelUpdates: false
     - showFailureToaster: true
     - query: |-
-        return [
-          { message: "Hello from Workflows" },
-          { message: "Click the Run (▶) button to execute this block" },
-          { message: "Drag from the green sequence port to connect a new block" },
-          { message: "Click the help (?) button to learn more" },
-        ];
+        const generateReturn = () => {
+            const status = () => {
+              try {
+                return 200
+              } catch {
+                return 200
+              }
+            }
+          const body = () => {
+            try {
+              return {
+          hello: "code 1 complete"
+        }
+            } catch {
+              return {'error': true, 'messsage': 'there was a problem parsing the JSON body of webhookReturn1'}
+            }
+          }
+          return {status: status(), body: body() }
+          }
+          return generateReturn()
+          
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
-    - workflowBlockUuid: null
     - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
@@ -43,17 +56,10 @@ template:
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
     - metadata: null
-    - workflowActionType: null
     - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
-    - errorTransformer: >-
-        // The variable 'data' allows you to reference the request's data in the
-        transformer. 
-
-        // example: return data.find(element => element.isError)
-
-        return data.error
+    - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
     - isFetching: false
@@ -72,38 +78,34 @@ template:
     - showUpdateSetValueDynamicallyToggle: true
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
-    - transformer: >-
-        // type your code here
-
-        // example: return formatDataAsArray(data).filter(row => row.quantity >
-        20)
-
-        return data
+    - transformer: return data
     - events: []
-    - queryTimeout: '120000'
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
-    - workflowBlockPluginId: null
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-05-09T18:45:22.092Z
+createdAt: 2024-09-04T22:11:09.602Z
 blockData:
-  top: -96
-  left: 544
-  uuid: 15e280f2-350a-492e-903c-e69d722145dd
-  pluginId: code1
-  blockType: code
-  dimensions:
-    width: 565
-    height: 325.984375
+  top: -464
+  left: 1008
+  uuid: 5cf3cc84-7faa-4772-9c58-c8b6f3802c28
+  options:
+    body: |-
+      {
+        hello: "code 1 complete"
+      }
+    status: '200'
+  pluginId: webhookReturn1
+  blockType: webhookReturn
   editorType: JavascriptQuery
+  isMinimized: false
   resourceName: JavascriptQuery
-  retryPanelOpen: false
   incomingOnSuccessEdges:
-    - 1d87f0c9-f91a-4596-8ceb-0a2bd54d2308
+    - 15e280f2-350a-492e-903c-e69d722145dd

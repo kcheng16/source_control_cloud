@@ -32,6 +32,7 @@ template:
     - workflowRunBodyType: raw
     - privateParams: []
     - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -97,13 +98,12 @@ template:
     - notificationDuration: ''
 createdAt: 2023-05-09T18:45:39.171Z
 blockData:
-  top: -128
-  left: 1296
+  top: -368
+  left: 2192
   uuid: fe73eb8e-d1d1-49a5-bc35-b1ab9ab77f59
   pluginId: query3
   blockType: default
   editorType: RESTQuery
   resourceName: REST-WithoutResource
   retryPanelOpen: false
-  incomingOnSuccessEdges:
-    - 15e280f2-350a-492e-903c-e69d722145dd
+  incomingOnSuccessEdges: []
