@@ -26,6 +26,7 @@ template:
     - workflowRunBodyType: raw
     - privateParams: []
     - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -93,7 +94,7 @@ blockData:
   blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: webhook
+  resourceName: JavascriptQuery
   retryPanelOpen: false
   responsePanelState: loading
   incomingOnSuccessEdges: []

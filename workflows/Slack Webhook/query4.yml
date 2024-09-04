@@ -1,29 +1,25 @@
 id: query4
 type: datasource
-subtype: OpenAPIQuery
-resourceName: 09d5ecac-832c-4573-87b8-add1bbc4b45c
-resourceDisplayName: new slack integration
+subtype: SlackQuery
+resourceName: f9a5c860-2654-449a-ad10-0d23284e3e68
+resourceDisplayName: Slack Integration
 template:
   ordered:
     - queryRefreshTime: ''
-    - method: post
     - allowedGroupIds: []
     - streamResponse: false
-    - operationId: chat_postMessage
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
+    - channel: ''
     - servedFromCache: false
-    - server: ''
     - offlineUserQueryInputs: ''
     - successMessage: ''
     - queryDisabled: ''
-    - path: /chat.postMessage
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
-    - autoPaginate: false
-    - workflowRunId: null
+    - message: done done done done
     - showFailureToaster: true
     - query: ''
     - playgroundQueryUuid: ''
@@ -31,11 +27,9 @@ template:
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
-    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
-    - parameters: '{}'
     - data: null
-    - specPathOverride: ''
     - importedQueryInputs:
         ordered: []
     - isImported: false
@@ -43,19 +37,9 @@ template:
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
     - metadata: null
-    - workflowActionType: null
-    - requestBodyDynamicStates: ''
     - queryRunTime: null
     - changesetObject: ''
-    - requestBody: ''
-    - errorTransformer: >-
-        // The variable 'data' allows you to reference the request's data in the
-        transformer. 
-
-        // example: return data.find(element => element.isError)
-
-        return data.error
-    - specBasePath: ''
+    - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
     - isFetching: false
@@ -64,9 +48,7 @@ template:
     - queryTriggerDelay: '0'
     - resourceTypeOverride: null
     - watchedParams: []
-    - serverVariables: ''
     - enableErrorTransformer: false
-    - autoPaginateLimit: 500
     - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - evalType: script
@@ -74,38 +56,31 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
-    - parameterDynamicStates: >-
-        {"attachments":false,"blocks":false,"channel":false,"icon_emoji":false,"icon_url":false,"link_names":false,"mrkdwn":false,"parse":false,"reply_broadcast":false,"text":false,"thread_ts":false,"unfurl_links":false,"unfurl_media":false,"username":false}
+    - useSlackMarkdown: false
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
-    - transformer: >-
-        // type your code here
-
-        // example: return formatDataAsArray(data).filter(row => row.quantity >
-        20)
-
-        return data
+    - transformer: return data
     - events: []
-    - queryTimeout: '120000'
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
-    - workflowBlockPluginId: null
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: 2023-05-09T18:52:27.436Z
 blockData:
-  top: -32
-  left: 1872
+  top: -160
+  left: 1952
   uuid: f9d8ac0e-110d-4ae8-8395-257a2c89a526
   pluginId: query4
   blockType: default
-  editorType: OpenAPIQuery
-  resourceName: 09d5ecac-832c-4573-87b8-add1bbc4b45c
+  editorType: SlackQuery
+  resourceName: f9a5c860-2654-449a-ad10-0d23284e3e68
   retryPanelOpen: false
-  incomingOnSuccessEdges: []
+  incomingOnSuccessEdges:
+    - aa3bddc1-ee32-48ea-bde2-a763d0b209e5
