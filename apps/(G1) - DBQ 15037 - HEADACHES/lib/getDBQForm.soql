@@ -1,0 +1,3 @@
+SELECT Id, Name, Status__c, Exam__r.Status, Conditions__c
+FROM DBQ_Form__c
+WHERE Id = '{{ urlparams.dbqFormId }}'

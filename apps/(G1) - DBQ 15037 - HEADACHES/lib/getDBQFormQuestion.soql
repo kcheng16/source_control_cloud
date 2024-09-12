@@ -1,0 +1,4 @@
+SELECT Id, Ques__c, DBQ_Question__c, DBQ_Form__c, CreatedDate, Name
+FROM VES_DBQ_Questions__c
+WHERE DBQ_Form__c = '{{ urlparams.dbqFormId }}' AND Status__c = 'Active'
+ORDER BY CreatedDate
