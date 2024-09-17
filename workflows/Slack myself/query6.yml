@@ -19,7 +19,9 @@ template:
     - workflowParams: null
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
-    - message: |-
+    - message: |
+        Current_user: {{ current_user.email }}
+
         This is from Workflows in {{workflowContext.environment}}
 
         This is the startTrigger:
