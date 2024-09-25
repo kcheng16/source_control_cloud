@@ -1,0 +1,144 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "3a6ca2ba-7b85-11ef-8275-ab76931d1c18",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "opportunityTableModule": {
+          "array": []
+        },
+        "approveAndLaunchButton": {
+          "array": []
+        },
+        "approveModal": {
+          "array": []
+        },
+        "approveOpportunitiesForm": {
+          "array": []
+        },
+        "closeApproveModal": {
+          "array": []
+        },
+        "closeRejectModal": {
+          "array": []
+        },
+        "rejectModal": {
+          "array": []
+        },
+        "rejectOpportunityModalTitle": {
+          "array": []
+        },
+        "rejectOpportunityModalCloseButton": {
+          "array": []
+        },
+        "refreshAndCloseModals": {
+          "array": []
+        },
+        "getOpportunities": {
+          "array": []
+        },
+        "launchOpportunityFilter": {
+          "array": []
+        },
+        "rejectOpportunity": {
+          "array": []
+        },
+        "rejectOpportunityFormModule": {
+          "array": []
+        },
+        "variable1op": {
+          "array": []
+        },
+        "opportunities": {
+          "array": []
+        },
+        "triggerGetOpportunities": {
+          "array": []
+        },
+        "opportunitiesTransformer": {
+          "array": []
+        },
+        "loadingModal": {
+          "array": []
+        },
+        "loadingTet": {
+          "array": []
+        },
+        "loadingText": {
+          "array": []
+        },
+        "spinner": {
+          "array": []
+        },
+        "loadingIndicator": {
+          "array": []
+        },
+        "submitButtonText": {
+          "array": []
+        },
+        "opportunitiesForApprovalTransformer": {
+          "array": []
+        },
+        "editOpportunityFrame": {
+          "array": []
+        },
+        "hideEditFrame": {
+          "array": []
+        },
+        "editSubmissionForm": {
+          "array": []
+        },
+        "editOpportunity": {
+          "array": []
+        },
+        "editOpportunityForm": {
+          "array": []
+        },
+        "isPowerUser": {
+          "array": []
+        },
+        "getAssignee": {
+          "array": []
+        },
+        "assigneeTransformer": {
+          "array": []
+        },
+        "saveOpportunity": {
+          "array": []
+        },
+        "setVariable": {
+          "array": []
+        },
+        "setOpportunitiesVariable": {
+          "array": []
+        },
+        "selectedOpportunitiesTransformer": {
+          "array": []
+        },
+        "opportunitiesToReject": {
+          "array": []
+        },
+        "rejectOpportunities": {
+          "array": []
+        },
+        "rejectSelectedButton": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.96.0",
+    "experimentalDataTabEnabled": true
+  }
+}

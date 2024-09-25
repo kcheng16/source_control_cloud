@@ -1,0 +1,178 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "12025a0e-8867-4d92-918a-bf912877aa31",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "approveOpportunitiesModal": {
+          "array": []
+        },
+        "approveOpportunitiesModalTitle": {
+          "array": []
+        },
+        "o": {
+          "array": []
+        },
+        "opportunitie": {
+          "array": []
+        },
+        "opportuniti": {
+          "array": []
+        },
+        "opportunitiy": {
+          "array": []
+        },
+        "opportunity": {
+          "array": []
+        },
+        "opportunityIds": {
+          "array": []
+        },
+        "opportunities": {
+          "array": []
+        },
+        "reloadTableDataAction": {
+          "array": []
+        },
+        "re": {
+          "array": []
+        },
+        "reload": {
+          "array": []
+        },
+        "reloadDat": {
+          "array": []
+        },
+        "reloadData": {
+          "array": []
+        },
+        "reloadDataA": {
+          "array": []
+        },
+        "reloadDataActoin": {
+          "array": []
+        },
+        "reloadDataAct": {
+          "array": []
+        },
+        "reloadDataAction": {
+          "array": []
+        },
+        "filtere": {
+          "array": []
+        },
+        "filtered": {
+          "array": []
+        },
+        "filteredO": {
+          "array": []
+        },
+        "filteredOp": {
+          "array": []
+        },
+        "filteredOpp": {
+          "array": []
+        },
+        "filteredOpportunities": {
+          "array": []
+        },
+        "reje": {
+          "array": []
+        },
+        "reject": {
+          "array": []
+        },
+        "rejectOI": {
+          "array": []
+        },
+        "rejectOpportunity": {
+          "array": []
+        },
+        "buildTaboolaRowModels": {
+          "array": []
+        },
+        "buildGSNRowModels": {
+          "array": []
+        },
+        "provi": {
+          "array": []
+        },
+        "provider": {
+          "array": []
+        },
+        "buildZemantaRowModels": {
+          "array": []
+        },
+        "getOpportunityReviews": {
+          "array": []
+        },
+        "opoportunities": {
+          "array": []
+        },
+        "e": {
+          "array": []
+        },
+        "ed": {
+          "array": []
+        },
+        "edit": {
+          "array": []
+        },
+        "editO": {
+          "array": []
+        },
+        "editOppo": {
+          "array": []
+        },
+        "editOppor": {
+          "array": []
+        },
+        "editOpporu": {
+          "array": []
+        },
+        "editOpportu": {
+          "array": []
+        },
+        "editOpportunity": {
+          "array": []
+        },
+        "selectedOpportunitiesTransformer": {
+          "array": []
+        },
+        "se": {
+          "array": []
+        },
+        "sele": {
+          "array": []
+        },
+        "selected": {
+          "array": []
+        },
+        "selectedO": {
+          "array": []
+        },
+        "selectedOpportun": {
+          "array": []
+        },
+        "selectedOpportunities": {
+          "array": []
+        },
+        "sekec": {
+          "array": []
+        },
+        "selectedRow": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://cdnjs.cloudflare.com/ajax/libs/jsonpath/1.1.1/jsonpath.min.js"
+      ]
+    },
+    "version": "3.96.0",
+    "experimentalDataTabEnabled": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "launchOpportunitiesTable": {
+    "container": "moduleContainer",
+    "height": 20.8,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 20.8,
+    "width": 12
+  }
+}

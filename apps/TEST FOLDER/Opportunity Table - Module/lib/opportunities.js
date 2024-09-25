@@ -1,0 +1,1 @@
+return {{ filteredOpportunities.value.map(x => ({...x, selected: false})) }}

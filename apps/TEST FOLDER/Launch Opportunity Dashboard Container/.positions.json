@@ -1,0 +1,81 @@
+{
+  "approveAndLaunchButton": {
+    "container": "moduleContainer",
+    "row": 25.6,
+    "height": 0.8,
+    "width": 12
+  },
+  "approveOpportunitiesForm": {
+    "subcontainer": "approveModal",
+    "height": 0.8,
+    "width": 12
+  },
+  "drawerCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "editOpportunityFrame",
+    "col": 9,
+    "height": 1
+  },
+  "drawerTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "editOpportunityFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "editOpportunityForm": {
+    "subcontainer": "editOpportunityFrame",
+    "height": 3.4,
+    "width": 12
+  },
+  "launchOpportunityFilter": {
+    "container": "moduleContainer",
+    "row": 20.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "approveModal",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "approveModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "moduleContainer": {
+    "height": 25,
+    "width": 12
+  },
+  "opportunityTableModule": {
+    "container": "moduleContainer",
+    "row": 21.4,
+    "height": 4.2,
+    "width": 12
+  },
+  "rejectOpportunityFormModule": {
+    "subcontainer": "rejectModal",
+    "height": 0.8,
+    "width": 12
+  },
+  "rejectOpportunityModalCloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "rejectModal",
+    "col": 9,
+    "height": 1
+  },
+  "rejectOpportunityModalTitle": {
+    "rowGroup": "header",
+    "subcontainer": "rejectModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "rejectSelectedButton": {
+    "container": "moduleContainer",
+    "row": 26.4,
+    "height": 0.8,
+    "width": 12
+  }
+}

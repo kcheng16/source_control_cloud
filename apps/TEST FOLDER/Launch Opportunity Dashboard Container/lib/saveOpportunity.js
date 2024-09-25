@@ -1,0 +1,2 @@
+editOpportunityFrame.hide();
+getOpportunities.trigger()

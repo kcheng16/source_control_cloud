@@ -1,0 +1,132 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "6d4cb183-4d03-40e4-8766-9843bde04e70",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "opportunitiesQuery": {
+          "array": []
+        },
+        "opportunityTypesTransformer": {
+          "array": []
+        },
+        "opportunityTypeSelectionTransformer": {
+          "array": []
+        },
+        "buyerEmail": {
+          "array": []
+        },
+        "opportunityFilterForm": {
+          "array": []
+        },
+        "filterButton": {
+          "array": []
+        },
+        "fint": {
+          "array": []
+        },
+        "fi": {
+          "array": []
+        },
+        "filter": {
+          "array": []
+        },
+        "filterQ": {
+          "array": []
+        },
+        "filterQuery": {
+          "array": []
+        },
+        "opportunityTypeSelect": {
+          "array": []
+        },
+        "filterFormOutput": {
+          "array": []
+        },
+        "fo": {
+          "array": []
+        },
+        "f": {
+          "array": []
+        },
+        "fil": {
+          "array": []
+        },
+        "filters": {
+          "array": []
+        },
+        "providerSelect": {
+          "array": []
+        },
+        "providerTransformer": {
+          "array": []
+        },
+        "providerQuery": {
+          "array": []
+        },
+        "on": {
+          "array": []
+        },
+        "onSuc": {
+          "array": []
+        },
+        "onSuccess": {
+          "array": []
+        },
+        "onSucces": {
+          "array": []
+        },
+        "onSu": {
+          "array": []
+        },
+        "onSub": {
+          "array": []
+        },
+        "onSubmi": {
+          "array": []
+        },
+        "onSubmit": {
+          "array": []
+        },
+        "submit": {
+          "array": []
+        },
+        "submitB": {
+          "array": []
+        },
+        "s": {
+          "array": []
+        },
+        "sub": {
+          "array": []
+        },
+        "submitBu": {
+          "array": []
+        },
+        "submitButton": {
+          "array": []
+        },
+        "submitButtonT": {
+          "array": []
+        },
+        "submitButtonText": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.83.0",
+    "experimentalDataTabEnabled": true
+  }
+}

@@ -1,0 +1,1 @@
+return {{[null, ...new Set(opportunitiesQuery.data.map(x => x.opportunityType))]}}
