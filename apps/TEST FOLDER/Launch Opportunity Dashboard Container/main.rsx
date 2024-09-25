@@ -18,6 +18,35 @@
       isGlobalWidgetContainer={true}
     >
       <Module
+        id="opportunityTableModule6"
+        name="Opportunity Table - Module"
+        pageUuid="12025a0e-8867-4d92-918a-bf912877aa31"
+      />
+      <Module
+        id="opportunityTableModule5"
+        filteredOpportunities=""
+        name="Opportunity Table - Module"
+        pageUuid="12025a0e-8867-4d92-918a-bf912877aa31"
+      />
+      <Module
+        id="opportunityTableModule4"
+        filteredOpportunities=""
+        name="Opportunity Table - Module"
+        pageUuid="12025a0e-8867-4d92-918a-bf912877aa31"
+      />
+      <Module
+        id="opportunityTableModule3"
+        filteredOpportunities=""
+        name="Opportunity Table - Module"
+        pageUuid="12025a0e-8867-4d92-918a-bf912877aa31"
+      />
+      <Module
+        id="opportunityTableModule2"
+        filteredOpportunities=""
+        name="Opportunity Table - Module"
+        pageUuid="12025a0e-8867-4d92-918a-bf912877aa31"
+      />
+      <Module
         id="launchOpportunityFilter"
         filterQuery="getOpportunities"
         margin="0"
