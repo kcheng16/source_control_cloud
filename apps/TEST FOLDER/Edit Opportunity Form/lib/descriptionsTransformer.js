@@ -1,0 +1,1 @@
+return {{ opportunityModel.value }}.descriptions.split('\n');

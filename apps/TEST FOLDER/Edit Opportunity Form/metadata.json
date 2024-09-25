@@ -1,0 +1,122 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "318539c6-9f7c-4952-b7a1-c4c1c38d1c5c",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "getLaunchSubmission": {
+          "array": []
+        },
+        "launch": {
+          "array": []
+        },
+        "launchId": {
+          "array": []
+        },
+        "headlinesTransformer": {
+          "array": []
+        },
+        "descriptionsTransformer": {
+          "array": []
+        },
+        "forcekeyTransformer": {
+          "array": []
+        },
+        "forcekeysTransformer": {
+          "array": []
+        },
+        "headlinesTextArea": {
+          "array": []
+        },
+        "descriptionsTextArea": {
+          "array": []
+        },
+        "forcekeysTextArea": {
+          "array": []
+        },
+        "editOpportunityForm": {
+          "array": []
+        },
+        "editOpportunityFormTitle": {
+          "array": []
+        },
+        "submitEditFormButton": {
+          "array": []
+        },
+        "cancelEditFormButton": {
+          "array": []
+        },
+        "buildSubmissionModel": {
+          "array": []
+        },
+        "trackingTemplateTransformer": {
+          "array": []
+        },
+        "forcekeysTextAreaTransformer": {
+          "array": []
+        },
+        "updateLaunchSubmission": {
+          "array": []
+        },
+        "su": {
+          "array": []
+        },
+        "submit": {
+          "array": []
+        },
+        "submitAction": {
+          "array": []
+        },
+        "cancel": {
+          "array": []
+        },
+        "cancelAction": {
+          "array": []
+        },
+        "op": {
+          "array": []
+        },
+        "opp": {
+          "array": []
+        },
+        "opportunity": {
+          "array": []
+        },
+        "opportunityM": {
+          "array": []
+        },
+        "opportunityMod": {
+          "array": []
+        },
+        "opportunityModel": {
+          "array": []
+        },
+        "submitRegenerateLaunchOpportunity": {
+          "array": []
+        },
+        "updateOpportunityTransformer": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://cdnjs.cloudflare.com/ajax/libs/jsonpath/1.1.1/jsonpath.min.js"
+      ]
+    },
+    "version": "3.95.0",
+    "experimentalDataTabEnabled": true
+  }
+}

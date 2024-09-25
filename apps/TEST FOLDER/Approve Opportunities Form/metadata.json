@@ -1,0 +1,92 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "920481a7-7308-4999-b4aa-b99125a4b1a0",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "approveOpportunitiesTitle": {
+          "array": []
+        },
+        "cancelButton": {
+          "array": []
+        },
+        "launch": {
+          "array": []
+        },
+        "launchO": {
+          "array": []
+        },
+        "launchOpp": {
+          "array": []
+        },
+        "launchOppor": {
+          "array": []
+        },
+        "launchOpportu": {
+          "array": []
+        },
+        "launchOpportunities": {
+          "array": []
+        },
+        "cancel": {
+          "array": []
+        },
+        "cancelAc": {
+          "array": []
+        },
+        "cancelAction": {
+          "array": []
+        },
+        "approveWarningText": {
+          "array": []
+        },
+        "opportunityResourceTypes": {
+          "array": []
+        },
+        "launchButton": {
+          "array": []
+        },
+        "a": {
+          "array": []
+        },
+        "complete": {
+          "array": []
+        },
+        "Action": {
+          "array": []
+        },
+        "closeAction": {
+          "array": []
+        },
+        "approveAndLaunchForm": {
+          "array": []
+        },
+        "opportunityIds": {
+          "array": []
+        },
+        "approveOpportunities": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://cdnjs.cloudflare.com/ajax/libs/jsonpath/1.1.1/jsonpath.min.js"
+      ]
+    },
+    "version": "3.89.0",
+    "experimentalDataTabEnabled": true
+  }
+}

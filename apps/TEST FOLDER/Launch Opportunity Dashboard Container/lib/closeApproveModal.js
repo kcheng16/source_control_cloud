@@ -1,0 +1,1 @@
+approveModal.hide();

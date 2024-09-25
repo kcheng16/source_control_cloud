@@ -1,0 +1,1 @@
+return {{launchOpportunitiesTable.data.map(x => x.id)}};

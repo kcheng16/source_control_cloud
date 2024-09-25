@@ -1,0 +1,72 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "65820ddb-ad23-427d-a0f4-6782fdd3c61b",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "reasonSelect": {
+          "array": []
+        },
+        "operation": {
+          "array": []
+        },
+        "operationRe": {
+          "array": []
+        },
+        "operationR": {
+          "array": []
+        },
+        "operationRequest": {
+          "array": []
+        },
+        "operationRequestI": {
+          "array": []
+        },
+        "operationRequestId": {
+          "array": []
+        },
+        "launchOpportunityIds": {
+          "array": []
+        },
+        "headerText": {
+          "array": []
+        },
+        "rejectOperationTransformer": {
+          "array": []
+        },
+        "launchOpportunityI": {
+          "array": []
+        },
+        "launchOpportunity": {
+          "array": []
+        },
+        "launchOpportunitys": {
+          "array": []
+        },
+        "launchOpportunit": {
+          "array": []
+        },
+        "launchOpportunities": {
+          "array": []
+        },
+        "rejectReasonTransformer": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.95.0",
+    "experimentalDataTabEnabled": true
+  }
+}

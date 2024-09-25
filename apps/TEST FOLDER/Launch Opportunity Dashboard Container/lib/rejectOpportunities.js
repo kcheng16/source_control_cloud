@@ -1,0 +1,2 @@
+opportunitiesToReject.setValue(opportunityTableModule.selectedOpportunities)
+return rejectModal.toggleHidden()

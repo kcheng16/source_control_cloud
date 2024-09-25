@@ -1,0 +1,43 @@
+{
+  "buyerEmail": {
+    "container": "opportunityFilterForm",
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "filterButton": {
+    "container": "opportunityFilterForm",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "moduleContainer": {
+    "height": 3,
+    "width": 12
+  },
+  "opportunityFilterForm": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "opportunityTypeSelect": {
+    "container": "opportunityFilterForm",
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "providerSelect": {
+    "container": "opportunityFilterForm",
+    "height": 0.2,
+    "width": 4
+  }
+}

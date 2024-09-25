@@ -1,0 +1,1 @@
+return {{ opportunities.value.filter(o => !(o?.errors || []).length) }}

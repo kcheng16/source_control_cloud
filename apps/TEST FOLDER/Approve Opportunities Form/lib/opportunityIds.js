@@ -1,0 +1,1 @@
+return {{launchOpportunities.value.map(x => x.id)}}
