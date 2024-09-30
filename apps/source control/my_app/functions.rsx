@@ -30,4 +30,10 @@ return formatDataAsArray(data)"
     resourceName="1dafb1eb-888d-4223-8616-232d9ae927e3"
     warningCodes={[]}
   />
+  <JavascriptQuery
+    id="query4"
+    notificationDuration={4.5}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
 </GlobalFunctions>
