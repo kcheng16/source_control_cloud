@@ -4,10 +4,16 @@
     id="$main"
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
+    padding="8px 12px"
     sticky={null}
     type="main"
   >
-    <Text id="text1" value="# this is my app" verticalAlign="center" />
+    <Text
+      id="text1"
+      marginType="normal"
+      value="# this is my app"
+      verticalAlign="center"
+    />
     <Table
       id="table1"
       cellSelection="none"
