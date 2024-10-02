@@ -1,0 +1,46 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "e1078824-709a-11ef-b3e1-93637c8d090c",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "getAllBlue": {
+          "array": []
+        },
+        "getLoanListBlue": {
+          "array": []
+        },
+        "getLoanApplicationFromRow": {
+          "array": []
+        },
+        "getCreditEvaluationsFromRow": {
+          "array": []
+        },
+        "getAddressFromRow": {
+          "array": []
+        },
+        "getEmployerFromRow": {
+          "array": []
+        },
+        "getAgreementsFromRow": {
+          "array": []
+        },
+        "globalSearch": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "version": "3.91.0"
+  }
+}
