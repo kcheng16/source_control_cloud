@@ -1,0 +1,9 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "997c611a-a56c-11ec-b9e3-9305c468b56a",
+  "appTemplate": {
+    "queryStatusVisibility": true,
+    "version": "3.100.0"
+  }
+}
