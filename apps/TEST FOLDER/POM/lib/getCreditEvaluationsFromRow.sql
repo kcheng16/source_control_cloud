@@ -1,0 +1,1 @@
+select * from credit_evaluations where loan_application_id = {{ loanApplicationId }}

@@ -1,0 +1,1 @@
+select * from agreements where loan_application_id = {{ loanApplicationId }}
