@@ -9,5 +9,10 @@
     "row": 3.2,
     "col": 3,
     "height": 0.6
+  },
+  "text2": {
+    "row": 1.6,
+    "col": 1,
+    "height": 0.6
   }
 }

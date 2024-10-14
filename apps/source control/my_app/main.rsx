@@ -8,6 +8,7 @@
     sticky={null}
     type="main"
   >
+    <Text id="text2" value="# NO COLLAB!!" verticalAlign="center" />
     <Text
       id="text1"
       marginType="normal"
