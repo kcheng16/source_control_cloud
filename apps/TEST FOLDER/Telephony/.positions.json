@@ -1,0 +1,711 @@
+{
+  "avatar1": {
+    "container": "container4",
+    "subcontainer": "c6ef1",
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "avatar2": {
+    "container": "container4",
+    "subcontainer": "c6ef1",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "avatar3": {
+    "container": "container3",
+    "subcontainer": "e2ea2",
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "bulkTriageMessageTaskInput": {
+    "subcontainer": "bulkTriageMessageModalFrame",
+    "row": 0,
+    "height": 0.2,
+    "width": 11
+  },
+  "button1": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a3300",
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button11": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "row": 1.4,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "button12": {
+    "rowGroup": "footer",
+    "subcontainer": "bulkTriageMessageModalFrame",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "button13": {
+    "rowGroup": "footer",
+    "subcontainer": "bulkTriageMessageModalFrame",
+    "col": 8,
+    "height": 1,
+    "width": 2
+  },
+  "button2": {
+    "rowGroup": "footer",
+    "subcontainer": "callTriageModelFrame",
+    "row": 0.2,
+    "col": 9,
+    "height": 1
+  },
+  "button4": {
+    "container": "container7",
+    "subcontainer": "20794",
+    "col": 10,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button6": {
+    "subcontainer": "sendNewMessageModal",
+    "row": 5,
+    "height": 1,
+    "width": 2
+  },
+  "button8": {
+    "rowGroup": "footer",
+    "subcontainer": "messageTriageModalFrame",
+    "col": 4,
+    "height": 1,
+    "width": 4
+  },
+  "button9": {
+    "rowGroup": "footer",
+    "subcontainer": "callTriageModelFrame",
+    "row": 0.2,
+    "col": 6,
+    "height": 1
+  },
+  "callTriageTaskInput": {
+    "container": "form4",
+    "row": 0,
+    "height": 0.2,
+    "width": 12
+  },
+  "container2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a3300",
+    "row": 1,
+    "height": 15.4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container3": {
+    "container": "messagesListView",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container4": {
+    "container": "listView2",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container7": {
+    "container": "container3",
+    "subcontainer": "e2ea2",
+    "col": 1,
+    "height": 0.2,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "container3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle2": {
+    "container": "container4",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle5": {
+    "container": "container7",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "divider1": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a3300",
+    "row": 0.8,
+    "col": 3,
+    "height": 0.2,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider2": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "row": 1.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "drawerCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "drawerFrame1",
+    "col": 9,
+    "height": 1
+  },
+  "drawerTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "drawerFrame1",
+    "height": 0.6,
+    "width": 9
+  },
+  "fileInput1": {
+    "container": "form3",
+    "row": 1,
+    "height": 0.2,
+    "width": 12
+  },
+  "form1": {
+    "subcontainer": "messageTriageModalFrame",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "form2": {
+    "subcontainer": "sendNewMessageModal",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "form3": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a3300",
+    "row": 11.8,
+    "col": 3,
+    "height": 0.2,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "form4": {
+    "subcontainer": "callTriageModelFrame",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton1": {
+    "rowGroup": "footer",
+    "subcontainer": "messageTriageModalFrame",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formButton2": {
+    "rowGroup": "footer",
+    "subcontainer": "sendNewMessageModal",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formButton3": {
+    "container": "form3",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formTitle1": {
+    "container": "form2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "formTitle2": {
+    "container": "form3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "imageGrid1": {
+    "container": "container7",
+    "subcontainer": "20794",
+    "row": 0.6,
+    "height": 0.4,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "link1": {
+    "container": "form3",
+    "row": 4.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "link2": {
+    "container": "form2",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "link3": {
+    "subcontainer": "callTriageModelFrame",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "link4": {
+    "container": "form1",
+    "row": 0,
+    "height": 0.6,
+    "width": 12
+  },
+  "link5": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "22e60",
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 344,
+        "height": 24
+      }
+    }
+  },
+  "link7": {
+    "subcontainer": "bulkTriageMessageModalFrame",
+    "row": 2,
+    "height": 0.6,
+    "width": 12
+  },
+  "listView2": {
+    "container": "container2",
+    "subcontainer": "0c842",
+    "height": 17.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listViewTitle1": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "messageTriageTaskInput": {
+    "subcontainer": "messageTriageModalFrame",
+    "height": 0.2,
+    "width": 12
+  },
+  "messagesListView": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a3300",
+    "row": 1,
+    "col": 3,
+    "height": 10.8,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "messageTriageModalFrame",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton2": {
+    "rowGroup": "header",
+    "subcontainer": "sendNewMessageModal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton3": {
+    "rowGroup": "header",
+    "subcontainer": "callTriageModelFrame",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton4": {
+    "rowGroup": "header",
+    "subcontainer": "bulkTriageMessageModalFrame",
+    "row": 1.6,
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "messageTriageModalFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "modalTitle2": {
+    "rowGroup": "header",
+    "subcontainer": "sendNewMessageModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "modalTitle3": {
+    "rowGroup": "header",
+    "subcontainer": "callTriageModelFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "modalTitle4": {
+    "rowGroup": "header",
+    "subcontainer": "bulkTriageMessageModalFrame",
+    "row": 1.6,
+    "height": 0.6,
+    "width": 9
+  },
+  "notesEditableTextArea": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a3300",
+    "col": 3,
+    "height": 0.8,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "phoneNumber1": {
+    "container": "phoneNumbersInputlistView",
+    "height": 0.2,
+    "width": 12
+  },
+  "phoneNumbersInputlistView": {
+    "container": "form2",
+    "row": 1.8,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "searchInput": {
+    "container": "tabbedContainer1",
+    "subcontainer": "05b0a",
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select1": {
+    "container": "form3",
+    "row": 1.2,
+    "height": 2.4,
+    "width": 12
+  },
+  "selectedPhoneNumber": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "height": 0.2,
+    "width": 5
+  },
+  "stack1": {
+    "container": "container3",
+    "subcontainer": "e2ea2",
+    "row": 0.2,
+    "col": 1,
+    "height": 3.8,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabbedContainer1": {
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table1": {
+    "container": "tabbedContainer1",
+    "subcontainer": "05b0a",
+    "row": 1.2,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabs1": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "row": 1.4,
+    "height": 0.6,
+    "width": 8
+  },
+  "tags1": {
+    "container": "container4",
+    "subcontainer": "c6ef1",
+    "row": 0.2,
+    "col": 9,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text1": {
+    "container": "container4",
+    "subcontainer": "c6ef1",
+    "col": 2,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text11": {
+    "subcontainer": "drawerFrame1",
+    "row": 2.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text12": {
+    "subcontainer": "drawerFrame1",
+    "row": 1.6,
+    "height": 0.6
+  },
+  "text7": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "22e60",
+    "row": 1.4,
+    "col": 1,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 127.83333333333333,
+        "height": 24
+      }
+    }
+  },
+  "text8": {
+    "container": "container7",
+    "subcontainer": "20794",
+    "height": 0.6,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textArea1": {
+    "container": "form2",
+    "height": 1,
+    "width": 12
+  },
+  "textArea2": {
+    "container": "form3",
+    "height": 1,
+    "width": 12
+  },
+  "textInput2": {
+    "container": "form2",
+    "row": 1,
+    "height": 0.2,
+    "width": 12
+  },
+  "video2": {
+    "subcontainer": "drawerFrame1",
+    "height": 1,
+    "width": 12
+  },
+  "websockets": {
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  }
+}

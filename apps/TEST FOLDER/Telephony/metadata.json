@@ -1,0 +1,272 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "c2373456-8b31-11ef-944c-63a4284579da",
+  "appTemplate": {
+    "preloadedAppJavaScript": "window.stringToColor = (str, alpha=0.5) => {\n    let hash = 0;\n    for (let i = 0; i < str.length; i++) {\n        hash = str.charCodeAt(i) + ((hash << 5) - hash);\n    }\n\n    // Extract RGB values from the hash\n    const r = (hash >> 16) & 0xFF;\n    const g = (hash >> 8) & 0xFF;\n    const b = hash & 0xFF;\n\n    // Return the rgba color string\n    return `rgba(${r}, ${g}, ${b}, ${alpha})`;\n}\n\n\nwindow.truncateString = (input, length=40) => input.length > length ? `${input.substring(0, length)}...` : input;\n\n\nwindow.formatDuration = (duration_sec_str) => {\n   const duration = moment.duration(parseInt(duration_sec_str), 'seconds')\n  let result = ''\n\n  if (duration.hours())\n    result += duration.hours() + 'h '\n  \n  if (duration.minutes())\n    result += duration.minutes() + 'm '\n  \n  if (duration.seconds())\n    result += duration.seconds() + 's'\n\n  return result\n}",
+    "pageCodeFolders": {
+      "object": {
+        "listView": {
+          "array": []
+        },
+        "sendMessageToPhone": {
+          "array": []
+        },
+        "sendMessageToConversation": {
+          "array": []
+        },
+        "authTokenQuery": {
+          "array": []
+        },
+        "authToken": {
+          "array": []
+        },
+        "authorizeParrentApp": {
+          "array": []
+        },
+        "hasParrentApp": {
+          "array": []
+        },
+        "hasParentApp": {
+          "array": []
+        },
+        "authorizeParentApp": {
+          "array": []
+        },
+        "retrieveAgent": {
+          "array": []
+        },
+        "newMessage": {
+          "array": []
+        },
+        "newVoiceMail": {
+          "array": []
+        },
+        "listcalls": {
+          "array": []
+        },
+        "listCalls": {
+          "array": []
+        },
+        "currentPhoneNumber": {
+          "array": []
+        },
+        "notifyParentNewMessage": {
+          "array": []
+        },
+        "notifyParentnewVoiceMail": {
+          "array": []
+        },
+        "listConversation": {
+          "array": []
+        },
+        "retrieveConversation": {
+          "array": []
+        },
+        "ctiveConversationId": {
+          "array": []
+        },
+        "activeConversationId": {
+          "array": []
+        },
+        "triageMessage": {
+          "array": []
+        },
+        "activeMessageId": {
+          "array": []
+        },
+        "listConversations": {
+          "array": []
+        },
+        "triageCall": {
+          "array": []
+        },
+        "messageTriageModalFrame": {
+          "array": []
+        },
+        "messageTriageTaskInput": {
+          "array": []
+        },
+        "C": {
+          "array": []
+        },
+        "callTriageModelFrame": {
+          "array": []
+        },
+        "activeCallId": {
+          "array": []
+        },
+        "callTriageTaskInput": {
+          "array": []
+        },
+        "phoneNumbersInputlistView": {
+          "array": []
+        },
+        "retrieveTask1": {
+          "array": []
+        },
+        "retrieveTask2": {
+          "array": []
+        },
+        "retrieveTask": {
+          "array": []
+        },
+        "currentTaskId": {
+          "array": []
+        },
+        "sendNewMessageModal": {
+          "array": []
+        },
+        "activeMessage": {
+          "array": []
+        },
+        "conversationFormRetrieveTask": {
+          "array": []
+        },
+        "newMessageRetrieveTask": {
+          "array": []
+        },
+        "triageMessageRetrieveTask": {
+          "array": []
+        },
+        "callMessageRetrieveTask": {
+          "array": []
+        },
+        "triageCallRetrieveTask": {
+          "array": []
+        },
+        "activeCall": {
+          "array": []
+        },
+        "phonesCount": {
+          "array": []
+        },
+        "newConversationPayloadTransformer": {
+          "array": []
+        },
+        "notesForm": {
+          "array": []
+        },
+        "notesModalFrame": {
+          "array": []
+        },
+        "updateNotes": {
+          "array": []
+        },
+        "retrieveNotes": {
+          "array": []
+        },
+        "messageTriageTaskInput2": {
+          "array": []
+        },
+        "callTriageTaskInput2": {
+          "array": []
+        },
+        "notesEditableTextArea": {
+          "array": []
+        },
+        "activeConversation": {
+          "array": []
+        },
+        "selectedPhoneNumber": {
+          "array": []
+        },
+        "listPhoneNumbers": {
+          "array": []
+        },
+        "getPhoneNumberById": {
+          "array": []
+        },
+        "markAsSpam": {
+          "array": []
+        },
+        "markCallAsSpam": {
+          "array": []
+        },
+        "markMessageAsSpam": {
+          "array": []
+        },
+        "durationRenderer": {
+          "array": []
+        },
+        "selectUntriaged": {
+          "array": []
+        },
+        "selectedMessageIds": {
+          "array": []
+        },
+        "selectedMsgs": {
+          "array": []
+        },
+        "bulkTriage": {
+          "array": []
+        },
+        "customTriageMessage": {
+          "array": []
+        },
+        "custommTriageMessage": {
+          "array": []
+        },
+        "bulkTriageMessageRetrieveTask": {
+          "array": []
+        },
+        "bulkTriageMessageTaskInput": {
+          "array": []
+        },
+        "bulkTriageMessageModalFrame": {
+          "array": []
+        },
+        "isBulkTriaging": {
+          "array": []
+        },
+        "scrollDownMessageList": {
+          "array": []
+        },
+        "isBulkTriagingMessages": {
+          "array": []
+        },
+        "bulkTriageMessages": {
+          "array": []
+        },
+        "messagesListView": {
+          "array": []
+        },
+        "untriagedMessageIds": {
+          "array": []
+        },
+        "setFilterStack": {
+          "array": []
+        },
+        "resetFilterStack": {
+          "array": []
+        },
+        "searchInput": {
+          "array": []
+        },
+        "showUSCountryCode": {
+          "array": []
+        },
+        "sendNewMessage": {
+          "array": []
+        },
+        "showUSCountryCodeByDefault": {
+          "array": []
+        },
+        "showDefaultUSCountryCode": {
+          "array": []
+        },
+        "formatPhoneNumber": {
+          "array": []
+        }
+      }
+    },
+    "isFetching": true,
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://unpkg.com/libphonenumber-js@1.11.8/bundle/libphonenumber-min.js"
+      ]
+    },
+    "version": "3.104.0",
+    "experimentalDataTabEnabled": true
+  }
+}
