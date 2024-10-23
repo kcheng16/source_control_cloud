@@ -8,5 +8,10 @@
     "row": 5,
     "col": 2,
     "height": 0.6
+  },
+  "text3": {
+    "row": 7.6,
+    "col": 2,
+    "height": 0.6
   }
 }

@@ -10,5 +10,6 @@
   >
     <Text id="text1" value="# First" verticalAlign="center" />
     <Text id="text2" value="# Second" verticalAlign="center" />
+    <Text id="text3" value="# Third" verticalAlign="center" />
   </Frame>
 </App>
