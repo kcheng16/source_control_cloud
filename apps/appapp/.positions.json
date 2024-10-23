@@ -1,7 +1,9 @@
 {
-  "image1": {
-    "row": 9.6,
-    "col": 1
+  "table1": {
+    "row": 11.6,
+    "col": 1,
+    "height": 8,
+    "width": 8
   },
   "text1": {
     "row": 2.4,
