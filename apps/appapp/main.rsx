@@ -10,5 +10,10 @@
   >
     <Text id="text1" value="# First protect" verticalAlign="center" />
     <Text id="text2" value="# Second commit" verticalAlign="center" />
+    <Text
+      id="text3"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </App>
