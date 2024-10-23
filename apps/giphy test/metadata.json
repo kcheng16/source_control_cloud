@@ -1,0 +1,38 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "ea1e4558-46a6-11ed-8f0d-d31f9db75b76",
+  "appTemplate": {
+    "urlFragmentDefinitions": [
+      {
+        "ordered": [
+          {
+            "name": "my_selection"
+          },
+          {
+            "value": "{{.value}}"
+          }
+        ]
+      }
+    ],
+    "mobileAppSettings": {
+      "object": {
+        "mobileOfflineModeEnabled": false,
+        "mobileOfflineModeDelaySync": false
+      }
+    },
+    "appMaxWidth": "1560px",
+    "queryStatusVisibility": true,
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.3.0/mermaid.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.0/papaparse.min.js",
+        "https://www.unpkg.com/react@17.0.1/umd/react.production.min.js",
+        "https://www.unpkg.com/browse/react@17.0.1/umd/react.production.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.36.1/docxtemplater.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.min.js"
+      ]
+    },
+    "version": "3.21.0"
+  }
+}
