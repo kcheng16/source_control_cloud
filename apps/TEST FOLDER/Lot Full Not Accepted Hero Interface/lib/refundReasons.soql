@@ -1,0 +1,1 @@
+select id, Name from Retool_Assigned_Credit_Refund_Reason__c where Retool_UI__r.Retool_ID__c = '{{retoolUUID}}' AND Retool_Credit_Refund_Reason__r.Type__c = 'Refund'

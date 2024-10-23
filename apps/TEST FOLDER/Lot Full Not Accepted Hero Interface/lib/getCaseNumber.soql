@@ -1,0 +1,1 @@
+SELECT Id, CaseNumber, Status, Hero_Tag__c, ContactId FROM Case WHERE Interaction_ID__c = '{{interactionID.value}}'

@@ -1,0 +1,23 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "edd0425a-e7b2-4c7d-9186-7afa256d1c2e",
+  "appTemplate": {
+    "appMaxWidth": "1560px",
+    "experimentalFeatures": {
+      "object": {
+        "sourceControlTemplateDehydration": false
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true
+      }
+    },
+    "isGlobalWidget": true,
+    "isFetching": true,
+    "version": "3.64.0",
+    "experimentalDataTabEnabled": true
+  }
+}
