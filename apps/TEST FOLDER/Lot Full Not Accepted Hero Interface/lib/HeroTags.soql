@@ -1,0 +1,1 @@
+SELECT Hero_Tag__c, Name  FROM Retool_Assigned_Hero_Tag__c where Retool_UI__r.Retool_ID__c = '{{retoolUUID}}'

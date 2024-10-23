@@ -1,0 +1,7 @@
+SELECT 
+  Name,
+  Partner_ID__c,
+  Id,
+  (SELECT Id FROM Cases__r)
+FROM Reservation__c
+WHERE Name = '{{reservationForCase}}'

@@ -1,0 +1,1037 @@
+{
+  "CloseCaseErrorModal": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "height": 1,
+    "width": 2
+  },
+  "Licnese_plate_input": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 3.8,
+    "height": 1,
+    "width": 12
+  },
+  "OCRMacroModal": {
+    "row": 5.6,
+    "col": 6,
+    "height": 0.8,
+    "width": 1
+  },
+  "actionLinksContainer": {
+    "row": 4.4,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCreditButton": {
+    "container": "creditModal",
+    "row": 5,
+    "col": 7,
+    "height": 1,
+    "width": 5
+  },
+  "add_RID_and_user_to_Case": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 4.4,
+    "height": 1,
+    "width": 12
+  },
+  "add_RID_and_user_to_Case2": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 5,
+    "height": 1,
+    "width": 6
+  },
+  "alert1": {
+    "container": "creditModal",
+    "row": 1.6,
+    "height": 1,
+    "width": 12
+  },
+  "alert10": {
+    "container": "modal1",
+    "row": 2.2,
+    "col": 1,
+    "height": 1,
+    "width": 10
+  },
+  "alert11": {
+    "subcontainer": "header",
+    "col": 1,
+    "height": 2.4
+  },
+  "alert2": {
+    "container": "emailSentSuccessModal",
+    "row": 2.2,
+    "height": 1,
+    "width": 12
+  },
+  "alert3": {
+    "container": "cancelResModal",
+    "row": 1.8,
+    "height": 1,
+    "width": 12
+  },
+  "alert4": {
+    "container": "modal1",
+    "row": 1.2,
+    "height": 1,
+    "width": 12
+  },
+  "alert5": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "alert6": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "alert7": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 1.6,
+    "height": 1,
+    "width": 12
+  },
+  "alert8": {
+    "container": "cancelResModal",
+    "row": 3.6,
+    "height": 1,
+    "width": 12
+  },
+  "alert9": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 1.6,
+    "height": 1,
+    "width": 12
+  },
+  "alertLegacy1": {
+    "subcontainer": "header",
+    "row": 0.2,
+    "col": 6,
+    "height": 1,
+    "width": 4
+  },
+  "assign_rid_to_case_error_modal": {
+    "row": 5.6,
+    "col": 7,
+    "height": 1,
+    "width": 1
+  },
+  "blackoutButton": {
+    "container": "blackoutModal",
+    "row": 1.8,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "blackoutErrorModal": {
+    "row": 6.4,
+    "col": 5,
+    "height": 0.8,
+    "width": 1
+  },
+  "blackoutModal": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 2,
+    "height": 1,
+    "width": 2
+  },
+  "button14": {
+    "container": "delayModal",
+    "row": 0.2,
+    "col": 2,
+    "height": 1.2,
+    "width": 8
+  },
+  "button20": {
+    "container": "quickLinksContainer",
+    "subcontainer": "0eb3f",
+    "row": 1,
+    "height": 1,
+    "width": 12
+  },
+  "button21": {
+    "container": "emailSentSuccessModal",
+    "row": 3.6,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button22": {
+    "container": "cancelErrorModal",
+    "row": 5.6,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button23": {
+    "container": "CloseCaseErrorModal",
+    "row": 4.8,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button24": {
+    "container": "continueToSolveCaseModal",
+    "row": 1.6,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button26": {
+    "container": "cancelResModal",
+    "row": 4.6,
+    "height": 1,
+    "width": 6
+  },
+  "button27": {
+    "container": "cancelResModal",
+    "row": 4.6,
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "button28": {
+    "container": "check_for_res_in_SFDC",
+    "row": 0.6,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button29": {
+    "container": "check_for_res_in_SFDC",
+    "row": 2.2,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button30": {
+    "container": "modal1",
+    "row": 3.2,
+    "col": 4,
+    "height": 1,
+    "width": 4
+  },
+  "button31": {
+    "container": "modal1",
+    "row": 3.2,
+    "height": 1,
+    "width": 4
+  },
+  "button32": {
+    "container": "modal1",
+    "row": 3.2,
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "button35": {
+    "container": "modal2",
+    "row": 1.2,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "button36": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 6,
+    "height": 1,
+    "width": 12
+  },
+  "button37": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 6.6,
+    "height": 1,
+    "width": 12
+  },
+  "button38": {
+    "container": "quickLinksContainer",
+    "subcontainer": "0eb3f",
+    "row": 3,
+    "height": 1,
+    "width": 12
+  },
+  "button39": {
+    "container": "cancelResModal",
+    "row": 6.2,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "cancelErrorModal": {
+    "row": 4.6,
+    "col": 6,
+    "height": 1,
+    "width": 1
+  },
+  "cancelResModal": {
+    "row": 34.2,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "cancel_override_modal": {
+    "container": "modal1",
+    "height": 0.6,
+    "width": 12
+  },
+  "check_for_res_in_SFDC": {
+    "container": "assign_rid_to_case_error_modal",
+    "row": 2.4,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "checkbox1": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 4,
+    "col": 4,
+    "height": 0.6,
+    "width": 8
+  },
+  "closeModalsButton": {
+    "container": "blackoutModal",
+    "row": 5.4,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "closeOutCase": {
+    "row": 34.2,
+    "height": 1,
+    "width": 1
+  },
+  "confirmationContainer": {
+    "row": 4.4,
+    "col": 1,
+    "height": 0.2
+  },
+  "container5": {
+    "container": "closeOutCase",
+    "height": 0.2,
+    "width": 12
+  },
+  "containerTitle14": {
+    "container": "container5",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "actionLinksContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle4": {
+    "container": "OCRMacroModal",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle6": {
+    "container": "confirmationContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle7": {
+    "container": "quickLinksContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle8": {
+    "container": "solvingContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "continueToSolveCaseModal": {
+    "row": 4.6,
+    "col": 5,
+    "height": 1,
+    "width": 1
+  },
+  "creditErrorModal": {
+    "row": 4.6,
+    "col": 7,
+    "height": 1,
+    "width": 1
+  },
+  "creditModal": {
+    "container": "solvingContainer",
+    "subcontainer": "5f8b1",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "customerEmail": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "row": 0.6,
+    "height": 1,
+    "width": 9
+  },
+  "customerSolvedModal": {
+    "container": "solvingContainer",
+    "subcontainer": "5f8b1",
+    "row": 3.2,
+    "height": 1,
+    "width": 12
+  },
+  "dateTime3": {
+    "container": "form1",
+    "row": 2.2,
+    "height": 1,
+    "width": 12
+  },
+  "dateTime4": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 3.6,
+    "height": 1,
+    "width": 12
+  },
+  "delayModal": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 4,
+    "height": 1,
+    "width": 4
+  },
+  "details": {
+    "container": "form1",
+    "row": 1.2,
+    "height": 1,
+    "width": 12
+  },
+  "detailsForRevenue": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 2.6,
+    "height": 1,
+    "width": 12
+  },
+  "divider1": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 4.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider2": {
+    "container": "solvingContainer",
+    "subcontainer": "5f8b1",
+    "row": 1.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider3": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 1.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider4": {
+    "container": "cancelResModal",
+    "row": 7.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider5": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 4.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "emailSentSuccessModal": {
+    "container": "OCRMacroModal",
+    "row": 3.8,
+    "col": 5,
+    "height": 0.8,
+    "width": 1
+  },
+  "form1": {
+    "container": "customerSolvedModal",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton2": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "heroGreeting": {
+    "row": 0.2,
+    "col": 1,
+    "height": 0.6,
+    "width": 10
+  },
+  "html1": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "interfaceSwitch1": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 4.6,
+    "col": 1,
+    "height": 0.2,
+    "width": 10
+  },
+  "internalNotes": {
+    "container": "form1",
+    "row": 2.6,
+    "height": 1,
+    "width": 12
+  },
+  "modal1": {
+    "row": 5.6,
+    "col": 5,
+    "height": 0.8,
+    "width": 1
+  },
+  "modal2": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 5,
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "override_cancel_button": {
+    "container": "cancelResModal",
+    "row": 10.4,
+    "col": 2,
+    "height": 1,
+    "width": 8
+  },
+  "parkingPassButton": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "quickLinksContainer": {
+    "row": 0.8,
+    "col": 8,
+    "height": 0.2
+  },
+  "rebookURLButton": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 3.2,
+    "height": 1,
+    "width": 12
+  },
+  "rebookURLButton2": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 3.2,
+    "height": 1,
+    "width": 12
+  },
+  "refreshInteractionIdForCaseNumber": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "row": 0.4,
+    "col": 9,
+    "height": 1
+  },
+  "refundReason": {
+    "container": "cancelResModal",
+    "row": 3.4,
+    "height": 1,
+    "width": 12
+  },
+  "required_license_plate_input": {
+    "container": "form1",
+    "row": 2.4,
+    "height": 1,
+    "width": 12
+  },
+  "reservationForCase": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "height": 1,
+    "width": 9
+  },
+  "salesforceCaseButton2": {
+    "container": "quickLinksContainer",
+    "subcontainer": "0eb3f",
+    "height": 1,
+    "width": 12
+  },
+  "salesforceCaseNumber": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "row": 0.4,
+    "height": 1,
+    "width": 9
+  },
+  "salesforceInfoContainer": {
+    "row": 0.8,
+    "col": 1,
+    "height": 0.2,
+    "width": 7
+  },
+  "salesforceTitle": {
+    "container": "salesforceInfoContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "select3": {
+    "container": "form1",
+    "row": 1,
+    "height": 1,
+    "width": 12
+  },
+  "select4": {
+    "container": "creditModal",
+    "row": 4,
+    "height": 1,
+    "width": 12
+  },
+  "select5": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 2.4,
+    "height": 1,
+    "width": 12
+  },
+  "sendEmailErrorModal": {
+    "container": "OCRMacroModal",
+    "row": 3.8,
+    "col": 3,
+    "height": 0.8,
+    "width": 1
+  },
+  "solvingContainer": {
+    "row": 4.4,
+    "col": 8,
+    "height": 0.2
+  },
+  "step1Module1": {
+    "row": 1,
+    "col": 1,
+    "height": 3.4,
+    "width": 10
+  },
+  "tabs1": {
+    "container": "actionLinksContainer",
+    "rowGroup": "header",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 12
+  },
+  "taggingDetailsForm": {
+    "container": "form1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 11
+  },
+  "text11": {
+    "container": "OCRMacroModal",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text123": {
+    "container": "container5",
+    "subcontainer": "d8c35",
+    "height": 1.2,
+    "width": 12
+  },
+  "text15": {
+    "container": "blackoutModal",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text159": {
+    "container": "customerSolvedModal",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text16": {
+    "container": "blackoutModal",
+    "row": 2.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "text160": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 2.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text161": {
+    "container": "cancelResModal",
+    "row": 5.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text162": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 2.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text2": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "height": 0.6,
+    "width": 12
+  },
+  "text20": {
+    "container": "creditModal",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text23": {
+    "container": "cancelErrorModal",
+    "col": 2,
+    "height": 0.6,
+    "width": 8
+  },
+  "text24": {
+    "container": "cancelErrorModal",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 8
+  },
+  "text25": {
+    "container": "cancelErrorModal",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text26": {
+    "container": "cancelErrorModal",
+    "row": 3.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text27": {
+    "container": "cancelErrorModal",
+    "row": 3.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "text28": {
+    "container": "creditErrorModal",
+    "col": 2,
+    "height": 0.6,
+    "width": 8
+  },
+  "text29": {
+    "container": "creditErrorModal",
+    "row": 1,
+    "height": 0.6,
+    "width": 11
+  },
+  "text30": {
+    "container": "creditErrorModal",
+    "row": 6.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text31": {
+    "container": "creditErrorModal",
+    "row": 2.8,
+    "height": 0.6,
+    "width": 8
+  },
+  "text32": {
+    "container": "blackoutErrorModal",
+    "col": 2,
+    "height": 0.6,
+    "width": 8
+  },
+  "text33": {
+    "container": "blackoutErrorModal",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 11
+  },
+  "text34": {
+    "container": "blackoutErrorModal",
+    "row": 3,
+    "height": 0.6,
+    "width": 8
+  },
+  "text35": {
+    "container": "blackoutErrorModal",
+    "row": 7.2,
+    "height": 0.6,
+    "width": 8
+  },
+  "text38": {
+    "container": "blackoutModal",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text39": {
+    "container": "sendEmailErrorModal",
+    "height": 0.6,
+    "width": 12
+  },
+  "text40": {
+    "container": "sendEmailErrorModal",
+    "row": 3.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text41": {
+    "container": "sendEmailErrorModal",
+    "row": 1.4,
+    "height": 0.6,
+    "width": 12
+  },
+  "text42": {
+    "container": "emailSentSuccessModal",
+    "row": 0.6,
+    "col": 1,
+    "height": 0.6,
+    "width": 10
+  },
+  "text44": {
+    "container": "CloseCaseErrorModal",
+    "height": 0.6,
+    "width": 12
+  },
+  "text45": {
+    "container": "CloseCaseErrorModal",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text46": {
+    "container": "CloseCaseErrorModal",
+    "row": 3.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text47": {
+    "container": "form1",
+    "height": 0.6,
+    "width": 11
+  },
+  "text48": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "height": 0.6,
+    "width": 12
+  },
+  "text57": {
+    "container": "actionLinksContainer",
+    "subcontainer": "5f8b1",
+    "row": 5.4,
+    "height": 0.6,
+    "width": 12
+  },
+  "text67": {
+    "container": "solvingContainer",
+    "subcontainer": "5f8b1",
+    "height": 0.6,
+    "width": 12
+  },
+  "text68": {
+    "container": "solvingContainer",
+    "subcontainer": "5f8b1",
+    "row": 2.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text69": {
+    "container": "confirmationContainer",
+    "subcontainer": "5f8b1",
+    "row": 1.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "text70": {
+    "container": "creditModal",
+    "height": 0.6,
+    "width": 12
+  },
+  "text71": {
+    "container": "blackoutModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "text73": {
+    "container": "continueToSolveCaseModal",
+    "col": 2,
+    "height": 0.6,
+    "width": 8
+  },
+  "text74": {
+    "container": "cancelResModal",
+    "col": 3,
+    "height": 0.6,
+    "width": 6
+  },
+  "text75": {
+    "container": "cancelResModal",
+    "row": 1,
+    "col": 2,
+    "height": 0.6,
+    "width": 8
+  },
+  "text76": {
+    "container": "cancelResModal",
+    "row": 2.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "text77": {
+    "container": "assign_rid_to_case_error_modal",
+    "height": 0.6,
+    "width": 12
+  },
+  "text78": {
+    "container": "assign_rid_to_case_error_modal",
+    "row": 1.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "text79": {
+    "container": "check_for_res_in_SFDC",
+    "height": 0.6,
+    "width": 12
+  },
+  "text80": {
+    "container": "check_for_res_in_SFDC",
+    "row": 1.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text81": {
+    "container": "cancelResModal",
+    "row": 9.8,
+    "height": 0.6,
+    "width": 12
+  },
+  "text82": {
+    "container": "modal1",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text83": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "height": 0.6,
+    "width": 12
+  },
+  "text84": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text89": {
+    "container": "modal2",
+    "height": 0.6,
+    "width": 8
+  },
+  "text90": {
+    "container": "modal2",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text91": {
+    "container": "actionLinksContainer",
+    "subcontainer": "63f0a",
+    "row": 4.4,
+    "height": 0.6,
+    "width": 12
+  },
+  "text92": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "row": 1.4,
+    "col": 6,
+    "height": 0.6,
+    "width": 6
+  },
+  "textInput87": {
+    "container": "form1",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "textInput90": {
+    "container": "creditModal",
+    "row": 3,
+    "height": 1,
+    "width": 12
+  },
+  "textInput91": {
+    "container": "form1",
+    "row": 0.8,
+    "height": 1,
+    "width": 12
+  },
+  "textInput92": {
+    "container": "salesforceInfoContainer",
+    "subcontainer": "60004",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 6
+  },
+  "triggerSFDCEmailSend": {
+    "container": "OCRMacroModal",
+    "row": 2.8,
+    "col": 3,
+    "height": 1,
+    "width": 6
+  },
+  "viewCustomerAdminPage": {
+    "container": "quickLinksContainer",
+    "subcontainer": "0eb3f",
+    "row": 2,
+    "height": 1,
+    "width": 12
+  }
+}

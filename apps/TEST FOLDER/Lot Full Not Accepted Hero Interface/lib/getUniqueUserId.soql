@@ -1,0 +1,1 @@
+SELECT id, Unique_User_ID__c, Customer_Notes__c FROM Contact WHERE Email = '{{email}}'

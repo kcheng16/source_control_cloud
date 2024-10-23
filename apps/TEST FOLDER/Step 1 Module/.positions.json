@@ -1,0 +1,106 @@
+{
+  "actionContainerTitle": {
+    "container": "step1Container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "button1": {
+    "container": "step1Container",
+    "subcontainer": "23dc5",
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
+  "button2": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
+  "changeReservationDataButton": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "changeReservationDataButton2": {
+    "container": "step1Container",
+    "subcontainer": "23dc5",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "dateRange1": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "row": 1.2,
+    "height": 1,
+    "width": 7
+  },
+  "moduleContainer": {
+    "height": 17,
+    "width": 12
+  },
+  "recentTransactionsTable": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "row": 3,
+    "height": 5.8,
+    "width": 12
+  },
+  "selectDateRange": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "row": 1,
+    "height": 1,
+    "width": 7
+  },
+  "singleReservationTable": {
+    "container": "step1Container",
+    "subcontainer": "23dc5",
+    "row": 1,
+    "height": 4.2,
+    "width": 12
+  },
+  "step1Container": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12
+  },
+  "tabs1": {
+    "container": "step1Container",
+    "rowGroup": "header",
+    "row": 0.6,
+    "col": 1,
+    "height": 0.8,
+    "width": 4
+  },
+  "text1": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "col": 5,
+    "height": 0.6,
+    "width": 5
+  },
+  "text2": {
+    "container": "step1Container",
+    "subcontainer": "23dc5",
+    "row": 0.2,
+    "col": 5,
+    "height": 0.6,
+    "width": 5
+  },
+  "textInput1": {
+    "container": "step1Container",
+    "subcontainer": "23dc5",
+    "height": 1
+  },
+  "textInput2": {
+    "container": "step1Container",
+    "subcontainer": "efe72",
+    "height": 1
+  }
+}

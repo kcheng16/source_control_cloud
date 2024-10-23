@@ -1,0 +1,82 @@
+<Frame
+  id="$header"
+  _disclosedFields={{ array: [] }}
+  isHiddenOnDesktop={false}
+  isHiddenOnMobile={true}
+  padding="8px 12px"
+  paddingType="normal"
+  sticky={true}
+  type="header"
+>
+  <Alert2 id="alert11" value="info">
+    <State
+      id="0"
+      actionIconPositions="right"
+      actionPositions="bottom"
+      actionTexts="Action"
+      actionTooltips={null}
+      backgroundColors={null}
+      borderColors={null}
+      colors={null}
+      descriptions="Description"
+      iconPositions="center"
+      icons="bold/interface-alert-information-circle"
+      styleVariants="info"
+      titles="Info"
+      tooltips={null}
+      values="info"
+    />
+    <State
+      id="1"
+      actionIconPositions="right"
+      actionPositions="bottom"
+      actionTexts="Action"
+      actionTooltips={null}
+      backgroundColors={null}
+      borderColors={null}
+      colors={null}
+      descriptions="Description"
+      iconPositions="center"
+      icons="bold/interface-validation-check-circle"
+      styleVariants="success"
+      titles="Success"
+      tooltips={null}
+      values="success"
+    />
+    <State
+      id="2"
+      actionIconPositions="right"
+      actionPositions="bottom"
+      actionTexts="Action"
+      actionTooltips={null}
+      backgroundColors={null}
+      borderColors={null}
+      colors={null}
+      descriptions="Description"
+      iconPositions="center"
+      icons="bold/interface-alert-warning-triangle"
+      styleVariants="warning"
+      titles="Warning"
+      tooltips={null}
+      values="warning"
+    />
+    <State
+      id="3"
+      actionIconPositions="right"
+      actionPositions="bottom"
+      actionTexts="Action"
+      actionTooltips={null}
+      backgroundColors={null}
+      borderColors={null}
+      colors={null}
+      descriptions="Description"
+      iconPositions="center"
+      icons="bold/interface-delete-circle"
+      styleVariants="error"
+      titles="Error"
+      tooltips={null}
+      values="error"
+    />
+  </Alert2>
+  <Alert id="alertLegacy1" description="Please ask sidekick first..." />
+</Frame>
