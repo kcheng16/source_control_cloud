@@ -1,4 +1,7 @@
 {
+  "alert1": {
+    "height": 2.4
+  },
   "table1": {
     "row": 7.2,
     "col": 2,
