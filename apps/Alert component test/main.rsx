@@ -79,6 +79,5 @@
         values="error"
       />
     </Alert2>
-    <Alert id="alertLegacy1" />
   </Frame>
 </App>
