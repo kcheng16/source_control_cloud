@@ -9,7 +9,7 @@
     sticky={null}
     type="main"
   >
-    <Alert2 id="alert1" value="info">
+    <Alert2 id="alert1" value="Alert">
       <State
         id="0"
         actionIconPositions="right"
@@ -25,7 +25,7 @@
         styleVariants="info"
         titles="Info"
         tooltips={null}
-        values="info"
+        values="Alert"
       />
       <State
         id="1"
