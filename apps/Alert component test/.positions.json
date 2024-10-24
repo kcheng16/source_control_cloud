@@ -1,6 +1,7 @@
 {
   "alert1": {
     "row": 1,
-    "height": 2.4
+    "height": 1,
+    "width": 4
   }
 }
