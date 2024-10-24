@@ -1,9 +1,5 @@
 {
   "alert1": {
-    "row": 0.6,
-    "height": 2.4
-  },
-  "alertLegacy1": {
     "row": 5.8,
     "height": 1,
     "width": 4
