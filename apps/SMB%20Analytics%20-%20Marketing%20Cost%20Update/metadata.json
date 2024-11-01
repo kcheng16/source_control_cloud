@@ -1,0 +1,19 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "6f5a5090-96e6-11ef-98f2-53a01e77cd5c",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "Get": {
+          "array": []
+        },
+        "GetCostData": {
+          "array": []
+        }
+      }
+    },
+    "version": "3.75.1",
+    "experimentalDataTabEnabled": true
+  }
+}
