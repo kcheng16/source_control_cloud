@@ -40,6 +40,7 @@ template:
     - workflowActionType: null
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -94,7 +95,7 @@ blockData:
   blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: webhook
+  resourceName: JavascriptQuery
   responseHeight: 702
   retryPanelOpen: false
   responsePanelState: open

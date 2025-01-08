@@ -22,10 +22,9 @@ template:
     - message: |+
         Current_user: {{ current_user.email }}
 
-        This is from Workflows in {{workflowContext.environment}}
+        This is from Workflows in {{workflowContext.currentRun.error.message}}
 
-        This is the startTrigger:
-        {{JSON.stringify(startTrigger)}}
+
 
     - workflowRunId: null
     - showFailureToaster: true
@@ -49,6 +48,7 @@ template:
     - workflowActionType: null
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -97,8 +97,8 @@ template:
     - notificationDuration: ''
 createdAt: 2023-01-19T01:31:08.682Z
 blockData:
-  top: -176
-  left: 592
+  top: -112
+  left: 640
   uuid: 316dc4cc-25e1-4eef-9fd3-03882a662125
   pluginId: query6
   blockType: default
@@ -107,6 +107,6 @@ blockData:
   resourceName: f9a5c860-2654-449a-ad10-0d23284e3e68
   incomingPorts: []
   retryPanelOpen: false
+  failureCondition: 'true'
   responsePanelState: open
-  incomingOnSuccessEdges:
-    - a7a27f65-260c-401d-b6ce-2a81fe85c411
+  incomingOnSuccessEdges: []

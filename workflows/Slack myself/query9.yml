@@ -1,16 +1,15 @@
-id: query7
+id: query9
 type: datasource
-subtype: SqlQueryUnified
-resourceName: 1dafb1eb-888d-4223-8616-232d9ae927e3
-resourceDisplayName: retool_db
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   ordered:
     - queryRefreshTime: ''
+    - paginationLimit: ''
     - allowedGroupIds: []
     - streamResponse: false
-    - records: ''
+    - body: ''
     - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - offlineUserQueryInputs: ''
@@ -19,42 +18,33 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: false
-    - workflowRunId: null
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
     - showFailureToaster: true
-    - query: SELECT pg_sleep(10)
+    - paginationEnabled: false
+    - query: https://www.httpbin.org/status/400
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
-    - workflowBlockUuid: null
     - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
-    - warningCodes: []
     - data: null
-    - recordId: ''
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
-    - dataArray: []
     - cacheKeyTtl: ''
-    - filterBy: ''
     - requestSentTimestamp: null
-    - databaseHostOverride: ''
+    - cookies: ''
     - metadata: null
-    - workflowActionType: null
-    - editorMode: sql
     - queryRunTime: null
-    - actionType: ''
     - changesetObject: ''
-    - shouldUseLegacySql: false
     - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
-    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
@@ -63,45 +53,40 @@ template:
     - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
-    - databaseWarehouseOverride: ''
-    - enableBulkUpdates: false
     - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
     - timestamp: 0
     - evalType: script
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
     - overrideOrgCacheForUserCache: false
-    - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
     - transformer: return data
     - events: []
-    - tableName: ''
-    - queryTimeout: '10'
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
+    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
-    - databaseUsernameOverride: ''
-    - databaseRoleOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
+    - bodyType: none
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2024-07-25T21:56:58.937Z
+createdAt: 2025-01-08T01:15:26.751Z
 blockData:
-  top: -368
-  left: 1040
-  uuid: f01b231f-25a9-4b5c-aebd-b0a94ccbbc5b
-  pluginId: query7
+  top: -384
+  left: 496
+  uuid: e01c2579-59e9-4dc4-9b55-afc2cd86c694
+  pluginId: query9
   blockType: default
-  editorType: SqlQueryUnified
-  isMinimized: true
-  resourceName: 1dafb1eb-888d-4223-8616-232d9ae927e3
-  responsePanelState: open
-  incomingOnSuccessEdges: []
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  incomingOnSuccessEdges:
+    - a7a27f65-260c-401d-b6ce-2a81fe85c411

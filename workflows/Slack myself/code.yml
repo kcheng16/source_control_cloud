@@ -47,6 +47,7 @@ template:
     - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 

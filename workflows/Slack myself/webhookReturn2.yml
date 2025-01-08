@@ -62,6 +62,7 @@ template:
     - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
@@ -96,8 +97,8 @@ template:
     - notificationDuration: ''
 createdAt: 2024-08-21T20:09:00.189Z
 blockData:
-  top: -80
-  left: 1008
+  top: -128
+  left: 1040
   uuid: c4fd99ed-1a71-40d5-a5e8-37acaff2f56d
   options:
     body: |-
@@ -110,6 +111,6 @@ blockData:
   editorType: JavascriptQuery
   isMinimized: false
   resourceName: JavascriptQuery
+  incomingPorts: []
   responsePanelState: open
-  incomingOnSuccessEdges:
-    - 316dc4cc-25e1-4eef-9fd3-03882a662125
+  incomingOnSuccessEdges: []
