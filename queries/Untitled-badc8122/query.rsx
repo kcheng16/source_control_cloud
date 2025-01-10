@@ -1,0 +1,19 @@
+<PlaygroundQuery
+  id="Untitled"
+  adhocResourceType={null}
+  data={null}
+  resourceType="restapi"
+>
+  <RESTQuery
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    events={[]}
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    query="get?from=kcheng16.retool.com"
+    queryTimeout="100000"
+    retoolVersion="3.135.0"
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
