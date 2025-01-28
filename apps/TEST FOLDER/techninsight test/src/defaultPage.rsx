@@ -15,5 +15,10 @@
     type="main"
   >
     <Text id="text1" value="# initial change" verticalAlign="center" />
+    <Text
+      id="text2"
+      value="# change before new commit"
+      verticalAlign="center"
+    />
   </Frame>
 </Screen>
