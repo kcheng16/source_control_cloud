@@ -15,5 +15,10 @@
     type="main"
   >
     <Text id="text1" value="# first commit" verticalAlign="center" />
+    <Text
+      id="text2"
+      value="# second commit after protecting resource"
+      verticalAlign="center"
+    />
   </Frame>
 </Screen>
