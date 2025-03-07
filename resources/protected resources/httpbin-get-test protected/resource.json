@@ -4,6 +4,7 @@
   "port": null,
   "databaseName": null,
   "databaseUsername": null,
+  "databasePassword": null,
   "description": null,
   "outboundRegion": null,
   "ssl": null,
