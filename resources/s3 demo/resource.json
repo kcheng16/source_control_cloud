@@ -1,0 +1,29 @@
+{
+  "type": "s3",
+  "host": null,
+  "port": null,
+  "databaseName": null,
+  "databaseUsername": null,
+  "databasePassword": null,
+  "description": null,
+  "outboundRegion": null,
+  "ssl": null,
+  "editPrivilege": null,
+  "options": {
+    "assumeRole": "",
+    "authWithIAM": false,
+    "s3_aws_region": "us-east-2",
+    "authentication": "aws_iam",
+    "forcePathStyle": false,
+    "s3_default_acl": "",
+    "connectorVersion": "2",
+    "s3_access_key_id": "AKIAWS3NOCWHEFRHOLGO",
+    "s3_default_bucket_name": "retool-public-demo",
+    "s3_secret_access_key_id": "",
+    "usingThirdPartyProvider": false
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "c3168cf4-d8f3-45ae-9013-3f030e9fec9c",
+  "toolscriptVersion": "1.0.0"
+}
