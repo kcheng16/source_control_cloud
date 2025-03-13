@@ -84,6 +84,12 @@
       value="# this is my app"
       verticalAlign="center"
     />
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Table
       id="table1"
       cellSelection="none"
