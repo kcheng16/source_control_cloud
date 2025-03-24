@@ -3,6 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "03f83728-08d7-11f0-888f-3f6d62871bbd",
   "appTemplate": {
+    "preloadedAppJavaScript": "123",
     "pageCodeFolders": {
       "object": {
         "page1": {
