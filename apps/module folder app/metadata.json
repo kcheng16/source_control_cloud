@@ -3,7 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "a44791ba-08dc-11f0-b792-9b5b7a065708",
   "appTemplate": {
-    "preloadedAppJavaScript": "123",
+    "preloadedAppJavaScript": "1231",
     "rootScreen": "page1",
     "version": "3.174.0",
     "experimentalDataTabEnabled": true
