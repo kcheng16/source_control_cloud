@@ -3,7 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "826619d0-08dd-11f0-8b49-a76dfc970f84",
   "appTemplate": {
-    "preloadedAppJavaScript": "windows.greeting = 'helo'",
+    "preloadedAppJavaScript": "windows.greeting = 'helooo'",
     "rootScreen": "page1",
     "version": "3.174.0",
     "experimentalDataTabEnabled": true
