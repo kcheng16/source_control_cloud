@@ -1,0 +1,27 @@
+{
+  "type": "postgresql",
+  "host": "retoolmanageddatabase.cf9tgknmnmwb.us-east-2.rds.amazonaws.com",
+  "port": "5432",
+  "databaseName": "7284ede37de495c61206a50655fbe8f652356b1b7be2454e9a2273c9e1cd",
+  "databaseUsername": "b9a09f33bd5076be49d664b67c0fe987bcdc1f7137a64d49160aabb87521",
+  "databasePassword": "",
+  "description": null,
+  "outboundRegion": null,
+  "ssl": null,
+  "editPrivilege": false,
+  "options": {
+    "version": "SqlQueryUnified",
+    "migrated": true,
+    "toBeDeleted": false,
+    "authentication": "user_password",
+    "connectionString": "",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "rejectUnauthorized": true,
+    "disableServerSidePrepare": false,
+    "userExplicitlySetRejectUnauthorized": true
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "onboarding_db",
+  "toolscriptVersion": "1.0.0"
+}
