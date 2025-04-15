@@ -244,5 +244,12 @@
         zDataMode="manual"
       />
     </Chart>
+    <Text id="text3" value="change from user 2" verticalAlign="center" />
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
   </Frame>
 </Screen>
