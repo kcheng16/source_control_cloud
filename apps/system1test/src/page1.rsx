@@ -20,6 +20,6 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
-    <Text id="text2" value="# change from user 1" verticalAlign="center" />
+    <Text id="text3" value="change from user 2" verticalAlign="center" />
   </Frame>
 </Screen>
