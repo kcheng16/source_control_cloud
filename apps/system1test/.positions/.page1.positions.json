@@ -2,5 +2,10 @@
   "text1": {
     "row": 1.8,
     "height": 1
+  },
+  "text2": {
+    "row": 3.4,
+    "height": 0.6,
+    "width": 5
   }
 }
