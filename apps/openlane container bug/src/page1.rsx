@@ -83,7 +83,7 @@
                     style={{ map: { background: "surfacePrimary" } }}
                     text="BUTTON"
                   />
-                  <Button id="button2" text="Button" />
+                  <Button id="button2" hidden="false" text="Button" />
                   <Link id="link1" text="Link" />
                 </View>
               </Container>
