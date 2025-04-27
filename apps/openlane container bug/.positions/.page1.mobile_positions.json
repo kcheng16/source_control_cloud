@@ -14,6 +14,21 @@
       }
     }
   },
+  "button2": {
+    "type": "stack",
+    "container": "container3",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": -0.5,
+        "widthType": "fixed",
+        "width": 68,
+        "height": 40
+      }
+    }
+  },
   "container1": {
     "row": 2,
     "height": 0.2,
@@ -69,7 +84,7 @@
     "width": 2,
     "stackPosition": {
       "object": {
-        "ordinal": 1,
+        "ordinal": 1.5,
         "widthType": "fixed",
         "width": 73,
         "height": 24
