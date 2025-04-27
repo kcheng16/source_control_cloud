@@ -78,8 +78,10 @@
                 <View id="00030" viewKey="View 1">
                   <Button
                     id="button1"
+                    hidden="false"
                     iconBefore="bold/interface-align-layers-3-alternate"
                     style={{ map: { background: "surfacePrimary" } }}
+                    text="BUTTON"
                   />
                   <Link id="link1" text="Link" />
                 </View>
@@ -89,11 +91,5 @@
         </ListViewBeta>
       </View>
     </Container>
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
   </Frame>
 </Screen>
