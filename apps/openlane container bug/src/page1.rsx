@@ -78,9 +78,12 @@
                 <View id="00030" viewKey="View 1">
                   <Button
                     id="button1"
+                    hidden="false"
                     iconBefore="bold/interface-align-layers-3-alternate"
                     style={{ map: { background: "surfacePrimary" } }}
+                    text="button"
                   />
+                  <Button id="button2" text="Button" />
                   <Link id="link1" text="Link" />
                 </View>
               </Container>
