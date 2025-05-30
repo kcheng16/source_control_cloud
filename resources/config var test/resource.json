@@ -1,0 +1,74 @@
+{
+  "type": "restapi",
+  "host": null,
+  "port": null,
+  "databaseName": null,
+  "databaseUsername": null,
+  "databasePassword": null,
+  "description": null,
+  "outboundRegion": null,
+  "ssl": null,
+  "editPrivilege": null,
+  "options": {
+    "baseURL": "https://www.httpbin.org",
+    "headers": [["", ""]],
+    "authSteps": [
+      {
+        "type": "http_request",
+        "query": "https://www.httpbin.org/get?my_env_var=MY_SECRET",
+        "method": "GET",
+        "bodyType": "json",
+        "runWhenModelUpdates": true
+      },
+      {
+        "type": "define_variable",
+        "defined_variable_name": "MY_ENV_VAR",
+        "defined_variable_value": "{{ environment.variables.my_secret }}"
+      },
+      {
+        "type": "define_variable",
+        "defined_variable_name": "MY_AUTH_KEY_RESPONSE",
+        "defined_variable_value": "{{ http1.body.args.my_env_var }}"
+      }
+    ],
+    "urlparams": [
+      ["my_env_var", "MY_ENV_VAR"],
+      ["my_auth_response", "MY_AUTH_KEY_RESPONSE"]
+    ],
+    "auth0_domain": "",
+    "bearer_token": "",
+    "oauth2_scope": "",
+    "auth0_clientID": "",
+    "authentication": "custom",
+    "basic_password": "",
+    "basic_username": "",
+    "digest_password": "",
+    "digest_username": "",
+    "oauth2_auth_url": "",
+    "cookiesToForward": [],
+    "oauth1_token_key": "",
+    "oauth2_client_id": "",
+    "forwardAllCookies": false,
+    "auth0_clientSecret": "",
+    "disableUrlEncoding": false,
+    "extraBodyKeyValues": [["", ""]],
+    "verify_session_url": "",
+    "oauth1_consumer_key": "",
+    "oauth1_token_secret": "",
+    "oauth2_access_token": "",
+    "oauth2_callback_url": "OAUTH2_CALLBACK_URL",
+    "session_cookie_name": "",
+    "oauth2_client_secret": "",
+    "oauth2_refresh_token": "",
+    "auth0_custom_audience": "",
+    "oauth1_consumer_secret": "",
+    "oauth1_realm_parameter": "",
+    "oauth1_signature_method": "HMAC-SHA1",
+    "oauth2_access_token_url": "",
+    "digest_server_auth_header_response": ""
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "a50bfecf-0738-4b63-b980-532c4e83740f",
+  "toolscriptVersion": "1.0.0"
+}
