@@ -25,7 +25,7 @@ template:
   message: |+
 
     This is the startTrigger:
-    {{JSON.stringify(startTrigger.data.value.item)}}
+    {{JSON.stringify(startTrigger.value.item)}}
 
   workflowRunId: null
   showFailureToaster: true
