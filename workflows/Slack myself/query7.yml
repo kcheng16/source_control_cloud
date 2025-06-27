@@ -4,94 +4,98 @@ subtype: SqlQueryUnified
 resourceName: 1dafb1eb-888d-4223-8616-232d9ae927e3
 resourceDisplayName: retool_db
 template:
-  ordered:
-    - queryRefreshTime: ''
-    - allowedGroupIds: []
-    - streamResponse: false
-    - records: ''
-    - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
-    - queryDisabledMessage: ''
-    - servedFromCache: false
-    - offlineUserQueryInputs: ''
-    - successMessage: ''
-    - queryDisabled: ''
-    - playgroundQuerySaveId: latest
-    - workflowParams: null
-    - resourceNameOverride: ''
-    - runWhenModelUpdates: false
-    - workflowRunId: null
-    - showFailureToaster: true
-    - query: SELECT pg_sleep(10)
-    - playgroundQueryUuid: ''
-    - playgroundQueryId: null
-    - error: null
-    - workflowRunBodyType: raw
-    - privateParams: []
-    - workflowBlockUuid: null
-    - queryRunOnSelectorUpdate: false
-    - runWhenPageLoadsDelay: ''
-    - warningCodes: []
-    - data: null
-    - recordId: ''
-    - importedQueryInputs:
-        ordered: []
-    - _additionalScope: []
-    - isImported: false
-    - showSuccessToaster: true
-    - dataArray: []
-    - cacheKeyTtl: ''
-    - filterBy: ''
-    - requestSentTimestamp: null
-    - databaseHostOverride: ''
-    - metadata: null
-    - workflowActionType: null
-    - editorMode: sql
-    - queryRunTime: null
-    - actionType: ''
-    - changesetObject: ''
-    - shouldUseLegacySql: false
-    - errorTransformer: return data.error
-    - finished: null
-    - databaseNameOverride: ''
-    - confirmationMessage: null
-    - isFetching: false
-    - changeset: ''
-    - rawData: null
-    - queryTriggerDelay: '0'
-    - resourceTypeOverride: null
-    - watchedParams: []
-    - enableErrorTransformer: false
-    - databaseWarehouseOverride: ''
-    - enableBulkUpdates: false
-    - showLatestVersionUpdatedWarning: false
-    - timestamp: 0
-    - evalType: script
-    - importedQueryDefaults:
-        ordered: []
-    - enableTransformer: false
-    - showUpdateSetValueDynamicallyToggle: true
-    - overrideOrgCacheForUserCache: false
-    - bulkUpdatePrimaryKey: ''
-    - runWhenPageLoads: false
-    - transformer: return data
-    - events: []
-    - tableName: ''
-    - queryTimeout: '10'
-    - workflowId: null
-    - requireConfirmation: false
-    - queryFailureConditions: ''
-    - changesetIsObject: false
-    - enableCaching: false
-    - allowedGroups: []
-    - databaseUsernameOverride: ''
-    - databaseRoleOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
-    - offlineQueryType: None
-    - queryThrottleTime: '750'
-    - updateSetValueDynamically: false
-    - notificationDuration: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  records: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  databasePasswordOverride: ''
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  workflowRunId: null
+  showFailureToaster: true
+  query: SELECT pg_sleep(10)
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  workflowBlockUuid: null
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  warningCodes: []
+  data: null
+  recordId: ''
+  importedQueryInputs:
+    ordered: []
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  dataArray: []
+  cacheKeyTtl: ''
+  filterBy: ''
+  requestSentTimestamp: null
+  databaseHostOverride: ''
+  metadata: null
+  workflowActionType: null
+  editorMode: sql
+  queryRunTime: null
+  actionType: ''
+  changesetObject: ''
+  shouldUseLegacySql: false
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  databaseNameOverride: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults:
+    ordered: []
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  tableName: ''
+  queryTimeout: '10'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
 createdAt: 2024-07-25T21:56:58.937Z
 blockData:
   top: -368

@@ -4,97 +4,95 @@ subtype: SlackQuery
 resourceName: f9a5c860-2654-449a-ad10-0d23284e3e68
 resourceDisplayName: Slack Integration
 template:
-  ordered:
-    - queryRefreshTime: ''
-    - allowedGroupIds: []
-    - streamResponse: false
-    - lastReceivedFromResourceAt: null
-    - queryDisabledMessage: ''
-    - channel: ''
-    - servedFromCache: false
-    - offlineUserQueryInputs: ''
-    - successMessage: ''
-    - queryDisabled: ''
-    - playgroundQuerySaveId: latest
-    - workflowParams: null
-    - resourceNameOverride: ''
-    - runWhenModelUpdates: false
-    - message: |+
-        Current_user: {{ current_user.email }}
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  channel: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  message: |+
 
-        This is from Workflows in {{workflowContext.environment}}
+    This is the startTrigger:
+    {{JSON.stringify(startTrigger.data.value.item)}}
 
-        This is the startTrigger:
-        {{JSON.stringify(startTrigger)}}
+  workflowRunId: null
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  workflowBlockUuid: null
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs:
+    ordered: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  workflowActionType: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: >-
+    // The variable 'data' allows you to reference the request's data in the
+    transformer. 
 
-    - workflowRunId: null
-    - showFailureToaster: true
-    - query: ''
-    - playgroundQueryUuid: ''
-    - playgroundQueryId: null
-    - error: null
-    - workflowRunBodyType: raw
-    - privateParams: []
-    - workflowBlockUuid: null
-    - queryRunOnSelectorUpdate: false
-    - runWhenPageLoadsDelay: ''
-    - data: null
-    - importedQueryInputs:
-        ordered: []
-    - isImported: false
-    - showSuccessToaster: true
-    - cacheKeyTtl: ''
-    - requestSentTimestamp: null
-    - metadata: null
-    - workflowActionType: null
-    - queryRunTime: null
-    - changesetObject: ''
-    - errorTransformer: >-
-        // The variable 'data' allows you to reference the request's data in the
-        transformer. 
+    // example: return data.find(element => element.isError)
 
-        // example: return data.find(element => element.isError)
-
-        return data.error
-    - finished: null
-    - confirmationMessage: null
-    - isFetching: false
-    - changeset: ''
-    - rawData: null
-    - queryTriggerDelay: '0'
-    - resourceTypeOverride: null
-    - watchedParams: []
-    - enableErrorTransformer: false
-    - showLatestVersionUpdatedWarning: false
-    - timestamp: 0
-    - evalType: script
-    - importedQueryDefaults:
-        ordered: []
-    - enableTransformer: false
-    - showUpdateSetValueDynamicallyToggle: true
-    - useSlackMarkdown: false
-    - overrideOrgCacheForUserCache: false
-    - runWhenPageLoads: false
-    - transformer: >-
-        // type your code here
-
-        // example: return formatDataAsArray(data).filter(row => row.quantity >
-        20)
-
-        return data
-    - events: []
-    - queryTimeout: '1'
-    - workflowId: null
-    - requireConfirmation: false
-    - queryFailureConditions: ''
-    - changesetIsObject: false
-    - enableCaching: false
-    - allowedGroups: []
-    - workflowBlockPluginId: null
-    - offlineQueryType: None
-    - queryThrottleTime: '750'
-    - updateSetValueDynamically: false
-    - notificationDuration: ''
+    return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults:
+    ordered: []
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  useSlackMarkdown: false
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: |-
+    // type your code here
+    // example: return formatDataAsArray(data).filter(row => row.quantity > 20)
+    return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  workflowBlockPluginId: null
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
 createdAt: 2023-01-19T01:31:08.682Z
 blockData:
   top: -176
