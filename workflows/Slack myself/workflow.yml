@@ -112,6 +112,7 @@ setupScripts:
 
           /* Add destructured imports from library below
           eg. const { pow, log } = require('mathjs') */
+hasProtectedTriggers: false
 triggerWebhooks:
   array:
     - object:
@@ -122,7 +123,7 @@ triggerWebhooks:
             properties:
               array: []
         useHeaderApiKey: false
-        exampleInputJSON: '{key: 123345}'
+        exampleInputJSON: '{ item: "1" }'
 version: 43.0.9
 workflowId: 8b7ba9e7-6096-49b3-99e3-a0207ea99d25
 description: null
@@ -141,5 +142,5 @@ workflowTemplate:
         array: []
       tests:
         object: {}
-  version: 3.87.0
+  version: 3.227.0
   markdownLinkBehavior: never
