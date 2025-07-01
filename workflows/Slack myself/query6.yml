@@ -22,11 +22,7 @@ template:
   resourceNameOverride: ''
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
-  message: |+
-
-    This is the startTrigger:
-    {{JSON.stringify(startTrigger.value.item)}}
-
+  message: 'ENVIRONMENT: {{ query9.data.args.test }}'
   workflowRunId: null
   showFailureToaster: true
   query: ''
@@ -95,8 +91,8 @@ template:
   notificationDuration: ''
 createdAt: 2023-01-19T01:31:08.682Z
 blockData:
-  top: -176
-  left: 592
+  top: -160
+  left: 912
   uuid: 316dc4cc-25e1-4eef-9fd3-03882a662125
   pluginId: query6
   blockType: default
@@ -107,4 +103,4 @@ blockData:
   retryPanelOpen: false
   responsePanelState: open
   incomingOnSuccessEdges:
-    - a7a27f65-260c-401d-b6ce-2a81fe85c411
+    - e5b1e2f0-d9d9-4721-be22-37998ad7fb8c

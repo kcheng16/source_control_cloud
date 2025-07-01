@@ -1,11 +1,13 @@
-id: webhookReturn2
+id: query9
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   queryRefreshTime: ''
+  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
@@ -18,51 +20,30 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: false
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
-  workflowRunId: null
+  headers: ''
   showFailureToaster: true
-  query: |-
-    const generateReturn = () => {
-        const status = () => {
-          try {
-            return 200
-          } catch {
-            return 200
-          }
-        }
-      const body = () => {
-        try {
-          return {
-      hello: 1234
-    }
-        } catch {
-          return {'error': true, 'messsage': 'there was a problem parsing the JSON body of webhookReturn2'}
-        }
-      }
-      return {status: status(), body: body() }
-      }
-      return generateReturn()
-      
+  paginationEnabled: false
+  query: >-
+    https://www.httpbin.org/get?test=this is in {{ workflowContext.environment
+    }}
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
   workflowRunBodyType: raw
   privateParams: []
-  workflowBlockUuid: null
   queryRunOnSelectorUpdate: false
   runWhenPageLoadsDelay: ''
   data: null
-  importedQueryInputs:
-    ordered: []
-  _additionalScope: []
+  importedQueryInputs: {}
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
-  workflowActionType: null
-  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -77,12 +58,13 @@ template:
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
   evalType: script
-  importedQueryDefaults:
-    ordered: []
+  importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
@@ -90,30 +72,24 @@ template:
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
+  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2024-08-21T20:09:00.189Z
+createdAt: 2025-07-01T17:26:05.034Z
 blockData:
-  top: -144
-  left: 1440
-  uuid: c4fd99ed-1a71-40d5-a5e8-37acaff2f56d
-  options:
-    body: |-
-      {
-        hello: 1234
-      }
-    status: '200'
-  pluginId: webhookReturn2
-  blockType: webhookReturn
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  responsePanelState: open
+  top: -208
+  left: 464
+  uuid: e5b1e2f0-d9d9-4721-be22-37998ad7fb8c
+  pluginId: query9
+  blockType: default
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
   incomingOnSuccessEdges:
-    - 316dc4cc-25e1-4eef-9fd3-03882a662125
+    - a7a27f65-260c-401d-b6ce-2a81fe85c411
