@@ -1,13 +1,10 @@
 {
-  "alert1": {
-    "height": 2.4
-  },
   "image1": {
-    "row": 5.4,
+    "row": 3.8,
     "col": 1
   },
   "table1": {
-    "row": 10.4,
+    "row": 8.8,
     "col": 2,
     "height": 8,
     "width": 8
