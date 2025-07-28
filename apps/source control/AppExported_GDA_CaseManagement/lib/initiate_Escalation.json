@@ -1,0 +1,11 @@
+{  'type': 'EscalationReview',
+   'content':[
+    {
+      'case_id': {{ global_case_id.value }},
+      'caseescalation_assignee': {{ escalation_assignee_input.value }} ,
+      'caseescalation_task': {{ escalation_task_input.value }},
+      'caseescalation_require_decision': {{ escalation_requiredecision_input.value ? 1 : 0 }},
+      'operator': {{ current_user.email }}
+      },
+  ]
+}

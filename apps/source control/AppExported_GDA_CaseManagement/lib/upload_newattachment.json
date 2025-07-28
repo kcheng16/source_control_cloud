@@ -1,0 +1,9 @@
+{{ 
+  {
+    'type': 'Attachment',
+    'content': fileInput1.value.map(x => ({...x,
+                                           'desc': (select1.value == 'Other' ? textInput1.value : select1.value),
+                                           'operator': current_user.email,
+                                           'case_id': global_case_id.value}))
+  }
+}}

@@ -1,0 +1,6 @@
+{{
+{
+  'type': 'Attachment',
+  'content': attachment_w_desc.value.map(x => ({...x, 'operator': current_user.email, 'case_id': send_CaseInfo.data?.case_id[0]}))
+} 
+}}

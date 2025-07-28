@@ -1,0 +1,6 @@
+{{
+  {
+    'type': 'CaseDetail',
+    'content': prep_CaseDetail_Batch.data
+  }
+}}

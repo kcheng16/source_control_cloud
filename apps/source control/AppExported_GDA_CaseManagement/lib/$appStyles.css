@@ -1,0 +1,24 @@
+/* Change the link bar height on Steps */
+._retool-steps2 ._stepItemSpacer_vsqla_30 {
+  height:10px!important;
+}/* Container_CMSAppeal */
+._retool-steps3 ._stepItemSpacer_vsqla_30 {
+  height:10px!important;
+}/* Container_Reopen */
+
+/* Change the scroll bar */
+::-webkit-scrollbar-track {
+  background: #D3D3D3;
+}
+::-webkit-scrollbar-thumb {
+  background: #A9A9A9;
+}
+::-webkit-scrollbar {
+  width: 6px; /* Width of the vertical scrollbar */
+  height: 6px; /* Height of the horizontal scrollbar */
+}
+
+/* Change the textarea height for React JSON form */
+.form-group.field.field-string textarea {
+  height:120px!important;
+}

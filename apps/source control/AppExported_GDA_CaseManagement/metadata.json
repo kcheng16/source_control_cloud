@@ -1,0 +1,47 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "41a6cc52-e266-11ef-81f1-1768a81f7cd2",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "defaultPage": {
+          "array": []
+        },
+        "CaseGeneral": {
+          "array": []
+        },
+        "CaseSummary": {
+          "array": []
+        },
+        "CaseList": {
+          "array": []
+        },
+        "page1": {
+          "array": []
+        },
+        "CaseViewer": {
+          "array": [
+            "CaseAttachment",
+            "GeneratePDF",
+            "ConvertCloseCase",
+            "UpdateCaseDetail",
+            "EscalationReview"
+          ]
+        }
+      }
+    },
+    "rootScreen": "CaseList",
+    "isFetching": true,
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://cdn.jsdelivr.net/npm/pdfmake@latest/build/pdfmake.min.js",
+        "https://cdn.jsdelivr.net/npm/pdfmake@latest/build/vfs_fonts.min.js",
+        "https://cdn.jsdelivr.net/npm/html-to-pdfmake/browser.js"
+      ]
+    },
+    "version": "3.196.6",
+    "responsiveLayoutDisabled": true,
+    "experimentalDataTabEnabled": true
+  }
+}
