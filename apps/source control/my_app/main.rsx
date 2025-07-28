@@ -1,12 +1,12 @@
 <App>
   <Include src="./functions.rsx" />
   <Frame
-    id="$main"
+    id="$master"
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
     padding="8px 12px"
     sticky={null}
-    type="main"
+    type="master"
   >
     <Text
       id="text1"
