@@ -17,5 +17,6 @@
     type="main"
   >
     <Text id="text1" value="# Protect app" verticalAlign="center" />
+    <Text id="text2" value="# Branch test" verticalAlign="center" />
   </Frame>
 </Screen>
