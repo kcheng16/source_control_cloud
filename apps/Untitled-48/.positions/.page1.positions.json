@@ -1,6 +1,15 @@
 {
+  "image1": {
+    "row": 6,
+    "col": 1
+  },
   "text1": {
     "row": 2.4,
+    "col": 1,
+    "height": 0.6
+  },
+  "text2": {
+    "row": 5.2,
     "col": 1,
     "height": 0.6
   }
