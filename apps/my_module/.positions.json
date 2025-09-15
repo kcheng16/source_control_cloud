@@ -1,0 +1,19 @@
+{
+  "button1": {
+    "container": "moduleContainer",
+    "row": 0.6,
+    "height": 1,
+    "width": 1
+  },
+  "jsonExplorer1": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "col": 1,
+    "height": 6,
+    "width": 4
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  }
+}
