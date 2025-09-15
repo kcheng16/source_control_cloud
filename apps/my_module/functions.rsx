@@ -1,0 +1,23 @@
+<GlobalFunctions>
+  <GlobalWidgetQuery
+    id="module_input_query"
+    isMultiplayerEdited={false}
+    resourceName="GlobalWidgetQuery"
+  >
+    <Event
+      event="success"
+      method="confetti"
+      params={{ ordered: [] }}
+      pluginId=""
+      type="util"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </GlobalWidgetQuery>
+  <RESTQuery
+    id="initial_query"
+    isMultiplayerEdited={false}
+    query="https://postman-echo.com/get?from_the=12345"
+    resourceName="REST-WithoutResource"
+  />
+</GlobalFunctions>
