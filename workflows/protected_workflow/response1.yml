@@ -1,4 +1,4 @@
-id: code1
+id: response1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -18,46 +18,49 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
-  workflowRunId: null
   showFailureToaster: true
   query: |-
-    return [
-      { message: "Hello from Workflows" },
-      { message: "Click the Run (▶) button to execute this block" },
-      { message: "Drag from the green sequence port to connect a new block" },
-      { message: "Click the help (?) button to learn more" },
-    ];
+    const generateReturn = () => {
+        const status = () => {
+          try {
+            return 200
+          } catch {
+            return 200
+          }
+        }
+      const body = () => {
+        try {
+          return {}
+        } catch {
+          return {'error': true, 'message': 'There was a problem parsing the JSON body of a webhook return block'}
+        }
+      }
+      return {status: status(), body: body() }
+      }
+      return generateReturn()
+      
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
   workflowRunBodyType: raw
   privateParams: []
-  workflowBlockUuid: null
   queryRunOnSelectorUpdate: false
   runWhenPageLoadsDelay: ''
   data: null
-  importedQueryInputs:
-    ordered: []
+  importedQueryInputs: {}
   _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
-  workflowActionType: null
   editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
-  errorTransformer: >-
-    // The variable 'data' allows you to reference the request's data in the
-    transformer. 
-
-    // example: return data.find(element => element.isError)
-
-    return data.error
+  errorTransformer: return data.error
   finished: null
   confirmationMessage: null
   isFetching: false
@@ -70,17 +73,14 @@ template:
   showLatestVersionUpdatedWarning: false
   timestamp: 0
   evalType: script
-  importedQueryDefaults:
-    ordered: []
+  importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
-  transformer: |-
-    // Query results are available as the `data` variable
-    return data
+  transformer: return data
   events: []
-  queryTimeout: '120000'
+  queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
   queryFailureConditions: ''
@@ -91,17 +91,18 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2024-03-18T22:35:20.957Z
+createdAt: 2025-10-28T01:35:02.444Z
 blockData:
   top: 48
-  left: 480
-  uuid: b4c27a53-8b84-4f94-96a1-a090e2e5243a
-  pluginId: code1
-  blockType: code
-  dimensions:
-    width: 400
-    height: 280
+  left: 960
+  uuid: d5d3beab-028d-43dd-984f-2db7bc4a90cf
+  options:
+    body: ''
+    status: '200'
+  pluginId: response1
+  blockType: webhookReturn
   editorType: JavascriptQuery
+  isMinimized: false
   resourceName: JavascriptQuery
   incomingOnSuccessEdges:
-    - 1e5ccbcd-6f1a-4ff1-9b10-8f1fd51f0f22
+    - b4c27a53-8b84-4f94-96a1-a090e2e5243a
