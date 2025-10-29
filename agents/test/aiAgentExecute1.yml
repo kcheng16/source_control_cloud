@@ -76,7 +76,52 @@ template:
   requireConfirmation: false
   queryFailureConditions: ''
   tools:
-    array: []
+    - draft: null
+      approvalRequired: false
+      params:
+        - name: language
+          description: The language to execute. Must be 'js' or 'python'.
+          type: enum
+          required: true
+          allowedValues:
+            - js
+            - python
+        - name: script
+          description: The code to execute, provided as a string.
+          type: string
+          required: true
+      handler:
+        type: function
+        functionId: 65e1ab3f-4a5f-4f50-ba05-e7075b34b14f
+      name: Execute Code
+      metadata:
+        type: predefined
+        iconName: ToolCode
+        iconColor: gray
+        predefinedToolDefinitionId: executeCode:1
+        schemaId: executeCode
+        schemaVersion: 1
+        summary: Execute a JavaScript or Python script
+      handlerTimeout: 10000
+      id: 4386870e-90b0-4d83-9877-0406950fd2d9
+      description: >-
+        Execute an arbitrary JavaScript or Python script. Cannot include custom
+        libraries.
+
+
+        The script must return a value that can be passed back as output. For
+        JavaScript, the code must include a return statement as the final
+        expression. For Python, the code must assign the intended output to a
+        variable named result. Only the value of result will be returned. If the
+        script does not follow these rules, the result may be undefined or null.
+
+
+        Examples:
+
+
+        JavaScript: return [1, 2, 3].map(x => x * 2);
+
+        Python: result = [x * 2 for x in [1, 2, 3]]
   changesetIsObject: false
   providerName: openAI
   enableCaching: false
