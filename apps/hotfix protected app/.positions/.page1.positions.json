@@ -2,6 +2,14 @@
   "image1": {
     "row": 6.6
   },
+  "image2": {
+    "row": 6.6,
+    "col": 4
+  },
+  "image3": {
+    "row": 6.6,
+    "col": 8
+  },
   "text1": {
     "row": 3.4,
     "height": 1
