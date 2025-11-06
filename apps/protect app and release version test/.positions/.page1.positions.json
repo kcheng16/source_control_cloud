@@ -1,9 +1,8 @@
 {
-  "image1": {
-    "row": 5
-  },
-  "image2": {
-    "row": 11.4
+  "mixedChart1": {
+    "row": 7.4,
+    "height": 7.6,
+    "width": 5
   },
   "text1": {
     "row": 3.2,
