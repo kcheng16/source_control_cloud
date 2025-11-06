@@ -31,6 +31,12 @@
       src="https://picsum.photos/id/1025/800/600"
     />
     <Image
+      id="image5"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
+    <Image
       id="image2"
       heightType="fixed"
       horizontalAlign="center"
@@ -38,6 +44,12 @@
     />
     <Image
       id="image4"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
+    <Image
+      id="image6"
       heightType="fixed"
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
