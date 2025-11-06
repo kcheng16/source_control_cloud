@@ -17,7 +17,7 @@
     padding="8px 12px"
     type="main"
   >
-    <Text id="text1" value="# New commit" verticalAlign="center" />
+    <Text id="text1" value="# Main" verticalAlign="center" />
     <Image
       id="image1"
       heightType="fixed"
