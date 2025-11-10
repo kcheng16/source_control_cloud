@@ -6,6 +6,7 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
+  uuid="4d46dd22-ee13-4ab3-973a-f7c68902fcfc"
 >
   <Frame
     id="$main"
@@ -15,6 +16,7 @@
     padding="8px 12px"
     type="main"
   >
+    <Text id="text1" value="# New changes" verticalAlign="center" />
     <Button id="button1" text="Button" />
     <Image
       id="image1"
