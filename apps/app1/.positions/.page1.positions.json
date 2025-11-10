@@ -8,5 +8,10 @@
   "image1": {
     "row": 3.6,
     "col": 1
+  },
+  "text1": {
+    "row": 1.2,
+    "col": 1,
+    "height": 1
   }
 }
