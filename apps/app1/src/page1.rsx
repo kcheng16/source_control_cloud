@@ -6,6 +6,7 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
+  uuid="cda71f04-8626-4eb3-ad7f-1d16e28e81b3"
 >
   <Frame
     id="$main"
