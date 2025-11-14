@@ -1,0 +1,411 @@
+id: aiAgentExecute1
+type: datasource
+subtype: JavascriptQuery
+resourceName: RetoolAIAgentExecuteQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  instructions: >-
+    You are a helpful customer service assistant talking with {{
+    current_user.firstName }} {{ current_user.lastName }}. You are giving
+    information on a fleet of machines. Keep all responses brief and factual.
+    You will require parameter values.
+
+
+    Present all information in markdown and tables with colours and icons (no
+    HTML) to improve readability.
+
+
+    If the user is asking for fleet or summary report, you will help create a
+    summary report with as much detail as possible containing potential sales
+    opportunities and a sales plan and strategy for the call which correlates
+    back to the sales opportunities.  Ensure you include the benefits of what is
+    proposed and help coach the user to be a more effective sales agent.
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  model: azure-openai
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  providerId: retoolAIBuiltIn::azure
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  drafts:
+    array: []
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  temperature: 0.25
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  mcpServers:
+    array: []
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  maxIterations: 10
+  requireConfirmation: false
+  queryFailureConditions: ''
+  tools:
+    - id: 29c8a437-cc44-4614-ba9c-d096f44dadbb
+      name: Email Agent
+      description: An agent that sends emails
+      approvalRequired: false
+      params:
+        - name: message
+          description: The message to send to the agent
+          type: string
+          required: true
+      handler:
+        type: agent
+        agentId: 4c437acb-1c37-42af-882b-7d704b5ab9f0
+      handlerTimeout: 1800000
+      metadata:
+        iconName: RobotDuotone
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - id: e5b80836-ff9f-439c-8d03-488c725f716d
+      name: Fleet Summary Agent
+      description: An agent that provides a summary of a machine for sales opportunities
+      approvalRequired: false
+      params:
+        - name: message
+          description: The message to send to the agent
+          type: string
+          required: true
+      handler:
+        type: agent
+        agentId: 86af63df-31bc-41f3-9358-af4d85d3b071
+      handlerTimeout: 1800000
+      metadata:
+        iconName: RobotDuotone
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - id: 6bf9b35f-09ca-415a-8ce7-7fe05635ba87
+      name: Fleet list and overall health
+      description: >-
+        Retrieves a list of machines (their fleet) for a customer. This includes
+        the overall health of the machines, with display colours.
+      approvalRequired: false
+      params:
+        - id: e07fa5e6-65fd-420e-8860-321ab295dcb5
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: 566da7c0-e08e-4ab9-9b67-b0ae32ab0541
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: 8cfc9bad-b3e3-4a5e-9a27-a2cc12fadc78
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: 2033f6c6-f93a-4c6b-93a9-1e4254c78e6b
+      handlerTimeout: 10000
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - id: 6b5f847f-0716-4f96-bf1e-d21ed8c43330
+      name: Maintenance and servicing
+      description: >-
+        Retrieves the recent and upcoming services for machines belonging to a
+        customer. These indicate if there what services have been done or need
+        to be done with the machines.
+      approvalRequired: false
+      params:
+        - id: 0db75b32-bc91-4f3d-8fe5-16b76b28fc4f
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: 707013d1-7c9d-47ea-9db1-8fa7a40ef815
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: fb169c96-0c0a-4948-a015-43f9ca75bc74
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: ab89dacd-1af4-4f5f-bd13-a46524a28e53
+      handlerTimeout: 10000
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - id: 09cf3970-d579-4564-a074-f45a4c666d93
+      name: Expiring warranties contracts and agreements
+      description: >-
+        Retrieves the expiring warranties, contracts, and agreements for
+        machines belonging to a customer.
+      approvalRequired: false
+      params:
+        - id: 2d75423f-117f-44aa-bfdc-75593bc59725
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: 70367276-e29a-49ee-ace1-0a359ec4fabd
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: f60a0738-3151-408a-a8f8-1d6186561972
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: 3bf78983-9ef4-4882-8ffe-d2e13f424a04
+      handlerTimeout: 10000
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - id: 000da4c1-b3fd-4c3d-8187-1f234b9013a2
+      name: Komtrax abnormalities
+      description: >-
+        Retrieves the recent Komtrax abnormalities for machines belonging to a
+        customer. These indicate if there are any issues with the machines.
+      approvalRequired: false
+      params:
+        - id: a563da85-ddc7-482d-8bee-1d8ad4be26e1
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: 14894445-4261-40e3-b9e7-6e2c5ea0cb56
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: ab30eb3a-683b-4099-ae12-79b0b14c527e
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: 9fb11086-0964-4209-8670-5c5589da0201
+      handlerTimeout: 10000
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - id: 8a963983-cf0f-4dd4-821e-8aeadaee9f5e
+      name: Komtrax cautions
+      description: >-
+        Retrieves the recent Komtrax cautions for machines belonging to a
+        customer. These indicate if there are any minor issues with the
+        machines.
+      approvalRequired: false
+      params:
+        - id: 5b80c2fe-0759-460d-bf6a-24a2f34bfd89
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: 86c38c68-304a-4b97-abab-d084bf3702df
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: f29843c2-7f34-40cd-8590-2ecb0d6a2d5a
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: a72d0104-17fe-42ad-9bcb-16833294b5bb
+      handlerTimeout: 10000
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - draft: null
+      approvalRequired: false
+      params:
+        - id: 71a56aea-b8ec-4192-9c94-36880e60f7e7
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: ae4e57a4-5529-425b-af1a-d19ba459c3f5
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: 28c4c3e1-7f48-4641-b697-ca4cc32a1cea
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: 0c5b05c4-ab3d-455f-9bec-4ad1f7b993a0
+      name: CMS samples
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+      handlerTimeout: 10000
+      id: f838aa1b-494b-4b3c-80f1-55ae1f121b04
+      description: >-
+        Retrieves the most recent CMS (condition monitoring services) samples
+        for machines belonging to a customer. These indicate if there are any
+        issues with the machines.
+    - id: 6c094b77-8433-4540-b90c-2957142abcf1
+      name: Undercarriage inspections
+      description: >-
+        Retrieves the most recent UMS (undercarriage management system)
+        undercarriage inspections for machines belonging to a customer. These
+        indicate if there are any issues with the machine undercarriage.
+      approvalRequired: false
+      params:
+        - id: 433ad110-1749-4677-a416-20fb94fc8940
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+        - id: 5c5e71bd-9944-4b67-ae01-773c8a2ac8d3
+          name: IsKomatsuOnly
+          description: ''
+          type: boolean
+          required: true
+          exampleValue: ''
+        - id: a07565fa-6c61-42ad-8d63-63d30a47615d
+          name: Site
+          description: ''
+          type: string
+          required: false
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: 8400f1bd-d85e-42bc-9336-4626353e77a9
+      handlerTimeout: 10000
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+    - draft: null
+      approvalRequired: false
+      params:
+        - id: 968c0aff-4ccf-4a31-99a7-5d29b4c38f62
+          name: AccountNumber
+          description: ''
+          type: string
+          required: true
+          exampleValue: ''
+      handler:
+        type: function
+        functionId: 8c2046c1-318f-4b81-951e-2cabe12b13f8
+      name: Open CRM opportunities
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+      handlerTimeout: 10000
+      id: 7a54492a-68ab-4c6f-a43e-97ea21d80c98
+      description: Retrieves all the open opportunities from CRM for the customer.
+  changesetIsObject: false
+  providerName: azure
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-31T00:43:42.325Z
+blockData:
+  top: 48
+  left: 480
+  uuid: 66cc6090-d91b-487f-b9e5-14860d2761d2
+  pluginId: aiAgentExecute1
+  blockType: aiAgentExecute
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: RetoolAIAgentExecuteQuery
+  incomingPorts: []
+  incomingOnSuccessEdges:
+    - c99545d3-17eb-4616-8ed3-3cd409d5644b

@@ -1,0 +1,116 @@
+id: query1
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 38accf63-2086-46a3-a361-fa0fe59c571b
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - streamResponse: false
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - isFunction: false
+    - databasePasswordOverride: ''
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - query: >-
+        exec dbo.fift_AccountsFleetCaution {{ params.AccountNumber }}, {{
+        params.Site }}, {{ params.IsKomatsuOnly }}
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        object: {}
+    - _additionalScope:
+        array: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray:
+        array: []
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
+    - metadata: null
+    - editorMode: sql
+    - queryRunTime: null
+    - actionType: ''
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - enableErrorTransformer: false
+    - databaseWarehouseOverride: ''
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events:
+        array: []
+    - tableName: ''
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - databaseUsernameOverride: ''
+    - databaseRoleOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+    - warningCodes:
+        array: []
+createdAt: 2025-10-31T00:55:04.268Z
+blockData:
+  top: 48
+  left: 448
+  uuid: 32661925-19ab-4e90-989a-aeb06c736c3a
+  pluginId: query1
+  blockType: default
+  editorType: SqlQueryUnified
+  resourceName: 38accf63-2086-46a3-a361-fa0fe59c571b
+  incomingOnSuccessEdges:
+    - f69e5ef6-c64c-4b07-a0e4-94b8816f15e9
