@@ -2,4 +2,4 @@ version: 1.0.0
 name: MY STAGING RELEASE
 apps:
   - uuid: 563555e4-c104-11f0-8458-6facc3a0dfda
-    release: latest
+    release: 1.0.0
