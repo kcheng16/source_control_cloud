@@ -1,0 +1,125 @@
+id: sendRetoolEmail
+type: datasource
+subtype: SMTPQuery
+resourceName: retool_email
+resourceDisplayName: retool_email
+template:
+  inReplyTo: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  toEmail: '{{ startTrigger.data.invitedUserEmail}}'
+  streamResponse: false
+  body: "<style>\n  .email-container {\n    max-width: 600px;\n    margin: 0 auto;\n    background-color: #ffffff;\n    padding: 20px;\n    border-radius: 5px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    font-family: 'Inter', sans-serif;\n    font-size: 14px;\n  }\n  .button {\n    background-color: #525fbe;\n    color: #ffffff;\n    padding: 10px 20px;\n    border-radius: 3px;\n    display: inline-block;\n    font-size: 14px;\n    font-weight: 600;\n  }\n</style>\n<body>\n  <div class=\"email-container\">\n      <h1>Hi there!</h1>\n      <p>You have been invited to join Retool. Use the button below to set up your account and get started:</p>\n      <br>\n      <center>\n        <a href=\"{{ startTrigger.data.inviteLink }}\" class=\"button\" target=\"_blank\">Accept your invite</a>\n    </center>\n      <br>\n      <p>If youâ\x80\x99re having trouble with the button above, copy and paste the URL below into your web browser:\n      <a href=\"{{startTrigger.data.inviteLink}}\" target=\"_blank\">{{ startTrigger.data.inviteLink }}</a></p>\n  </div>\n</body>"
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  attachment:
+    array: []
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  showCcBcc: false
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  workflowRunId: null
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  showReplyTo: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams:
+    array: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  subject: Accept your invitation to join Retool
+  importedQueryInputs:
+    object: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  workflowActionType: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: >-
+    // The variable 'data' allows you to reference the request's data in the
+    transformer. 
+
+    // example: return data.find(element => element.isError)
+
+    return data.error
+  finished: null
+  confirmationMessage: null
+  fromEmail: ''
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: retoolEmail
+  watchedParams:
+    array: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults:
+    object: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  replyToEmail: ''
+  useRetoolAgentsSignature: false
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: |-
+    // Query results are available as the `data` variable
+    return data
+  events:
+    array: []
+  queryTimeout: '120000'
+  bccEmail: ''
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups:
+    array: []
+  workflowBlockPluginId: null
+  ccEmail: ''
+  bodyType: html
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-12-01T06:46:00.220Z
+blockData:
+  top: 48
+  left: 880
+  uuid: 824c646a-64a9-4a6a-adf3-bb6ea8b5ae06
+  comment:
+    body: >-
+      Sends an invite email to the user through Retool Email. Add your own email
+      provider to send the invite email with your custom domain and branding.
+    visible: true
+    pluginId: sendRetoolEmail-comment
+  pluginId: sendRetoolEmail
+  blockType: default
+  editorType: SMTPQuery
+  resourceName: retool_email
+  outgoingPorts:
+    - id: 6b79d617-1783-483a-96be-6b4af6037865
+      name: onError-f7fdd7ec-5387-4ddd-8c97-c410836ad8c1
+      type: onError
+  incomingOnSuccessEdges:
+    - b6a4d924-a5df-499e-b924-82d955c2d3ea
