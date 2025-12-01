@@ -1,0 +1,121 @@
+id: logError
+type: datasource
+subtype: OpenAPIQuery
+template:
+  queryRefreshTime: ''
+  method: ''
+  allowedGroupIds: []
+  streamResponse: false
+  operationId: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  server: ''
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  path: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  autoPaginate: false
+  workflowRunExecutionType: sync
+  workflowRunId: null
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams:
+    array: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  parameters: ''
+  data: null
+  specPathOverride: ''
+  serverVariablesDynamicStates: '{"site":false,"subdomain":false}'
+  importedQueryInputs:
+    object: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  workflowActionType: null
+  requestBodyDynamicStates: ''
+  queryRunTime: null
+  changesetObject: ''
+  requestBody: ''
+  offlineOptimisticResponse: null
+  errorTransformer: >-
+    // The variable 'data' allows you to reference the request's data in the
+    transformer. 
+
+    // example: return data.find(element => element.isError)
+
+    return data.error
+  specBasePath: ''
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams:
+    array: []
+  serverVariables: '{}'
+  enableErrorTransformer: false
+  autoPaginateLimit: 500
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  importedQueryDefaults:
+    object: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  parameterDynamicStates: ''
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: |-
+    // Query results are available as the `data` variable
+    return data
+  events:
+    array: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups:
+    array: []
+  workflowBlockPluginId: null
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-12-01T06:46:00.220Z
+blockData:
+  top: 64
+  left: 1680
+  uuid: 573091ba-e980-4ad3-a25a-36cf0186ea37
+  comment:
+    body: Connect a DataDog resource to alert your team when an email fails to send.
+    visible: true
+    pluginId: logError-comment
+  pluginId: logError
+  blockType: default
+  editorType: OpenAPIQuery
+  resourceName: ''
+  incomingPorts:
+    - portId: 6b79d617-1783-483a-96be-6b4af6037865
+      blockId: 824c646a-64a9-4a6a-adf3-bb6ea8b5ae06
+  incomingPortsPlugins:
+    - portId: 43baad17-4e20-4ec9-9828-bedccd6409d4
+      blockPluginId: sendRetoolEmail
+  incomingOnSuccessEdges: []

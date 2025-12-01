@@ -1,0 +1,120 @@
+id: startTrigger
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  workflowRunId: null
+  showFailureToaster: true
+  query: "return {\n\t\"invitedUserEmail\": \"user@email.com\",\n\t\"inviteLink\": \"https://retool.com/auth/invite/sensitive-token\",\n\t\"inviteId\": 42\n}"
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams:
+    array: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs:
+    object: {}
+  _additionalScope:
+    array: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  workflowActionType: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: >-
+    // The variable 'data' allows you to reference the request's data in the
+    transformer. 
+
+    // example: return data.find(element => element.isError)
+
+    return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams:
+    array: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults:
+    object: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: |-
+    // Query results are available as the `data` variable
+    return formatDataAsArray(data)
+  events:
+    array: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups:
+    array: []
+  workflowBlockPluginId: null
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-12-01T06:46:00.220Z
+blockData:
+  top: 48
+  left: 224
+  uuid: b6a4d924-a5df-499e-b924-82d955c2d3ea
+  comment:
+    body: >-
+      **Use Event Triggers to send custom emails through Retool Workflows!**  
+
+      <br>
+
+      This workflow runs whenever a User Invited event occurs, as noted by the
+      Start trigger type. When an invite is triggered, you have access to the
+      invited user's email and the invite link.  You can reference these two
+      parameters in Workflow blocks and add custom logic.   
+
+
+      <br>
+
+      This template uses Retool Email, available out-of-the-box, but you can add
+      an email provider (e.g., SendGrid) as a Resource to send custom emails.
+    visible: true
+    pluginId: startTrigger-comment
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  resourceName: webhook
+  incomingOnSuccessEdges: []
