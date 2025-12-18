@@ -15,6 +15,7 @@
       overflowType="hidden"
     >
       <Text id="text1" value="# This is my module" verticalAlign="center" />
+      <Text id="text2" value="# Merge #1" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
