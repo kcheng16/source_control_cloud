@@ -7,6 +7,8 @@ apps:
     release: 1.0.0
   - uuid: 7c995470-c38d-11f0-a3d0-bba1fab677a2
     release: latest
+  - uuid: ef76ad8e-dbe9-11f0-8c18-cfdb89002ed8
+    release: latest
 workflows:
   - uuid: 58996cc0-fe9c-4ecd-ab46-91c44951669a
     release: latest
