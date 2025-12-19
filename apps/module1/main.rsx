@@ -15,6 +15,7 @@
       overflowType="hidden"
     >
       <Text id="text1" value="# Module 1" verticalAlign="center" />
+      <Text id="text2" value="# new change" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
