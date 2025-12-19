@@ -16,6 +16,7 @@
     >
       <Text id="text1" value="# Module 1" verticalAlign="center" />
       <Text id="text2" value="# new change" verticalAlign="center" />
+      <Text id="text3" value="# my test branch 2" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
