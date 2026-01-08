@@ -81,5 +81,4 @@ blockData:
   editorType: JavascriptQuery
   isMinimized: false
   resourceName: JavascriptQuery
-  incomingOnSuccessEdges:
-    - 8cf0c897-8dc5-4573-9254-1f58b8f7850f
+  incomingOnSuccessEdges: []
