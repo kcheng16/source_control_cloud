@@ -82,7 +82,7 @@ blockData:
     appConfig:
       - uuid: adcb889c-ec55-11f0-8db6-f7666cae0d84
     assignees:
-      - id: 4066970
+      - id: 718158
         type: group
     groupAssignments: []
     adminUserAssignments: []
@@ -90,14 +90,12 @@ blockData:
       {requestDetails:[startTrigger.data], referenceNumber:
       [startTrigger.data.TicketNumber]}
     adminGroupAssignments:
-      - 4066970
       - 718158
     groupAssignmentNames: []
     assigneesWithTextIdentifiers:
       - type: group
-        name: Everyone
+        name: All Users
     adminGroupAssignmentNames:
-      - Everyone
       - All Users
     adminUserAssignmentEmails: []
   pluginId: EGM_Approval_Task
