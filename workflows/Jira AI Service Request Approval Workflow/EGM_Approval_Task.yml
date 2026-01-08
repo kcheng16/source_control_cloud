@@ -21,12 +21,7 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: |-
-    return {
-        assignees: code1.data,
-        expiryTimeout: ,
-        inputsTemplateString: {requestDetails:[startTrigger.data], referenceNumber: [startTrigger.data.TicketNumber]}
-      }
+  query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -79,15 +74,16 @@ template:
   notificationDuration: ''
 createdAt: 2025-10-09T02:59:44.625Z
 blockData:
-  top: 80
-  left: 3072
+  top: 352
+  left: 624
   uuid: 8cbcb7df-c039-4ace-9138-0c1ffdd58949
   options:
     taskType: userTask
     appConfig:
-      - uuid: c1d80cce-a4bc-11f0-bbef-ab6cc71cddcf
       - uuid: adcb889c-ec55-11f0-8db6-f7666cae0d84
-    assignees: code1.data
+    assignees:
+      - id: 4066970
+        type: group
     groupAssignments: []
     adminUserAssignments: []
     inputsTemplateString: >-
@@ -96,7 +92,9 @@ blockData:
     adminGroupAssignments:
       - 718155
     groupAssignmentNames: []
-    assigneesWithTextIdentifiers: code1.data
+    assigneesWithTextIdentifiers:
+      - type: group
+        name: Everyone
     adminGroupAssignmentNames:
       - admin
     adminUserAssignmentEmails: []
@@ -111,4 +109,4 @@ blockData:
       name: waitNotification-8cbcb7df-c039-4ace-9138-0c1ffdd58949
       type: waitNotification
   incomingOnSuccessEdges:
-    - d9dae766-c25e-4aef-a501-f6aed8b9f2f6
+    - 8cf0c897-8dc5-4573-9254-1f58b8f7850f

@@ -104,5 +104,4 @@ blockData:
   isMinimized: true
   resourceName: 508e5646-0586-419c-9615-9dd8c18b4dfe
   incomingPorts: []
-  incomingOnSuccessEdges:
-    - 8cbcb7df-c039-4ace-9138-0c1ffdd58949
+  incomingOnSuccessEdges: []
