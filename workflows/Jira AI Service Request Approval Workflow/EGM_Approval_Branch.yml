@@ -1,0 +1,109 @@
+id: EGM_Approval_Branch
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    if (EGM_Approval_Task.data.Approvaloutcome == 'Approve') {
+      executePathAtMostOnce('0')
+    }
+    else { executePathAtMostOnce('1') }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-26T23:57:34.419Z
+blockData:
+  top: 48
+  left: 4144
+  uuid: cc0958f6-aa32-49b8-b28d-24cd65903bf8
+  options:
+    conditions:
+      - id: a1f8095a-91e2-4e7f-9227-b1ae0303457c
+        type: if
+        statement: EGM_Approval_Task.data.Approvaloutcome == 'Approve'
+        outgoingPortId: 6df68530-3c81-4b0b-a008-0c85510167a7
+      - id: 5229850c-dcd7-4f30-9e83-9203d7855841
+        type: else
+        statement: ''
+        outgoingPortId: 9dcdc1ec-b947-4087-b2b0-036095eebd44
+  pluginId: EGM_Approval_Branch
+  blockType: conditional
+  editorType: JavascriptQuery
+  onboarding: false
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  outgoingPorts:
+    - id: 6df68530-3c81-4b0b-a008-0c85510167a7
+      name: '0'
+      type: conditional
+    - id: 9dcdc1ec-b947-4087-b2b0-036095eebd44
+      name: '1'
+      type: conditional
+  incomingOnSuccessEdges:
+    - 9f278f05-def7-4ec6-a49f-20abddde13b5

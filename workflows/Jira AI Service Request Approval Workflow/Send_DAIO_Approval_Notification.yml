@@ -1,0 +1,123 @@
+id: Send_DAIO_Approval_Notification
+type: datasource
+subtype: SMTPQuery
+resourceName: 08c69dcd-1120-4cae-9b9d-351a684f76c0
+template:
+  inReplyTo: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  toEmail: >-
+    {{ retoolContext.configVars.environment === 'DEV' ?
+    startTrigger.data.RequesterEmail : get_CDAIO_Approver.data.ApproverEmail  }}
+  streamResponse: false
+  body: >+
+    Hello {{ retoolContext.configVars.environment === 'DEV' ?
+    current_user.firstName : get_CDAIO_Approver.data.ApproverName }}
+
+
+    <br>
+
+    Jira AI Service Request Approval Task has been assigned to you.
+
+    <br>
+
+
+    <br>
+
+
+    <a href= {{ DAIO_Approval_Task.taskURL }}> Click here to review and action
+    the task</a>
+
+
+    <br>
+
+    Kind regards,
+
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  attachment: []
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  showCcBcc: false
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  showReplyTo: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  subject: AI Service Request Pending Approval
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  fromEmail: dx-workflows@komatsu.com.au
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  replyToEmail: ''
+  useRetoolAgentsSignature: false
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  bccEmail: ''
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  ccEmail: ''
+  bodyType: html
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-27T01:19:51.963Z
+blockData:
+  top: 480
+  left: 5216
+  uuid: fc598341-8329-4842-811d-0a7d5ba0af8e
+  pluginId: Send_DAIO_Approval_Notification
+  blockType: default
+  editorType: SMTPQuery
+  isMinimized: false
+  resourceName: 08c69dcd-1120-4cae-9b9d-351a684f76c0
+  incomingPorts:
+    - portId: 60c4c47b-e6ad-48b4-94a9-9976ea263676
+      blockId: 1b143dcc-40b9-42a1-b094-474cb3e9eeae
+  incomingOnSuccessEdges: []

@@ -1,0 +1,109 @@
+id: DIAO_Approval_Branch
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    if (DAIO_Approval_Task.data.Approvaloutcome == 'Approve') {
+      executePathAtMostOnce('0')
+    }
+    else { executePathAtMostOnce('1') }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-31T00:56:05.412Z
+blockData:
+  top: 48
+  left: 5680
+  uuid: fbddd8d4-99b2-4743-816e-d31768e9a46a
+  options:
+    conditions:
+      - id: 1254f373-12bb-4edb-b984-26f61789c7fe
+        type: if
+        statement: DAIO_Approval_Task.data.Approvaloutcome == 'Approve'
+        outgoingPortId: cadc965c-64dc-471b-9665-c4ae79a96b62
+      - id: 11f81f0d-484b-4d85-8682-f5277daac321
+        type: else
+        statement: ''
+        outgoingPortId: a07db1b6-e8c8-4bf4-bca7-445cee950c31
+  pluginId: DIAO_Approval_Branch
+  blockType: conditional
+  editorType: JavascriptQuery
+  onboarding: false
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  outgoingPorts:
+    - id: cadc965c-64dc-471b-9665-c4ae79a96b62
+      name: '0'
+      type: conditional
+    - id: a07db1b6-e8c8-4bf4-bca7-445cee950c31
+      name: '1'
+      type: conditional
+  incomingOnSuccessEdges:
+    - 72f80ed5-ab5e-47fe-8120-fe8713d6156f
