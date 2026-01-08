@@ -90,13 +90,15 @@ blockData:
       {requestDetails:[startTrigger.data], referenceNumber:
       [startTrigger.data.TicketNumber]}
     adminGroupAssignments:
-      - 718155
+      - 4066970
+      - 718158
     groupAssignmentNames: []
     assigneesWithTextIdentifiers:
       - type: group
         name: Everyone
     adminGroupAssignmentNames:
-      - admin
+      - Everyone
+      - All Users
     adminUserAssignmentEmails: []
   pluginId: EGM_Approval_Task
   blockType: asyncTask
