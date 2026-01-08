@@ -1,0 +1,115 @@
+id: add_Comment_to_Ticket
+type: datasource
+subtype: RESTQuery
+resourceName: 3aad99c3-5c39-4c42-b5ad-404616add8c9
+template:
+  queryRefreshTime: ''
+  paginationLimit: ''
+  allowedGroupIds: []
+  streamResponse: false
+  body: |
+    {
+        "body": {
+        "content": [
+          {
+            "content": [
+              {
+                "text": "Approval Pending from {{ get_Manager_EGM_Details.data.EGM.EGMDisplayName }} and {{ get_CDAIO_Approver.data.ApproverName }} ",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        ],
+        "type": "doc",
+        "version": 1
+      }
+    }
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  paginationPaginationField: ''
+  workflowRunExecutionType: sync
+  headers: '[{"key":"Content-Type","value":"application/json"}]'
+  showFailureToaster: true
+  paginationEnabled: false
+  query: '{{ startTrigger.data.TicketNumber}}/comment'
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  cookies: ''
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  version: 2
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  type: POST
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  bodyType: raw
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-31T01:19:03.177Z
+blockData:
+  top: 960
+  left: 2096
+  uuid: d9fa2d43-1815-4c5a-8357-56377545f01c
+  comment:
+    body: add comment on ticket with Approver Details
+    visible: true
+    pluginId: add_Comment_to_Ticket-comment
+  pluginId: add_Comment_to_Ticket
+  blockType: default
+  editorType: RESTQuery
+  isMinimized: false
+  resourceName: 3aad99c3-5c39-4c42-b5ad-404616add8c9
+  incomingOnSuccessEdges:
+    - b862f4b7-fb02-4626-86d3-cc4b5cf92759
