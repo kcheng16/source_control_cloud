@@ -1,0 +1,21 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "52d2c888-f281-11f0-8f30-730e591813fb",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "getUserTasks": {
+          "array": []
+        },
+        "submitUserTask": {
+          "array": []
+        },
+        "getSingleUserTask": {
+          "array": []
+        }
+      }
+    },
+    "version": "3.327.0"
+  }
+}
