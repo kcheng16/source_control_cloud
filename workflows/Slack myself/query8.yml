@@ -62,6 +62,7 @@ template:
   showLatestVersionUpdatedWarning: false
   paginationDataField: ''
   timestamp: 0
+  openAPIParams: '{}'
   evalType: script
   importedQueryDefaults:
     ordered: []
