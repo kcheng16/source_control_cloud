@@ -82,7 +82,7 @@ blockData:
     appConfig:
       - uuid: 18e04525-bce6-4a61-b3bb-415a37841233
     assignees:
-      - id: 2518375
+      - id: 2518372
         type: group
     groupAssignments: []
     adminUserAssignments: []
@@ -92,7 +92,7 @@ blockData:
     groupAssignmentNames: []
     assigneesWithTextIdentifiers:
       - type: group
-        name: All Users
+        name: admin
     adminGroupAssignmentNames:
       - All Users
     adminUserAssignmentEmails: []
