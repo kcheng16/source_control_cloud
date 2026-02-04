@@ -80,15 +80,15 @@ blockData:
   options:
     taskType: userTask
     appConfig:
-      - uuid: 52d2c888-f281-11f0-8f30-730e591813fb
+      - uuid: 18e04525-bce6-4a61-b3bb-415a37841233
     assignees:
-      - id: 3849939
+      - id: 2518375
         type: group
     groupAssignments: []
     adminUserAssignments: []
     inputsTemplateString: '{}'
     adminGroupAssignments:
-      - 3849939
+      - 2518375
     groupAssignmentNames: []
     assigneesWithTextIdentifiers:
       - type: group
