@@ -19,6 +19,7 @@
   >
     <Container
       id="container1"
+      _gap="0px"
       footerPadding="4px 12px"
       headerPadding="4px 12px"
       padding="12px"
@@ -26,12 +27,12 @@
       showHeader={true}
     >
       <Header>
-        <Button id="button1" text="Button" />
         <Tabs id="tabs1" itemMode="static" value="{{ self.values[0] }}">
           <Option id="00030" value="Tab 1" />
           <Option id="00031" value="Tab 2" />
           <Option id="00032" value="Tab 3" />
         </Tabs>
+        <Button id="button1" text="Button" />
       </Header>
       <View id="00030" viewKey="View 1" />
     </Container>
