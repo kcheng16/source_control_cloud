@@ -1,0 +1,31 @@
+{
+  "button1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 4
+  },
+  "container1": {
+    "row": 0.2,
+    "col": 1,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabs1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 5,
+    "height": 1,
+    "width": 7
+  }
+}
