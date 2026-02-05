@@ -1,10 +1,21 @@
 {
   "button1": {
+    "type": "stack",
     "container": "container1",
     "rowGroup": "header",
     "subcontainer": "00030",
+    "row": 0.8,
+    "col": 5,
     "height": 1,
-    "width": 4
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 148,
+        "height": 40
+      }
+    }
   },
   "container1": {
     "row": 0.2,
@@ -21,11 +32,20 @@
     }
   },
   "tabs1": {
+    "type": "stack",
     "container": "container1",
     "rowGroup": "header",
     "subcontainer": "00030",
     "col": 5,
     "height": 1,
-    "width": 7
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 259,
+        "height": 32
+      }
+    }
   }
 }
