@@ -8,10 +8,23 @@
     "width": 2,
     "stackPosition": {
       "object": {
-        "ordinal": 1,
+        "ordinal": 2,
         "widthType": "fixed",
         "width": 74,
         "height": 40
+      }
+    }
+  },
+  "image1": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "00030",
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 259,
+        "height": 200
       }
     }
   },

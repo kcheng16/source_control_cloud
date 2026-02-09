@@ -38,6 +38,12 @@
           <Option id="00031" value="Tab 2" />
           <Option id="00032" value="Tab 3" />
         </Tabs>
+        <Image
+          id="image1"
+          heightType="fixed"
+          horizontalAlign="center"
+          src="https://picsum.photos/id/1025/800/600"
+        />
         <Button id="button2" text="Button" />
       </View>
     </Container>
