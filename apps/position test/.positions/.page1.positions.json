@@ -8,7 +8,7 @@
     "width": 2,
     "stackPosition": {
       "object": {
-        "ordinal": 0,
+        "ordinal": 1,
         "widthType": "fixed",
         "width": 74,
         "height": 40
@@ -28,7 +28,7 @@
     "height": 0.8,
     "stackPosition": {
       "object": {
-        "ordinal": 1,
+        "ordinal": 0,
         "widthType": "fixed",
         "width": 342,
         "height": 32
