@@ -18,23 +18,28 @@
     type="main"
   >
     <Container
-      id="container1"
+      id="stack1"
+      _flexWrap={true}
       _gap="0px"
+      _type="stack"
       footerPadding="4px 12px"
       headerPadding="4px 12px"
       padding="12px"
       showBody={true}
-      showHeader={true}
     >
-      <Header>
-        <Tabs id="tabs1" itemMode="static" value="{{ self.values[0] }}">
+      <View id="00030" viewKey="View 1">
+        <Tabs
+          id="tabs2"
+          alignment="right"
+          itemMode="static"
+          value="{{ self.values[0] }}"
+        >
           <Option id="00030" value="Tab 1" />
           <Option id="00031" value="Tab 2" />
           <Option id="00032" value="Tab 3" />
         </Tabs>
-        <Button id="button1" text="Button" />
-      </Header>
-      <View id="00030" viewKey="View 1" />
+        <Button id="button2" text="Button" />
+      </View>
     </Container>
   </Frame>
 </Screen>
