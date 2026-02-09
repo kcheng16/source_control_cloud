@@ -1,49 +1,36 @@
 {
-  "button1": {
+  "button2": {
     "type": "stack",
-    "container": "container1",
-    "rowGroup": "header",
+    "container": "stack1",
     "subcontainer": "00030",
     "row": 0.8,
-    "col": 5,
     "height": 1,
-    "width": 4,
+    "width": 2,
     "stackPosition": {
       "object": {
         "ordinal": 0,
         "widthType": "fixed",
-        "width": 148,
+        "width": 74,
         "height": 40
       }
     }
   },
-  "container1": {
-    "row": 0.2,
+  "stack1": {
+    "row": 5.8,
     "col": 1,
-    "height": 0.2,
-    "width": 6,
-    "stackPosition": {
-      "object": {
-        "ordinal": 0,
-        "widthType": "fixed",
-        "width": 0,
-        "height": 0
-      }
-    }
+    "height": 3.8,
+    "width": 6
   },
-  "tabs1": {
+  "tabs2": {
     "type": "stack",
-    "container": "container1",
-    "rowGroup": "header",
+    "container": "stack1",
     "subcontainer": "00030",
-    "col": 5,
-    "height": 1,
-    "width": 7,
+    "height": 0.8,
     "stackPosition": {
       "object": {
-        "ordinal": 0,
+        "ordinal": 1,
         "widthType": "fixed",
-        "width": 259,
+        "width": 342,
         "height": 32
       }
     }
