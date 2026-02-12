@@ -26,6 +26,7 @@
       styleVariant="outline"
     >
       <Event
+        id="ed09c4cb"
         event="click"
         method="setHidden"
         params={{ map: { hidden: true } }}

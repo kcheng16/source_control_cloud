@@ -20,6 +20,7 @@
       value="{{ loadClientLocationData?.data?.street }}"
     >
       <Event
+        id="8c0e7889"
         event="change"
         method="setValue"
         params={{ map: { value: "true" } }}
@@ -39,6 +40,7 @@
       value="{{ loadClientLocationData?.data?.houseNumber }} {{ loadClientLocationData?.data?.addition }}"
     >
       <Event
+        id="8621b053"
         event="change"
         method="setValue"
         params={{ map: { value: "true" } }}
@@ -58,6 +60,7 @@
       value="{{ loadClientLocationData?.data?.zipCode }}"
     >
       <Event
+        id="72882c28"
         event="change"
         method="setValue"
         params={{ map: { value: "true" } }}
@@ -77,6 +80,7 @@
       value="{{ loadClientLocationData?.data?.city }}"
     >
       <Event
+        id="9af588bc"
         event="change"
         method="setValue"
         params={{ map: { value: "true" } }}
@@ -110,6 +114,7 @@
       values="{{ item.id }}"
     >
       <Event
+        id="dc076df2"
         event="change"
         method="setValue"
         params={{ map: { value: "true" } }}
