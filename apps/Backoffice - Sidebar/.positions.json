@@ -1,0 +1,152 @@
+{
+  "button58": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 161,
+        "height": 40
+      }
+    }
+  },
+  "container8": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 1.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 14,
+        "height": 64
+      }
+    }
+  },
+  "containerTitle8": {
+    "container": "container8",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "divider1": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "row": 3.2,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fill",
+        "width": 161,
+        "height": 8
+      }
+    }
+  },
+  "divider2": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "row": 4.2,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fill",
+        "width": 161,
+        "height": 8
+      }
+    }
+  },
+  "image4": {
+    "container": "container8",
+    "subcontainer": "4a976",
+    "col": 1,
+    "height": 1.4,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "moduleContainer": {
+    "height": 27.6,
+    "width": 1
+  },
+  "navigation3": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "row": 2.4,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fill",
+        "width": 161,
+        "height": 184
+      }
+    }
+  },
+  "navigation4": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "row": 3.4,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fill",
+        "width": 161,
+        "height": 184
+      }
+    }
+  },
+  "navigation5": {
+    "type": "stack",
+    "container": "sidebarMenu",
+    "subcontainer": "00030",
+    "row": 4.4,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fill",
+        "width": 150,
+        "height": 376
+      }
+    }
+  },
+  "sidebarMenu": {
+    "container": "moduleContainer",
+    "rowGroup": "header",
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "29d6ba94-f9bf-11f0-84ea-57f249c7656b",
+  "appTemplate": {
+    "appThemeId": 1,
+    "preloadedAppJavaScript": "",
+    "pageCodeFolders": {
+      "object": {
+        "addGroupLocation": {
+          "array": []
+        },
+        "clientLocationWizard": {
+          "array": [
+            "ContactPerson",
+            "OpenHours",
+            "InvoiceAddress",
+            "PickupAddress"
+          ]
+        }
+      }
+    },
+    "customComponentCollections": {
+      "array": [
+        {
+          "object": {
+            "collectionName": "RondoCustomLibrary",
+            "collectionRevisionUuid": "47cfd150-b283-45f1-9f3c-51e5fba55abf",
+            "collectionUuid": "22ef0071-37e5-4a91-a95d-4b93a7e89dea"
+          }
+        }
+      ]
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": false,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5,
+        "globalToastPosition": "bottomRight"
+      }
+    },
+    "rootScreen": "clientLocationWizard",
+    "isFetching": true,
+    "appThemeName": "Rondo Theme",
+    "version": "3.306.0",
+    "internationalizationSettings": {
+      "object": {
+        "internationalizationEnabled": true,
+        "internationalizationFiles": {
+          "array": ["common.json"]
+        }
+      }
+    }
+  }
+}

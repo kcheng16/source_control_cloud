@@ -1,0 +1,70 @@
+{
+  "container8": {
+    "subcontainer": "sidebarFrame1",
+    "height": 1.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle8": {
+    "container": "container8",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "divider1": {
+    "subcontainer": "sidebarFrame1",
+    "row": 2.8,
+    "height": 0.2,
+    "width": 1
+  },
+  "divider2": {
+    "subcontainer": "sidebarFrame1",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 1
+  },
+  "image4": {
+    "container": "container8",
+    "subcontainer": "4a976",
+    "col": 1,
+    "height": 1.4,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "moduleContainer": {
+    "height": 2,
+    "width": 1
+  },
+  "navigation3": {
+    "subcontainer": "sidebarFrame1",
+    "row": 2,
+    "height": 0.8,
+    "width": 1
+  },
+  "navigation4": {
+    "subcontainer": "sidebarFrame1",
+    "row": 3,
+    "height": 0.8,
+    "width": 1
+  },
+  "navigation5": {
+    "subcontainer": "sidebarFrame1",
+    "row": 4,
+    "height": 0.8,
+    "width": 1
+  }
+}
