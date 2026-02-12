@@ -34,6 +34,7 @@
         styleVariant="outline"
       >
         <Event
+          id="c6a4fc6b"
           event="click"
           method="hide"
           params={{}}
@@ -279,6 +280,7 @@
           </View>
         </Container>
         <Event
+          id="7b6cf36c"
           event="submit"
           method="trigger"
           params={{}}
