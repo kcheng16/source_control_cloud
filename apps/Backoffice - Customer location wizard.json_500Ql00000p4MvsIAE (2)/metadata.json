@@ -3,6 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "29d6ba94-f9bf-11f0-84ea-57f249c7656b",
   "appTemplate": {
+    "appMaxWidth": "100%",
     "appThemeId": 1,
     "preloadedAppJavaScript": "",
     "pageCodeFolders": {
@@ -42,7 +43,7 @@
     "rootScreen": "clientLocationWizard",
     "isFetching": true,
     "appThemeName": "Rondo Theme",
-    "version": "3.340.0",
+    "version": "3.341.0",
     "internationalizationSettings": {
       "object": {
         "internationalizationEnabled": true,
