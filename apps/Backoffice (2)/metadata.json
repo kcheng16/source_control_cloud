@@ -43,7 +43,7 @@
     "rootScreen": "clientLocationWizard",
     "isFetching": true,
     "appThemeName": "Rondo Theme",
-    "version": "3.306.0",
+    "version": "3.341.0",
     "internationalizationSettings": {
       "object": {
         "internationalizationEnabled": true,

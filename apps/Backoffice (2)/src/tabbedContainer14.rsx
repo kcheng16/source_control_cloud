@@ -85,6 +85,7 @@
             waitType="debounce"
           />
           <Event
+            id="086ef514"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -177,6 +178,7 @@
           value="{{ loadClientLocationData?.data?.locationName }}"
         >
           <Event
+            id="7f4b8cee"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -198,6 +200,7 @@
           value="{{ loadClientLocationData?.data?.cocNumber }}"
         >
           <Event
+            id="fded1f1e"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -223,6 +226,7 @@
           values="{{ item.value }}"
         >
           <Event
+            id="c3be39f7"
             event="change"
             method="trigger"
             params={{
@@ -242,6 +246,7 @@
             waitType="debounce"
           />
           <Event
+            id="5a83d3d7"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -268,6 +273,7 @@
           values="{{ item.value }}"
         >
           <Event
+            id="4bc408a1"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -294,6 +300,7 @@
           values="{{ item.value }}"
         >
           <Event
+            id="f20e4ba8"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -328,6 +335,7 @@
           values="{{ item.value }}"
         >
           <Event
+            id="c5a77cb3"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -522,6 +530,7 @@
                 value="true"
               />
               <Event
+                id="852dc0c6"
                 event="change"
                 method="setValue"
                 params={{ map: { value: "true" } }}
@@ -540,6 +549,7 @@
               text="{{ i18n.t('buttons_edit_address') }}"
             >
               <Event
+                id="a943284d"
                 event="click"
                 method="show"
                 params={{}}
@@ -549,6 +559,7 @@
                 waitType="debounce"
               />
               <Event
+                id="e59dcf2e"
                 event="click"
                 method="clear"
                 params={{}}
@@ -674,6 +685,7 @@ Land"
                 value="false"
               />
               <Event
+                id="09423047"
                 event="change"
                 method="setValue"
                 params={{ map: { value: "true" } }}
@@ -692,6 +704,7 @@ Land"
               text="Openingstijden bewerken"
             >
               <Event
+                id="1197c481"
                 event="click"
                 method="show"
                 params={{}}
@@ -813,6 +826,7 @@ Zondag"
               value="{{ loadClientLocationData?.data?.wastePartnersInfo }}"
             >
               <Event
+                id="f0f9479f"
                 event="change"
                 method="setValue"
                 params={{ map: { value: "true" } }}
@@ -955,6 +969,7 @@ Zondag"
                 value="true"
               />
               <Event
+                id="89bf12a3"
                 event="change"
                 method="setValue"
                 params={{ map: { value: "true" } }}
@@ -973,6 +988,7 @@ Zondag"
               text="{{ i18n.t('buttons_edit_address') }}"
             >
               <Event
+                id="a2ebdf7d"
                 event="click"
                 method="show"
                 params={{}}
@@ -1115,6 +1131,7 @@ Land"
                 value="mounthly"
               />
               <Event
+                id="a3d68fd9"
                 event="change"
                 method="setValue"
                 params={{ map: { value: "true" } }}
@@ -1146,6 +1163,7 @@ Land"
                 value="email_post"
               />
               <Event
+                id="cfb446b6"
                 event="change"
                 method="setValue"
                 params={{ map: { value: "true" } }}
@@ -1209,6 +1227,7 @@ Land"
           value="{{ loadClientLocationData?.data?.invoiceEmail }}"
         >
           <Event
+            id="f55f56ec"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -1232,6 +1251,7 @@ Land"
           value="{{ loadClientLocationData?.data?.paymentTermDays }}"
         >
           <Event
+            id="2fa50f2b"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -1251,6 +1271,7 @@ Land"
           value="{{ loadClientLocationData?.data?.debtorNumber }}"
         >
           <Event
+            id="25e1e23b"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -1270,6 +1291,7 @@ Land"
           value="{{ loadClientLocationData?.data?.btwNumber }}"
         >
           <Event
+            id="e58b8b2c"
             event="change"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -1637,6 +1659,7 @@ Land"
           text="Contactpersoon toevoegen"
         >
           <Event
+            id="c8541e8d"
             event="click"
             method="show"
             params={{}}
@@ -1646,6 +1669,7 @@ Land"
             waitType="debounce"
           />
           <Event
+            id="940f0846"
             event="click"
             method="clear"
             params={{}}
@@ -1655,6 +1679,7 @@ Land"
             waitType="debounce"
           />
           <Event
+            id="5ba30856"
             event="click"
             method="setValue"
             params={{ map: { value: "true" } }}
@@ -1810,6 +1835,7 @@ Land"
           text="Afronden"
         >
           <Event
+            id="199e2de9"
             event="click"
             method="trigger"
             params={{
@@ -1831,6 +1857,7 @@ Land"
     </Container>
   </View>
   <Event
+    id="8e3ed389"
     event="change"
     method="trigger"
     params={{}}

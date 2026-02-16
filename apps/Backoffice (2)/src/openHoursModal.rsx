@@ -23,6 +23,7 @@
       styleVariant="outline"
     >
       <Event
+        id="28428028"
         event="click"
         method="setHidden"
         params={{ map: { hidden: true } }}
@@ -89,6 +90,7 @@
               text="Annuleren"
             >
               <Event
+                id="b4d0c491"
                 event="click"
                 method="hide"
                 params={{}}
@@ -100,6 +102,7 @@
             </Button>
             <Button id="button443" heightType="auto" style={{}} text="Opslaan">
               <Event
+                id="df23e8a3"
                 event="click"
                 method="trigger"
                 params={{}}
@@ -109,6 +112,7 @@
                 waitType="debounce"
               />
               <Event
+                id="b17c0d4b"
                 event="click"
                 method="hide"
                 params={{}}
