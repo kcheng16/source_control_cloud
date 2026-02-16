@@ -34,7 +34,7 @@
         styleVariant="outline"
       >
         <Event
-          id="82ac3060"
+          id="99fa5f85"
           event="click"
           method="hide"
           params={{}}
@@ -201,7 +201,7 @@
               text="Annuleren"
             >
               <Event
-                id="b8e776df"
+                id="40043982"
                 event="click"
                 method="hide"
                 params={{}}
@@ -220,7 +220,7 @@
           </View>
         </Container>
         <Event
-          id="25ed0099"
+          id="f7e5eda6"
           event="submit"
           method="trigger"
           params={{}}
@@ -230,7 +230,7 @@
           waitType="debounce"
         />
         <Event
-          id="37ba7d5f"
+          id="ebdea039"
           event="submit"
           method="hide"
           params={{}}
