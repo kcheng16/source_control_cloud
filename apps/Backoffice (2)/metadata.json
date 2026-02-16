@@ -25,9 +25,9 @@
       "array": [
         {
           "object": {
-            "collectionName": "RondoCustomLibrary",
+            "collectionUuid": "22ef0071-37e5-4a91-a95d-4b93a7e89dea",
             "collectionRevisionUuid": "47cfd150-b283-45f1-9f3c-51e5fba55abf",
-            "collectionUuid": "22ef0071-37e5-4a91-a95d-4b93a7e89dea"
+            "collectionName": "22ef0071-37e5-4a91-a95d-4b93a7e89dea"
           }
         }
       ]
@@ -43,7 +43,7 @@
     "rootScreen": "clientLocationWizard",
     "isFetching": true,
     "appThemeName": "Rondo Theme",
-    "version": "3.306.0",
+    "version": "3.341.0",
     "internationalizationSettings": {
       "object": {
         "internationalizationEnabled": true,
