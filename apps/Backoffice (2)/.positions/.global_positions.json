@@ -1,0 +1,233 @@
+{
+  "button112": {
+    "type": "stack",
+    "container": "container87",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 110,
+        "height": 40
+      }
+    }
+  },
+  "clientGroupAddModalTabs19": {
+    "type": "stack",
+    "container": "group407",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "height": 0.6,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 1019,
+        "height": 40
+      }
+    }
+  },
+  "container44": {
+    "container": "container43",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container45": {
+    "container": "container43",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container87": {
+    "subcontainer": "readPermissionErrorModal",
+    "height": 3,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle25": {
+    "type": "stack",
+    "container": "container45",
+    "subcontainer": "00030",
+    "row": 3.4,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 1889,
+        "height": 32
+      }
+    }
+  },
+  "containerTitle91": {
+    "type": "stack",
+    "container": "statusIndicator5",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 491,
+        "height": 32
+      }
+    }
+  },
+  "group404": {
+    "type": "stack",
+    "container": "group405",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 443,
+        "height": 56
+      }
+    }
+  },
+  "group405": {
+    "container": "clientGroupRootContainer5",
+    "subcontainer": "a7ed4",
+    "height": 3.8,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "group406": {
+    "type": "stack",
+    "container": "clientGroupRootContainer5",
+    "subcontainer": "a7ed4",
+    "row": 3.8,
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 816,
+        "height": 40
+      }
+    }
+  },
+  "group407": {
+    "type": "stack",
+    "container": "group406",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 768,
+        "height": 32
+      }
+    }
+  },
+  "icon6": {
+    "type": "stack",
+    "container": "container45",
+    "subcontainer": "00030",
+    "row": 2.2,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 157.41666666666666,
+        "height": 24
+      }
+    }
+  },
+  "sidebarMenu1": {
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "statusIndicator5": {
+    "type": "stack",
+    "container": "group404",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 9,
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 89,
+        "height": 40
+      }
+    }
+  },
+  "statusIndicatorText5": {
+    "type": "stack",
+    "container": "statusIndicator5",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 123,
+        "height": 32
+      }
+    }
+  },
+  "text26": {
+    "type": "stack",
+    "container": "container87",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 164,
+        "height": 24
+      }
+    }
+  }
+}

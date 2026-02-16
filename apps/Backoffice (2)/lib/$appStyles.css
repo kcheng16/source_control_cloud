@@ -1,0 +1,19 @@
+
+#clientGroupsTable td[data-column="action"] .eye-icon:hover {
+  transform: scale(1.1);
+  background-color: rgba(43, 56, 96, 0.1);
+}
+
+
+#clientGroupsTable .eye-icon {
+  transition: all 0.2s ease;
+  padding: 6px;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#clientGroupsTable .eye-icon:hover {
+  transform: scale(1.1);
+  background-color: rgba(43, 56, 96, 0.1);
+}
