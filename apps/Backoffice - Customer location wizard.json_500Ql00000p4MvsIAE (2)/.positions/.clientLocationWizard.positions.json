@@ -511,7 +511,7 @@
     "width": 2,
     "stackPosition": {
       "object": {
-        "ordinal": 1,
+        "ordinal": 0,
         "widthType": "auto",
         "width": 108,
         "height": 40
@@ -558,7 +558,7 @@
     "width": 10,
     "stackPosition": {
       "object": {
-        "ordinal": 0,
+        "ordinal": 1,
         "widthType": "auto",
         "width": 680,
         "height": 40
@@ -719,7 +719,7 @@
   },
   "companyNameHeader": {
     "type": "stack",
-    "container": "group615",
+    "container": "group646",
     "subcontainer": "00030",
     "row": 0.4,
     "col": 6,
@@ -1275,26 +1275,11 @@
       }
     }
   },
-  "group615": {
-    "type": "stack",
-    "container": "container455",
-    "subcontainer": "00030",
-    "height": 3.8,
-    "width": 4,
-    "stackPosition": {
-      "object": {
-        "ordinal": 1,
-        "widthType": "fill",
-        "width": 754,
-        "height": 48
-      }
-    }
-  },
   "group616": {
     "type": "stack",
     "container": "container455",
     "subcontainer": "00030",
-    "row": 3.8,
+    "row": 1.2,
     "height": 1,
     "width": 12,
     "stackPosition": {
@@ -1622,6 +1607,22 @@
         "widthType": "fill",
         "width": 1200,
         "height": 152
+      }
+    }
+  },
+  "group646": {
+    "type": "stack",
+    "container": "container455",
+    "subcontainer": "00030",
+    "row": 6.2,
+    "height": 3.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 754,
+        "height": 48
       }
     }
   },
@@ -2086,7 +2087,7 @@
   },
   "saveAndBack": {
     "type": "stack",
-    "container": "group615",
+    "container": "group646",
     "subcontainer": "00030",
     "row": 1.4,
     "height": 1.4,
@@ -2903,7 +2904,7 @@
     "type": "stack",
     "container": "container455",
     "subcontainer": "00030",
-    "row": 4.8,
+    "row": 2.2,
     "height": 4,
     "width": 6,
     "stackPosition": {

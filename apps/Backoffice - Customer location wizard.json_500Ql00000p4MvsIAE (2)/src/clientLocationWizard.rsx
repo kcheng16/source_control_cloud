@@ -648,7 +648,59 @@
         >
           <View id="00030" viewKey="View 1">
             <Container
-              id="group615"
+              id="group616"
+              _align="center"
+              _gap="0px"
+              _justify="space-between"
+              _type="stack"
+              footerPadding="4px 12px"
+              headerPadding="4px 12px"
+              margin="0px 8px"
+              overflowType="hidden"
+              padding="12px"
+              showBody={true}
+              style={{ map: { background: "rgba(255, 255, 255, 0)" } }}
+            >
+              <View id="00030" viewKey="View 1">
+                <Tabs
+                  id="clientGroupAddModalTabs23"
+                  itemMode="static"
+                  navigateContainer={true}
+                  style={{
+                    selectedText: "#2b3860",
+                    unselectedText: "primary",
+                    hoverText: "primary",
+                    fontSize: "labelEmphasizedFont",
+                    fontWeight: "labelEmphasizedFont",
+                    fontFamily: "labelEmphasizedFont",
+                    pillBorderRadius: "6px",
+                  }}
+                  targetContainerId="tabbedContainer14"
+                  value="{{ self.values[0] }}"
+                >
+                  <Option id="00030" value="Tab 1" />
+                  <Option id="00031" value="Tab 2" />
+                  <Option id="00032" value="Tab 3" />
+                </Tabs>
+                <Button
+                  id="button471"
+                  allowWrap={false}
+                  disabled="false"
+                  heightType="auto"
+                  horizontalAlign="left"
+                  style={{
+                    background: "{{ statusColor.value }}",
+                    activeBackground: "{{ statusColor.value }}",
+                    hoverBackground: "{{ statusColor.value }}",
+                  }}
+                  submitTargetId=""
+                  text="{{ statusText.value }}"
+                />
+              </View>
+            </Container>
+            <Include src="./tabbedContainer14.rsx" />
+            <Container
+              id="group646"
               _align="center"
               _gap="0px"
               _type="stack"
@@ -701,58 +753,6 @@
                 </Button>
               </View>
             </Container>
-            <Container
-              id="group616"
-              _align="center"
-              _gap="0px"
-              _justify="space-between"
-              _type="stack"
-              footerPadding="4px 12px"
-              headerPadding="4px 12px"
-              margin="0px 8px"
-              overflowType="hidden"
-              padding="12px"
-              showBody={true}
-              style={{ map: { background: "rgba(255, 255, 255, 0)" } }}
-            >
-              <View id="00030" viewKey="View 1">
-                <Tabs
-                  id="clientGroupAddModalTabs23"
-                  itemMode="static"
-                  navigateContainer={true}
-                  style={{
-                    selectedText: "#2b3860",
-                    unselectedText: "primary",
-                    hoverText: "primary",
-                    fontSize: "labelEmphasizedFont",
-                    fontWeight: "labelEmphasizedFont",
-                    fontFamily: "labelEmphasizedFont",
-                    pillBorderRadius: "6px",
-                  }}
-                  targetContainerId="tabbedContainer14"
-                  value="{{ self.values[0] }}"
-                >
-                  <Option id="00030" value="Tab 1" />
-                  <Option id="00031" value="Tab 2" />
-                  <Option id="00032" value="Tab 3" />
-                </Tabs>
-                <Button
-                  id="button471"
-                  allowWrap={false}
-                  disabled="false"
-                  heightType="auto"
-                  horizontalAlign="left"
-                  style={{
-                    background: "{{ statusColor.value }}",
-                    activeBackground: "{{ statusColor.value }}",
-                    hoverBackground: "{{ statusColor.value }}",
-                  }}
-                  submitTargetId=""
-                  text="{{ statusText.value }}"
-                />
-              </View>
-            </Container>
-            <Include src="./tabbedContainer14.rsx" />
           </View>
         </Container>
       </View>
