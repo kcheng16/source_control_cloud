@@ -15,6 +15,8 @@ apps:
     release: 1.0.0
   - uuid: 7c995470-c38d-11f0-a3d0-bba1fab677a2
     release: latest
+  - uuid: 95e22e1e-1867-11f1-a050-cb69948d4dd3
+    release: latest
   - uuid: adcb889c-ec55-11f0-8db6-f7666cae0d84
     release: latest
   - uuid: b3461ce8-dcb4-11f0-89df-e38b75bddfbd
