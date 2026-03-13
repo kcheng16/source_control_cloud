@@ -40,5 +40,7 @@ workflows:
     release: latest
   - uuid: ba52690c-cf00-4a2f-a6ac-9ab0566ee0fc
     release: latest
+  - uuid: d4b3b81f-7206-4280-90b5-f781d4d6a0e4
+    release: latest
   - uuid: d5e6dae2-857a-4679-b29d-443f04b851b0
     release: latest
