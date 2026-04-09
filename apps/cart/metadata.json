@@ -1,0 +1,17 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "b0a88451-6b03-4ed8-b50a-9a1ea6dcebac",
+  "appTemplate": {
+    "preloadedAppJavaScript": "window.maskMobileNumber = (mobileNumber) => {\n  // Ensure the input is a string and has exactly 10 digits\n  if (typeof mobileNumber !== 'string' || mobileNumber.length !== 10) {\n    return mobileNumber;\n  }\n\n  // Mask the first 6 digits with 'X' and keep the last 4 digits\n  const maskedNumber = 'XXXXXX' + mobileNumber.slice(-4);\n  return maskedNumber;\n}\n",
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "version": "3.196.15",
+    "experimentalDataTabEnabled": true
+  }
+}

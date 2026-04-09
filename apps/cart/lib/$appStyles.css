@@ -1,0 +1,35 @@
+/* Define the font face for weight 400 (normal) */
+@font-face {
+  font-family: Gilroy;
+  font-weight: 400;
+  src: url('https://instamart-media-assets.swiggy.com/FontAssets/20240718_GilroyforSwiggy_Beta/GilroyforSwiggy.ttf');
+}
+
+/* Define the font face for weight 500 */
+@font-face {
+  font-family: Gilroy;
+  font-weight: 500;
+  src: url('https://instamart-media-assets.swiggy.com/FontAssets/20240718_GilroyforSwiggy_Beta/GilroyforSwiggy-Medium.ttf');
+}
+
+/* Define the font face for weight 700 (bold) */
+@font-face {
+  font-family: Gilroy;
+  font-weight: 600;
+  src: url('https://instamart-media-assets.swiggy.com/FontAssets/20240718_GilroyforSwiggy_Beta/GilroyforSwiggy-Bold.ttf');
+}
+
+/* Define the font face for weight 900 (black) */
+@font-face {
+  font-family: Gilroy;
+  font-weight: 900;
+  src: url('https://instamart-media-assets.swiggy.com/FontAssets/20240718_GilroyforSwiggy_Beta/GilroyforSwiggy-Black.ttf');
+}
+
+.retool-canvas * {
+  font-family: Gilroy !important;
+}
+
+/* [data-testid="hiddenInputCart"] {
+  opacity: 0;
+} */
