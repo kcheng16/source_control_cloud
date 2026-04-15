@@ -1,3 +1,4 @@
+private: false
 customLibraries:
   array:
     - object:
@@ -108,6 +109,7 @@ setupScripts:
 
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
+hasProtectedTriggers: false
 triggerWebhooks:
   array:
     - object:
@@ -125,4 +127,4 @@ version: 43.0.9
 workflowId: 5a350ddf-4c7c-44c1-bb3f-d2dad71eb7b1
 description: null
 workflowTemplate:
-  version: 3.174.0
+  version: 3.372.0
