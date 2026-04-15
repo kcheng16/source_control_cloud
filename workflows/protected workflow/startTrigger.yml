@@ -21,7 +21,7 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: 'return '
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -52,7 +52,6 @@ template:
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
   timestamp: 0
-  evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
@@ -81,5 +80,5 @@ blockData:
   blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: webhook
+  resourceName: JavascriptQuery
   incomingOnSuccessEdges: []
