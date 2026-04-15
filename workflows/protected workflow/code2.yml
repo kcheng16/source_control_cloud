@@ -1,14 +1,11 @@
-id: function1
+id: code2
 type: datasource
-subtype: RESTQuery
-resourceName: REST-WithoutResource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
 template:
   queryRefreshTime: ''
-  paginationLimit: ''
   allowedGroupIds: []
-  openAPIRequestBody: ''
   streamResponse: false
-  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
@@ -21,13 +18,10 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
-  paginationPaginationField: ''
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
-  headers: ''
   showFailureToaster: true
-  paginationEnabled: false
-  query: null
+  query: return code1.data
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -37,11 +31,11 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
+  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
-  cookies: ''
   metadata: null
   queryRunTime: null
   changesetObject: ''
@@ -57,13 +51,11 @@ template:
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
-  paginationDataField: ''
   timestamp: 0
-  openAPIParams: '{}'
+  evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
-  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
@@ -71,26 +63,22 @@ template:
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
-  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
-  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-03-26T17:49:25.867Z
+createdAt: 2026-04-15T00:44:35.278Z
 blockData:
-  top: 40
-  left: 40
-  uuid: f659d1e8-e275-4a26-9b12-b430ae00933e
-  options:
-    subflowId: 0b00fa76-e640-4e30-872f-629fb5fb0b40
-    parameters: []
-  pluginId: function1
-  blockType: function
-  editorType: RESTQuery
-  resourceName: REST-WithoutResource
-  incomingOnSuccessEdges: []
+  top: 48
+  left: 960
+  uuid: c3a2ad6d-ec36-4c7f-8fd4-d4ab8a0a45a1
+  pluginId: code2
+  blockType: code
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - d6625a2d-8b6e-4e4d-a667-7707883a857a
