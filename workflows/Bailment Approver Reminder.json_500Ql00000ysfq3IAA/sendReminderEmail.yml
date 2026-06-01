@@ -1,0 +1,118 @@
+id: sendReminderEmail
+type: datasource
+subtype: SMTPQuery
+resourceName: b4f891ce-887a-4e66-8f96-5c2f678d30fa
+template:
+  inReplyTo: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  toEmail: '{{ row.CurrentApproverEmail }}'
+  streamResponse: false
+  body: >-
+    Hi {{ row.CurrentApproverName || "there" }},
+
+
+    <p>This Bailment Consumption Request has been waiting for your action for {{
+    row.ReminderLevel }} business days.</p>
+
+
+    <p>
+
+    <strong>Reference Number:</strong> {{ row.ReferenceNumber }}<br>
+
+    <strong>Requester Name:</strong> {{ row.RequesterName }}<br>
+
+    <strong>Status:</strong> {{ row.Status }}
+
+    </p>
+
+
+    <p>Please review and action the request.</p>
+
+
+    Thanks
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  attachment: []
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  showCcBcc: false
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  showReplyTo: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  subject: 'Reminder: Approval required for {{ row.ReferenceNumber }}'
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  fromEmail: dx-workflows@komatsu.com.au
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  replyToEmail: ''
+  useRetoolAgentsSignature: false
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  bccEmail: ''
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  ccEmail: ''
+  bodyType: html
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2026-05-28T02:38:00.766Z
+blockData:
+  top: 272
+  left: 1600
+  uuid: ae30ede7-3ac8-4e31-bc2b-cbeebfc16687
+  pluginId: sendReminderEmail
+  blockType: default
+  editorType: SMTPQuery
+  resourceName: b4f891ce-887a-4e66-8f96-5c2f678d30fa
+  incomingPorts: []
+  incomingOnSuccessEdges: []
