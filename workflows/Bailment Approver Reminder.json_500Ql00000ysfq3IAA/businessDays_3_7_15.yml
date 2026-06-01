@@ -1,0 +1,177 @@
+id: businessDays_3_7_15
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 4fcc3e1a-3e20-4b15-813f-b02ddf3591ca
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  records: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  databasePasswordOverride: ''
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    USE Retool_BailmentConsumptionRequests;
+
+    SET DATEFIRST 1; -- Monday = 1
+
+    WITH pending_requests AS (
+        SELECT
+            RequestID,
+            ReferenceNumber,
+            RequesterName,
+            RequesterEmail,
+            Status,
+            CurrentStepName,
+            CurrentApproverName,
+            CurrentApproverEmail,
+            ModifiedOn,
+            LastReminderLevel,
+
+            CAST(ModifiedOn AT TIME ZONE 'UTC' AT TIME ZONE 'AUS Eastern Standard Time' AS datetime) AS ModifiedOnLocal,
+            CAST(GETUTCDATE() AT TIME ZONE 'UTC' AT TIME ZONE 'AUS Eastern Standard Time' AS datetime) AS NowLocal
+        FROM dbo.BailmentRequests
+        WHERE CurrentApproverEmail IS NOT NULL
+          AND CurrentApproverEmail <> ''
+          AND Status LIKE 'Pending%'
+    ),
+    calculated AS (
+        SELECT
+            *,
+            CAST(ModifiedOnLocal AS date) AS ModifiedDate,
+            CAST(NowLocal AS date) AS TodayDate
+        FROM pending_requests
+    ),
+    business_days AS (
+        SELECT
+            *,
+            CASE
+                WHEN ModifiedDate >= TodayDate THEN 0
+                ELSE
+                    DATEDIFF(DAY, ModifiedDate, TodayDate)
+                    - (DATEDIFF(WEEK, ModifiedDate, TodayDate) * 2)
+                    - CASE WHEN DATEPART(WEEKDAY, ModifiedDate) = 7 THEN 1 ELSE 0 END
+                    - CASE WHEN DATEPART(WEEKDAY, TodayDate) = 6 THEN 1 ELSE 0 END
+            END AS BusinessDaysPending
+        FROM calculated
+    ),
+    reminders AS (
+        SELECT
+            *,
+            CASE
+                WHEN BusinessDaysPending >= 15 THEN 15
+                WHEN BusinessDaysPending >= 7 THEN 7
+                WHEN BusinessDaysPending >= 3 THEN 3
+            END AS ReminderLevel
+        FROM business_days
+    )
+    SELECT
+        RequestID,
+        ReferenceNumber,
+        RequesterName,
+        RequesterEmail,
+        Status,
+        CurrentStepName,
+        CurrentApproverName,
+        CurrentApproverEmail,
+        ModifiedOn,
+        ModifiedOnLocal,
+        BusinessDaysPending,
+        ReminderLevel
+    FROM reminders
+    WHERE ReminderLevel IS NOT NULL
+      AND ISNULL(LastReminderLevel, 0) < ReminderLevel
+    ORDER BY BusinessDaysPending DESC, ModifiedOn ASC;
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  warningCodes: []
+  data: null
+  recordId: ''
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  dataArray: []
+  cacheKeyTtl: ''
+  filterBy: ''
+  requestSentTimestamp: null
+  databaseHostOverride: ''
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  actionType: ''
+  changesetObject: ''
+  shouldUseLegacySql: false
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  databaseNameOverride: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  tableName: ''
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2026-05-28T02:26:09.463Z
+blockData:
+  top: 0
+  left: 496
+  uuid: b2ebf52a-24e6-452f-8729-cd23a547b869
+  pluginId: businessDays_3_7_15
+  blockType: default
+  dimensions:
+    width: 464
+    height: 976
+  editorType: SqlQueryUnified
+  resourceName: 4fcc3e1a-3e20-4b15-813f-b02ddf3591ca
+  incomingOnSuccessEdges:
+    - f0a43d61-249b-46d3-b6ed-ae214cc5709a
