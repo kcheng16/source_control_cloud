@@ -17,6 +17,6 @@
     padding="8px 12px"
     type="main"
   >
-    <Text id="text1" value="# no release manifest" verticalAlign="center" />
+    <Text id="text1" value="# MY STAGING RELEASE" verticalAlign="center" />
   </Frame>
 </Screen>
