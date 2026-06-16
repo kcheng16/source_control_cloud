@@ -151,6 +151,7 @@
         type="custom"
       >
         <Event
+          id="ef5ab6f9"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -166,6 +167,7 @@
         type="custom"
       >
         <Event
+          id="58f5d279"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
