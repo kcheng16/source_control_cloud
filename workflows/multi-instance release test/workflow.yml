@@ -125,6 +125,6 @@ triggerWebhooks:
         examplePathParams: ''
 version: 43.0.9
 workflowId: dc1ae96f-cdff-4103-afb2-e6f21ea0d576
-description: ''
+description: null
 workflowTemplate:
   version: 4.11.0
