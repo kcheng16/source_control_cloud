@@ -8,7 +8,7 @@ apps:
   - uuid: 29d6ba94-f9bf-11f0-84ea-57f249c7656b
     release: latest
   - uuid: 37341ffe-710d-11f1-91ec-d75d96f8b334
-    release: latest
+    release: 1.0.0
   - uuid: 3fb2a41a-5ee4-11f1-8e41-2bd28485b4f8
     release: latest
   - uuid: 495686ee-0ade-11f1-9599-4f38066f6a3d
