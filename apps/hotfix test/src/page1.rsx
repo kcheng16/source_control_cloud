@@ -18,5 +18,6 @@
     type="main"
   >
     <Text id="text1" value="# App createion" verticalAlign="center" />
+    <Text id="text2" value="New update" verticalAlign="center" />
   </Frame>
 </Screen>
