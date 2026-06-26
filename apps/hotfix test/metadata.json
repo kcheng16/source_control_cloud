@@ -1,0 +1,10 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "37341ffe-710d-11f1-91ec-d75d96f8b334",
+  "appTemplate": {
+    "pubAppDecoupledQueriesDisabled": null,
+    "rootScreen": "page1",
+    "version": "4.15.0"
+  }
+}
