@@ -126,4 +126,5 @@ workflowId: d4b3b81f-7206-4280-90b5-f781d4d6a0e4
 description: null
 workflowTemplate:
   appMaxWidth: 100%
-  version: 3.356.0
+  pubAppDecoupledQueriesDisabled: null
+  version: 4.15.0
