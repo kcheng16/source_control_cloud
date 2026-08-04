@@ -112,4 +112,11 @@
       waitType="debounce"
     />
   </CollectionView>
+  <Text
+    id="text3"
+    markdown={true}
+    size="medium"
+    value="👋 Hello {{ current_user.firstName || 'friend' }}!"
+    weight="normal"
+  />
 </Screen>

@@ -6,7 +6,6 @@
       isMultiplayerEdited={false}
       offlineQueryType="Read"
       query={include("./lib/get_soil_round_and_project_data.sql", "string")}
-      resourceDisplayName="Production GIS1 (read)"
       resourceName="adcb7d1c-1c93-44a2-8ac6-e40770f3d49c"
       runWhenModelUpdates={false}
       transformer="return _tool.formatDataAsArray(data);"
@@ -17,7 +16,6 @@
       enableTransformer={true}
       offlineQueryType="Read"
       query={include("./lib/get_soil_sampling_data.sql", "string")}
-      resourceDisplayName="Production GIS1 (read)"
       resourceName="adcb7d1c-1c93-44a2-8ac6-e40770f3d49c"
       runWhenModelUpdates={false}
       transformer="return _tool.formatDataAsArray(data);"
@@ -29,7 +27,6 @@
       notificationDuration={4.5}
       offlineQueryType="Read"
       query={include("./lib/get_soil_sampling_yearly_result.sql", "string")}
-      resourceDisplayName="Production GIS1 (read)"
       resourceName="adcb7d1c-1c93-44a2-8ac6-e40770f3d49c"
       showSuccessToaster={false}
       showUpdateSetValueDynamicallyToggle={false}
@@ -42,7 +39,6 @@
       enableTransformer={true}
       offlineQueryType="Read"
       query={include("./lib/get_my_info.sql", "string")}
-      resourceDisplayName="Production GIS1 (read)"
       resourceName="adcb7d1c-1c93-44a2-8ac6-e40770f3d49c"
       runWhenModelUpdates={false}
       transformer="return _tool.formatDataAsArray(data)[0];"
@@ -54,7 +50,6 @@
       isMultiplayerEdited={false}
       offlineQueryType="Read"
       query={include("./lib/get_staffs.sql", "string")}
-      resourceDisplayName="Production GIS1 (read)"
       resourceName="adcb7d1c-1c93-44a2-8ac6-e40770f3d49c"
       runWhenModelUpdates={false}
       transformer="return _tool.formatDataAsArray(data);"
@@ -65,7 +60,6 @@
       enableTransformer={true}
       offlineQueryType="Read"
       query={include("./lib/get_list_options.sql", "string")}
-      resourceDisplayName="Production GIS1 (read)"
       resourceName="adcb7d1c-1c93-44a2-8ac6-e40770f3d49c"
       transformer="return _tool.formatDataAsArray(data);"
       warningCodes={[]}
@@ -89,7 +83,6 @@
       _additionalScope={["procedureName", "parameters"]}
       enableTransformer={true}
       query={include("./lib/call_process_dynamic_procedure_call.sql", "string")}
-      resourceDisplayName="Production GIS1 (write)"
       resourceName="e8259c5e-8b7a-4dc9-a773-9fba0fd5d873"
       runWhenModelUpdates={false}
       transformer="return _tool.formatDataAsArray(data)[0].p_result;"
@@ -118,7 +111,6 @@
     <SqlQueryUnified
       id="upsert_soil_sampling_round"
       query={include("./lib/upsert_soil_sampling_round.sql", "string")}
-      resourceDisplayName="Production GIS1 (write)"
       resourceName="e8259c5e-8b7a-4dc9-a773-9fba0fd5d873"
       runWhenModelUpdates={false}
       warningCodes={[]}
@@ -143,7 +135,6 @@
     <SqlQueryUnified
       id="upsert_soil_sampling_round2"
       query={include("./lib/upsert_soil_sampling_round2.sql", "string")}
-      resourceDisplayName="Production GIS1 (write)"
       resourceName="e8259c5e-8b7a-4dc9-a773-9fba0fd5d873"
       runWhenModelUpdates={false}
       warningCodes={[]}
@@ -184,7 +175,6 @@
       offlineQueryType="Write"
       offlineUserQueryInputs={'[{"key":"Test 1","value":"Testing"}]'}
       query={include("./lib/upsert_soil_sampling.sql", "string")}
-      resourceDisplayName="Production GIS1 (write)"
       resourceName="e8259c5e-8b7a-4dc9-a773-9fba0fd5d873"
       runWhenModelUpdates={false}
       transformer=""

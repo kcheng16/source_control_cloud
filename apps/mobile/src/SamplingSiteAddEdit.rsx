@@ -74,7 +74,6 @@
       offlineQueryType="Write"
       query={include("../lib/upsert_yearly_result_data.sql", "string")}
       queryDisabled="{{ openModal.value != true }}"
-      resourceDisplayName="Production GIS1 (write)"
       resourceName="e8259c5e-8b7a-4dc9-a773-9fba0fd5d873"
       runWhenModelUpdates={false}
       showSuccessToaster={false}
