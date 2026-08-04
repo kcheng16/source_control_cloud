@@ -1,0 +1,20 @@
+return {
+  id: {{varSelectedSamplingRound.value.id}} ,
+  project_id: {{ varSelectedSamplingRound.value.project_id}} ,
+  round_name: {{ varSelectedSamplingRound.value.round_name}} ,
+  sampling_type: {{ varSelectedSamplingRound.value.sampling_type}},
+  reporting_period: {{ varSelectedSamplingRound.value.reporting_period}} ,
+  year: {{ varSelectedSamplingRound.value.year}} ,
+  sampling_scheduled_date: {{ varSelectedSamplingRound.value.sampling_scheduled_date}} ,
+  forecast_date_override: {{ varSelectedSamplingRound.value.forecast_date_override}} ,
+  sampling_median_date_override: {{ varSelectedSamplingRound.value.sampling_median_date_override}} ,
+  external_sampler_client_id: {{ varSelectedSamplingRound.value.external_sampler_client_id}} ,
+  external_sampler_contact_id: {{ varSelectedSamplingRound.value.external_sampler_contact_id}} ,
+  cf_staff_as_sampler_ids: {{ varSelectedSamplingRound.value.cf_staff_as_sampler_ids}} ,
+  num_of_paddocks: {{ varSelectedSamplingRound.value.num_of_paddocks}} ,
+  num_of_mobs: {{ varSelectedSamplingRound.value.num_of_mobs}} ,
+  num_of_livestocks: {{ varSelectedSamplingRound.value.num_of_livestocks}} ,
+  total_grazing_area: {{ varSelectedSamplingRound.value.total_grazing_area}} ,
+  is_deleted: false,
+  note: {{ varSelectedSamplingRound.value.note }}
+}

@@ -1,0 +1,22 @@
+CALL non_spatial.sp_soil_sampling_round_upsert(
+    out_id => {{ varSelectedSamplingRound.value.id }}::UUID,
+    p_project_id => {{ varSelectedSamplingRound.value.project_id }}::UUID,
+    p_round_name => {{ varSelectedSamplingRound.value.round_name }}::TEXT,
+    p_sampling_type => {{ varSelectedSamplingRound.value.sampling_type }}::TEXT,
+    p_reporting_period => {{ varSelectedSamplingRound.value.reporting_period }}::INTEGER,
+    p_year => {{ varSelectedSamplingRound.value.year }}::INTEGER,
+    p_sampling_scheduled_date => {{ varSelectedSamplingRound.value.sampling_scheduled_date }}::DATE,
+    p_forecast_date_override => {{ varSelectedSamplingRound.value.forecast_date_override }}::DATE,
+    p_sampling_median_date_override => {{ varSelectedSamplingRound.value.sampling_median_date_override }}::DATE,
+    p_external_sampler_client_id => {{ varSelectedSamplingRound.value.external_sampler_client_id }}::UUID,
+    p_external_sampler_contact_id => {{ varSelectedSamplingRound.value.external_sampler_contact_id }}::UUID,
+    p_cf_staff_as_sampler_ids => {{ varSelectedSamplingRound.value.cf_staff_as_sampler_ids }}::UUID[],
+    p_note => {{ varSelectedSamplingRound.value.note }},
+    p_num_of_paddocks => {{ varSelectedSamplingRound.value.num_of_paddocks }}::INTEGER,
+    p_num_of_mobs => {{ varSelectedSamplingRound.value.num_of_mobs }}::INTEGER,
+    p_num_of_livestocks => {{ varSelectedSamplingRound.value.num_of_livestocks }}::INTEGER,
+    p_total_grazing_area => {{ varSelectedSamplingRound.value.total_grazing_area }}::NUMERIC,
+    p_is_deleted => {{ varSelectedSamplingRound.value.is_deleted }}::BOOLEAN,
+    p_modified_by => {{ get_my_info.data.id }}::UUID,
+    p_history_context => {{ `From YMKA SoilSamplingApp - upsert_soil_sampling_round` }}::TEXT
+);

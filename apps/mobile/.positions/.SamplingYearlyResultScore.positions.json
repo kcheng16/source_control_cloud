@@ -1,0 +1,150 @@
+{
+  "button1": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "divAS": {
+    "type": "stack",
+    "container": "grpAS",
+    "height": 0,
+    "width": 0
+  },
+  "divGC": {
+    "type": "stack",
+    "container": "grpGC",
+    "height": 0,
+    "width": 0
+  },
+  "divOD": {
+    "type": "stack",
+    "container": "grpOD",
+    "height": 0,
+    "width": 0
+  },
+  "divPD": {
+    "type": "stack",
+    "container": "grpPD",
+    "height": 0,
+    "width": 0
+  },
+  "divWI": {
+    "type": "stack",
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  },
+  "grpAS": {
+    "height": 0,
+    "width": 0
+  },
+  "grpGC": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "grpOD": {
+    "height": 0,
+    "width": 0
+  },
+  "grpPD": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "grpWI": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "kvAS": {
+    "type": "stack",
+    "container": "grpAS",
+    "height": 0,
+    "width": 0
+  },
+  "kvGC": {
+    "type": "stack",
+    "container": "grpGC",
+    "height": 0,
+    "width": 0
+  },
+  "kvOD": {
+    "type": "stack",
+    "container": "grpOD",
+    "height": 0,
+    "width": 0
+  },
+  "kvPD": {
+    "type": "stack",
+    "container": "grpPD",
+    "height": 0,
+    "width": 0
+  },
+  "kvWI": {
+    "type": "stack",
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  },
+  "selCFAsSamplers2": {
+    "col": 11,
+    "height": 0,
+    "width": 0
+  },
+  "text2": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS": {
+    "type": "stack",
+    "container": "grpAS",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS2": {
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS3": {
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS4": {
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS5": {
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  },
+  "txtGC": {
+    "type": "stack",
+    "container": "grpGC",
+    "height": 0,
+    "width": 0
+  },
+  "txtOD": {
+    "type": "stack",
+    "container": "grpOD",
+    "height": 0,
+    "width": 0
+  },
+  "txtPD": {
+    "type": "stack",
+    "container": "grpPD",
+    "height": 0,
+    "width": 0
+  },
+  "txtWI": {
+    "type": "stack",
+    "container": "grpWI",
+    "height": 0,
+    "width": 0
+  }
+}

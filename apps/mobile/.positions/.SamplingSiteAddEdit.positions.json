@@ -1,0 +1,424 @@
+{
+  "chkAS_DispersionSubSoil": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "chkAS_DispersionTopSoil": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "chkAS_SlakingSubSoil": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "chkAS_SlakingTopSoil": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "chkAddResultData": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "chkGC_BareGroundCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "chkGC_ForbCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "chkGC_GrassCount": {
+    "type": "stack",
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "chkGC_LegumeCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "chkGC_OtherCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_EarthwormCount": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_GrazeDay": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_HumusSmell": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_LegumeIsRed": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_LegumePresent": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_RestDay": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_SpeciesCount": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkOt_TopsoilDepth": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "chkPD_ForbCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "chkPD_GrassCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "chkPD_LegumeCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "chkPD_OtherCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "chkWI_Sample1": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "chkWI_Sample2": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "chkWI_Sample3": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "cntAggregateStability": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "cntGroundCover": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "cntOtherData": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "cntPlantDiversity": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "cntWaterInfiltration": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "divider3": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "divider4": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "divider5": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "divider6": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "divider7": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "divider8": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "dtSampleTakenDate": {
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "keyValue2": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "selAS_DispersionSubSoil": {
+    "type": "stack",
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "selAS_DispersionTopSoil": {
+    "type": "stack",
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "selOt_HumusSmell": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "selOt_LegumeIsRed": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "selOt_LegumePresent": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "selPaddockUseAs": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "status1": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "status2": {
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "swcDraft": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "tabContainer2": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS_SlakingSubSoil": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "txtAS_SlakingTopSoil": {
+    "container": "cntAggregateStability",
+    "height": 0,
+    "width": 0
+  },
+  "txtCEA": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtGC_BareGroundCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "txtGC_ForbCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "txtGC_GrassCount": {
+    "type": "stack",
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "txtGC_LegumeCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "txtGC_OtherCount": {
+    "container": "cntGroundCover",
+    "height": 0,
+    "width": 0
+  },
+  "txtLongitude": {
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtNote": {
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtNote_YearlyResult": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "txtOt_EarthwormCount": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "txtOt_GrazeDay": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "txtOt_RestDay": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "txtOt_SpeciesCount": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "txtOt_TopsoilDepth": {
+    "container": "cntOtherData",
+    "height": 0,
+    "width": 0
+  },
+  "txtPD_ForbCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "txtPD_GrassCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "txtPD_LegumeCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "txtPD_OtherCount": {
+    "container": "cntPlantDiversity",
+    "height": 0,
+    "width": 0
+  },
+  "txtPaddockAsOther": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtProperty": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtSiteName": {
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtStrata": {
+    "type": "stack",
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtWI_Sample1": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "txtWI_Sample2": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "txtWI_Sample3": {
+    "container": "cntWaterInfiltration",
+    "height": 0,
+    "width": 0
+  },
+  "txtlatitude": {
+    "container": "tabContainer2",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  }
+}
