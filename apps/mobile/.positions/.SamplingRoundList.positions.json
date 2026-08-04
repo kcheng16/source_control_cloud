@@ -1,0 +1,55 @@
+{
+  "btnAdd_YearlySampling": {
+    "type": "stack",
+    "container": "tabSamplingRound",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "divider1": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "divider2": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "kvProjects": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "lblProjectName": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "listCollection2": {
+    "type": "stack",
+    "container": "tabSamplingRound",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "lstOfficialSampling": {
+    "type": "stack",
+    "container": "tabSamplingRound",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "lstYearlySampling": {
+    "type": "stack",
+    "container": "tabSamplingRound",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "tabSamplingRound": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  }
+}

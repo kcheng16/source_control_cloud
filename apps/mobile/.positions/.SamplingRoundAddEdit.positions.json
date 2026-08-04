@@ -1,0 +1,152 @@
+{
+  "btnAddSite": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "datePicker1": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "dtForecastDate": {
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "dtScheduledDate": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "keyValue1": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "lstSitesOfficial": {
+    "container": "tabContainer1",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "lstSitesYearly": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "multiselect1": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "numberInput1": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "numberInput2": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "numberInput3": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "numberInput4": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030-empty-state",
+    "height": 0,
+    "width": 0
+  },
+  "selCFAsSamplers": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "status3": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "tabContainer1": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
+  "text1": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00031",
+    "height": 0,
+    "width": 0
+  },
+  "txtNote_SamplingRound": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtNumOfLivestock": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtNumOfMobs": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtNumOfPaddock": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtTotalGrazingArea": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  },
+  "txtYear": {
+    "type": "stack",
+    "container": "tabContainer1",
+    "subcontainer": "00030",
+    "height": 0,
+    "width": 0
+  }
+}

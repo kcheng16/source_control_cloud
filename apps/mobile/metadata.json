@@ -1,0 +1,61 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "e9d16d8c-8a1d-11f1-ade3-d76b419004c1",
+  "appTemplate": {
+    "mobileAppSettings": {
+      "object": {
+        "displaySetting": {
+          "object": {
+            "landscapeMode": false,
+            "tabletMode": false
+          }
+        },
+        "mobileOfflineModeBannerMode": "default",
+        "mobileOfflineModeDelaySync": true,
+        "mobileOfflineModeEnabled": true,
+        "mobileMultiscreenV2Enabled": true,
+        "layoutVersion": 0,
+        "offlineModeSetting": {
+          "object": {
+            "pingTimeout": 2000,
+            "pingInterval": 5000
+          }
+        }
+      }
+    },
+    "appMaxWidth": "100%",
+    "pubAppDecoupledQueriesDisabled": null,
+    "appThemeId": 7,
+    "preloadedAppJavaScript": "class PendingJob {\n  constructor(fromApp, fromPage, fromComponent, payload, operation, metaData, entity_name, display_name, dependencyID, dependencyFieldName) {\n    this.context_from_app = fromApp;\n    this.context_from_page = fromPage;\n    this.context_from_component = fromComponent;\n    this.display_name = display_name;\n    \n    this.payload = payload;\n    this.operation = operation;\n    this.metaData = metaData;\n    this.entity_name = entity_name;\n\n    this.id = PendingJob.generateUUID();\n    this.createDate = moment().format(\"yyyy-MM-D HH:mm:ss\");\n    this.status = 'PENDING';\n\n    this.dependency = {\n      id: dependencyID,\n      field_name: dependencyFieldName\n    };\n    \n    this.processingStart = undefined;\n    this.processingEnd = undefined;\n    this.result = undefined;\n  }\n\n  static generateUUID() {\n      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {\n          const r = Math.random() * 16 | 0;\n          const v = c === 'x' ? r : (r & 0x3 | 0x8);\n          return v.toString(16);\n      });\n  }\n}\n\nclass JobQueue {\n\n  static get QUEUE_KEY() {\n    return \"cf_job_queue\";\n  }\n  \n  static addJob(job)\n  {\n    //Need to check if ID is unique or not\n    \n    let jobQueue = localStorage.getValue(this.QUEUE_KEY) || [];\n    jobQueue.push(job);\n\n    localStorage.setValue(this.QUEUE_KEY, jobQueue);\n  }\n\n  static updateJob(job)\n  {\n    //Need to check if ID is unique or not\n    \n    let jobQueue = localStorage.getValue(this.QUEUE_KEY) || [];\n    let index = jobQueue.findIndex((x) => x.id == job.id);\n\n    if (index > -1)\n      jobQueue[index] = job;\n\n    localStorage.setValue(this.QUEUE_KEY, jobQueue);\n  }\n\n  static getJob()\n  {\n    \n  }\n\n  static deleteJob(job)\n  {\n    \n  }\n\n  static clearAllQueue()\n  {\n    localStorage.setValue(this.QUEUE_KEY, undefined);\n  }\n\n  static getPendingJobs()\n  {\n    let jobQueue = localStorage.getValue(this.QUEUE_KEY) || [];\n\n    return jobQueue.filter((x) => x.status == 'PENDING');\n  }\n\n  static isOffline()\n  {\n    return retoolContext.networkStatus != 'CONNECTED';\n  }\n\n  static postgreSPToObject(sql) {\n    const result = {};\n  \n    // Extract everything inside the parentheses\n    const inner = sql.replace(/^[\\s\\S]*?\\(/, \"\").replace(/\\)[\\s\\S]*$/, \"\");\n  \n    // Split by lines to avoid breaking on commas inside values\n    const lines = inner.split(/\\r?\\n/);\n  \n    for (let rawLine of lines) {\n      const line = rawLine.trim();\n  \n      // Skip empty lines\n      if (!line) continue;\n  \n      // Remove trailing comma\n      const cleaned = line.replace(/,$/, \"\");\n  \n      // Match: param_name => value\n      const match = cleaned.match(/^([a-zA-Z0-9_]+)\\s*=>\\s*(.*)$/);\n      if (!match) continue;\n  \n      const key = match[1];\n      let value = match[2].trim();\n  \n      // Handle empty values → undefined\n      if (value === \"\" || value === \"null\") {\n        result[key] = undefined;\n        continue;\n      }\n  \n      // Handle quoted strings\n      if ((value.startsWith(\"'\") && value.endsWith(\"'\")) ||\n          (value.startsWith('\"') && value.endsWith('\"'))) {\n        result[key] = value.slice(1, -1);\n        continue;\n      }\n  \n      // Convert booleans\n      if (value === \"true\") {\n        result[key] = true;\n        continue;\n      }\n      if (value === \"false\") {\n        result[key] = false;\n        continue;\n      }\n  \n      // Otherwise treat as raw literal (UUID, number, date, etc.)\n      result[key] = value;\n    }\n  \n    return result;\n  }\n}",
+    "pageCodeFolders": {
+      "object": {
+        "SoilProjectList": {
+          "array": []
+        },
+        "SamplingRoundList": {
+          "array": []
+        },
+        "SamplingRoundAddEdit": {
+          "array": [
+            "Sampling_Round_Update",
+            "Site_row_click",
+            "Score_card",
+            "Sampling_site_copy",
+            "On_load_and_displays"
+          ]
+        },
+        "SamplingSiteAddEdit": {
+          "array": ["Yearly_data", "Location_Fns"]
+        },
+        "SamplingYearlyResultScore": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "tabscreen",
+    "isMobileApp": true,
+    "version": "4.33.0",
+    "multiScreenMobileApp": true
+  }
+}
