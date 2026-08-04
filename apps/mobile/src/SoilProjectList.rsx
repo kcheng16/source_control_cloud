@@ -119,4 +119,5 @@
     value="👋 Hello {{ current_user.firstName || 'friend' }}!"
     weight="normal"
   />
+  <Button id="button2" size="large" text="Button" />
 </Screen>

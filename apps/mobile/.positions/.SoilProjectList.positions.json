@@ -1,4 +1,9 @@
 {
+  "button2": {
+    "type": "stack",
+    "height": 0,
+    "width": 0
+  },
   "listProjects": {
     "type": "stack",
     "height": 0,
