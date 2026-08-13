@@ -1,32 +1,61 @@
 import { useState } from 'react'
-import { Plus, Equal } from 'lucide-react'
+import { Plus, Minus, Equal, Calculator as CalculatorIcon } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../lib/shadcn/card'
 import { Input } from '../lib/shadcn/input'
 import { Button } from '../lib/shadcn/button'
 
+type Operation = 'add' | 'subtract'
+
 export default function Calculator() {
   const [a, setA] = useState('')
   const [b, setB] = useState('')
+  const [operation, setOperation] = useState<Operation>('add')
   const [result, setResult] = useState<number | null>(null)
 
   const numA = parseFloat(a)
   const numB = parseFloat(b)
-  const canAdd = !isNaN(numA) && !isNaN(numB)
+  const canCompute = !isNaN(numA) && !isNaN(numB)
 
-  const handleAdd = () => {
-    if (canAdd) setResult(numA + numB)
+  const handleCompute = () => {
+    if (!canCompute) return
+    setResult(operation === 'add' ? numA + numB : numA - numB)
   }
 
+  const OpIcon = operation === 'add' ? Plus : Minus
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-background p-6 gap-6">
+      <div className="flex items-center gap-3">
+        <div className="flex items-center justify-center w-11 h-11 rounded-xl bg-primary text-primary-foreground shadow-retool-sm">
+          <CalculatorIcon className="w-6 h-6" />
+        </div>
+        <span className="text-2xl font-bold tracking-tight text-foreground">QuickCalc</span>
+      </div>
       <Card className="w-full max-w-sm">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <Plus className="w-5 h-5 text-primary" />
-            Addition Calculator
+            <OpIcon className="w-5 h-5 text-primary" />
+            Calculator
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
+          <div className="grid grid-cols-2 gap-2">
+            <Button
+              variant={operation === 'add' ? 'default' : 'outline'}
+              onClick={() => setOperation('add')}
+            >
+              <Plus className="w-4 h-4 mr-2" />
+              Add
+            </Button>
+            <Button
+              variant={operation === 'subtract' ? 'default' : 'outline'}
+              onClick={() => setOperation('subtract')}
+            >
+              <Minus className="w-4 h-4 mr-2" />
+              Subtract
+            </Button>
+          </div>
+
           <div className="space-y-2">
             <Input
               type="number"
@@ -35,7 +64,7 @@ export default function Calculator() {
               onChange={(e) => setA(e.target.value)}
             />
             <div className="flex justify-center">
-              <Plus className="w-5 h-5 text-muted-foreground" />
+              <OpIcon className="w-5 h-5 text-muted-foreground" />
             </div>
             <Input
               type="number"
@@ -45,9 +74,9 @@ export default function Calculator() {
             />
           </div>
 
-          <Button className="w-full" onClick={handleAdd} disabled={!canAdd}>
+          <Button className="w-full" onClick={handleCompute} disabled={!canCompute}>
             <Equal className="w-4 h-4 mr-2" />
-            Add
+            {operation === 'add' ? 'Add' : 'Subtract'}
           </Button>
 
           {result !== null && (
