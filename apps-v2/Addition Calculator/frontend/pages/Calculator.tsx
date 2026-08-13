@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { Plus, Minus, Equal, Calculator as CalculatorIcon } from 'lucide-react'
+import { Plus, Minus, X, Equal, Calculator as CalculatorIcon } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../lib/shadcn/card'
 import { Input } from '../lib/shadcn/input'
 import { Button } from '../lib/shadcn/button'
 
-type Operation = 'add' | 'subtract'
+type Operation = 'add' | 'subtract' | 'multiply'
 
 export default function Calculator() {
   const [a, setA] = useState('')
@@ -18,10 +18,13 @@ export default function Calculator() {
 
   const handleCompute = () => {
     if (!canCompute) return
-    setResult(operation === 'add' ? numA + numB : numA - numB)
+    if (operation === 'add') setResult(numA + numB)
+    else if (operation === 'subtract') setResult(numA - numB)
+    else setResult(numA * numB)
   }
 
-  const OpIcon = operation === 'add' ? Plus : Minus
+  const OpIcon = operation === 'add' ? Plus : operation === 'subtract' ? Minus : X
+  const opLabel = operation === 'add' ? 'Add' : operation === 'subtract' ? 'Subtract' : 'Multiply'
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background p-6 gap-6">
@@ -39,20 +42,24 @@ export default function Calculator() {
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-3 gap-2">
             <Button
               variant={operation === 'add' ? 'default' : 'outline'}
               onClick={() => setOperation('add')}
             >
-              <Plus className="w-4 h-4 mr-2" />
-              Add
+              <Plus className="w-4 h-4" />
             </Button>
             <Button
               variant={operation === 'subtract' ? 'default' : 'outline'}
               onClick={() => setOperation('subtract')}
             >
-              <Minus className="w-4 h-4 mr-2" />
-              Subtract
+              <Minus className="w-4 h-4" />
+            </Button>
+            <Button
+              variant={operation === 'multiply' ? 'default' : 'outline'}
+              onClick={() => setOperation('multiply')}
+            >
+              <X className="w-4 h-4" />
             </Button>
           </div>
 
@@ -76,7 +83,7 @@ export default function Calculator() {
 
           <Button className="w-full" onClick={handleCompute} disabled={!canCompute}>
             <Equal className="w-4 h-4 mr-2" />
-            {operation === 'add' ? 'Add' : 'Subtract'}
+            {opLabel}
           </Button>
 
           {result !== null && (
