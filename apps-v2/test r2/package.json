@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "839a23a8-a122-11f1-8402-7b7f3308151e",
+      "name": "test r2",
+      "resourceReferencesByFile": {
+        "/backend/deals/getDeals.ts": [
+          {
+            "name": "1dafb1eb-888d-4223-8616-232d9ae927e3",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ]
+      },
+      "appIdentifier": "untitled-66"
+    }
+  }
+}
