@@ -1,16 +1,24 @@
 import { useState } from 'react'
-import { Plus, Minus, X, Equal, Calculator as CalculatorIcon } from 'lucide-react'
+import { Plus, Minus, X, Divide, Equal, Calculator as CalculatorIcon } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../lib/shadcn/card'
 import { Input } from '../lib/shadcn/input'
 import { Button } from '../lib/shadcn/button'
 
-type Operation = 'add' | 'subtract' | 'multiply'
+type Operation = 'add' | 'subtract' | 'multiply' | 'divide'
+
+const OPS: Record<Operation, { icon: typeof Plus; label: string }> = {
+  add: { icon: Plus, label: 'Add' },
+  subtract: { icon: Minus, label: 'Subtract' },
+  multiply: { icon: X, label: 'Multiply' },
+  divide: { icon: Divide, label: 'Divide' },
+}
 
 export default function Calculator() {
   const [a, setA] = useState('')
   const [b, setB] = useState('')
   const [operation, setOperation] = useState<Operation>('add')
   const [result, setResult] = useState<number | null>(null)
+  const [error, setError] = useState<string | null>(null)
 
   const numA = parseFloat(a)
   const numB = parseFloat(b)
@@ -18,13 +26,18 @@ export default function Calculator() {
 
   const handleCompute = () => {
     if (!canCompute) return
+    setError(null)
     if (operation === 'add') setResult(numA + numB)
     else if (operation === 'subtract') setResult(numA - numB)
-    else setResult(numA * numB)
+    else if (operation === 'multiply') setResult(numA * numB)
+    else if (numB === 0) {
+      setResult(null)
+      setError('Cannot divide by zero')
+    } else setResult(numA / numB)
   }
 
-  const OpIcon = operation === 'add' ? Plus : operation === 'subtract' ? Minus : X
-  const opLabel = operation === 'add' ? 'Add' : operation === 'subtract' ? 'Subtract' : 'Multiply'
+  const OpIcon = OPS[operation].icon
+  const opLabel = OPS[operation].label
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background p-6 gap-6">
@@ -42,25 +55,20 @@ export default function Calculator() {
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="grid grid-cols-3 gap-2">
-            <Button
-              variant={operation === 'add' ? 'default' : 'outline'}
-              onClick={() => setOperation('add')}
-            >
-              <Plus className="w-4 h-4" />
-            </Button>
-            <Button
-              variant={operation === 'subtract' ? 'default' : 'outline'}
-              onClick={() => setOperation('subtract')}
-            >
-              <Minus className="w-4 h-4" />
-            </Button>
-            <Button
-              variant={operation === 'multiply' ? 'default' : 'outline'}
-              onClick={() => setOperation('multiply')}
-            >
-              <X className="w-4 h-4" />
-            </Button>
+          <div className="grid grid-cols-4 gap-2">
+            {(Object.keys(OPS) as Operation[]).map((op) => {
+              const Icon = OPS[op].icon
+              return (
+                <Button
+                  key={op}
+                  variant={operation === op ? 'default' : 'outline'}
+                  onClick={() => setOperation(op)}
+                  aria-label={OPS[op].label}
+                >
+                  <Icon className="w-4 h-4" />
+                </Button>
+              )
+            })}
           </div>
 
           <div className="space-y-2">
@@ -85,6 +93,12 @@ export default function Calculator() {
             <Equal className="w-4 h-4 mr-2" />
             {opLabel}
           </Button>
+
+          {error && (
+            <div className="text-center p-4 rounded-md bg-destructive/10 text-destructive text-sm font-medium">
+              {error}
+            </div>
+          )}
 
           {result !== null && (
             <div className="text-center p-4 rounded-md bg-muted">
