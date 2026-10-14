@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "14549194-96b5-11f1-990a-a3420f936326",
+      "name": "Addition Calculator",
+      "resourceReferencesByFile": {},
+      "appIdentifier": "addition-calculator"
+    }
+  }
+}
