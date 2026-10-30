@@ -1,3 +1,4 @@
+private: false
 customLibraries:
   array:
     - object:
@@ -125,5 +126,7 @@ triggerWebhooks:
 version: 43.0.9
 workflowId: 7b324ce8-5a46-4c37-b161-9425194784a3
 description: ''
+sfSymbols:
+  - test2
 workflowTemplate:
-  version: 3.296.0
+  version: 4.86.0

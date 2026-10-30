@@ -6,6 +6,7 @@ template:
   queryRefreshTime: ''
   paginationLimit: ''
   allowedGroupIds: []
+  openAPIRequestBody: ''
   streamResponse: false
   body: ''
   lastReceivedFromResourceAt: null
@@ -13,6 +14,7 @@ template:
   functionParameters: null
   queryDisabledMessage: ''
   servedFromCache: false
+  openAPIResolvedSpec: ''
   offlineUserQueryInputs: ''
   functionDescription: null
   successMessage: ''
@@ -50,6 +52,7 @@ template:
   confirmationMessage: null
   isFetching: false
   changeset: ''
+  openAPIOperationId: ''
   rawData: null
   queryTriggerDelay: '0'
   resourceTypeOverride: null
@@ -58,6 +61,7 @@ template:
   showLatestVersionUpdatedWarning: false
   paginationDataField: ''
   timestamp: 0
+  openAPIParams: '{}'
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
@@ -71,6 +75,7 @@ template:
   requireConfirmation: false
   type: GET
   queryFailureConditions: ''
+  forceResponseBase64: false
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
