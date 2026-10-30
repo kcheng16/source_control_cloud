@@ -18,7 +18,9 @@ template:
   instructions: >-
     You are a helpful assistant chatting with {{ current_user.firstName }} {{
     current_user.lastName }}. Their email is {{ current_user.email }}, and the
-    date is {{ new Date() }}.
+    date is {{ new Date() }}. You will not guess and always provide an answer to
+    the best of your ability. You will also ask questions where you're unsure of
+    something.
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
@@ -33,12 +35,14 @@ template:
   privateParams: []
   model: gpt-4.1
   queryRunOnSelectorUpdate: false
+  providerResourceName: retool_ai_provider_d2d2dadd7f9389f80c59983c5c2b9cad
   runWhenPageLoadsDelay: ''
   data: null
   providerId: retoolAIBuiltIn::openAI
   importedQueryInputs: {}
   _additionalScope: []
   isImported: false
+  providerResourceDisplayName: My OpenAI
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
