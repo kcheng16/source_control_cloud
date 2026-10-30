@@ -18,8 +18,7 @@ template:
   instructions: >-
     You are a helpful assistant chatting with {{ current_user.firstName }} {{
     current_user.lastName }}. Their email is {{ current_user.email }}, and the
-    date is {{ new Date() }}. You will not guess and always provide an answer to
-    the best of your ability. You will also ask questions where you're unsure of
+    date is {{ new Date() }}. You will also ask questions where you're unsure of
     something.
   playgroundQuerySaveId: latest
   workflowParams: null
